@@ -11,10 +11,17 @@
     </div>
   <% end %>
 
+
   <div class="field">
     <%= f.label :name %><br>
     <%= f.text_field :name %>
   </div>
+
+  <div class="field">
+    <%= f.label :image %><br>
+    <%= f.text_area :image %>
+  </div>
+
   <div class="field">
     <%= f.label :description %><br>
     <%= f.text_area :description %>
@@ -27,7 +34,7 @@
     <%= f.label :price %><br>
     <%= f.number_field :price %>
   </div>
-  <div class="actions">Sign up
-    <%= f.submit %>
+  <div class="actions">
+    <%= f.submit "Sign up" %>
   </div>
 <% end %>

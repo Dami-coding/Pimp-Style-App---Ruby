@@ -69,6 +69,6 @@ class SaloonsController < ApplicationController
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def saloon_params
-      params.require(:saloon).permit(:name, :description, :tel_number, :price)
+      params.require(:saloon).permit(:name, :image, :description, :tel_number, :price)
     end
 end

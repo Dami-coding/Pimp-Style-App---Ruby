@@ -15,6 +15,7 @@ ActiveRecord::Schema.define(version: 20150803134932) do
 
   create_table "saloons", force: :cascade do |t|
     t.string   "name"
+    t.text     "image"
     t.text     "description"
     t.integer  "tel_number"
     t.integer  "price"
