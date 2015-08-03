@@ -3,5 +3,5 @@ class User < ActiveRecord::Base
   has_many :saloon
 
   validates :email, presence: true, uniqueness: true
-  validates :password, length: { in: 4..10 } 
+  validates :password, length: { in: 5..10 } 
 end
