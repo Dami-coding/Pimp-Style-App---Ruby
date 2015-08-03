@@ -2,11 +2,15 @@
 <html>
 <head>
   <title>PimpMyStyleApp</title>
-  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
-  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= stylesheet_link_tag    'application' => true %>
+  <%= javascript_include_tag 'application' => true %>
   <%= csrf_meta_tags %>
 </head>
 <body>
+<div class= "user_status">
+  <%= link_to "Sign up", new_user_path %> or
+  <%= link_to "Log in", new_session_path %>
+</div>
 
 <%= yield %>
 

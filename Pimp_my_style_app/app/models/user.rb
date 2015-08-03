@@ -1,9 +1,7 @@
 class User < ActiveRecord::Base
   has_secure_password
-  has_many_saloon
+  has_many :saloon
 
-  attr_accessor :email, :password, :password_confirmation
   validates :email, presence: true, uniqueness: true
-  validates :first_name, :last_name :email, :password, presence: true
-  validates :password, length: { in: 6..20 }
+  validates :password, length: { in: 4..10 } 
 end
