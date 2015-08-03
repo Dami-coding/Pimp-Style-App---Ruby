@@ -1,0 +1,24 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @saloon.name %>
+</p>
+
+<p>
+  <strong>Description:</strong>
+  <%= @saloon.description %>
+</p>
+
+<p>
+  <strong>Tel number:</strong>
+  <%= @saloon.tel_number %>
+</p>
+
+<p>
+  <strong>Price:</strong>
+  <%= @saloon.price %>
+</p>
+
+<%= link_to 'Edit', edit_saloon_path(@saloon) %> |
+<%= link_to 'Back', saloons_path %>

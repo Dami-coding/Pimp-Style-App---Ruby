@@ -1,0 +1,33 @@
+<%= form_for(@saloon) do |f| %>
+  <% if @saloon.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@saloon.errors.count, "error") %> prohibited this saloon from being saved:</h2>
+
+      <ul>
+      <% @saloon.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :name %><br>
+    <%= f.text_field :name %>
+  </div>
+  <div class="field">
+    <%= f.label :description %><br>
+    <%= f.text_area :description %>
+  </div>
+  <div class="field">
+    <%= f.label :tel_number %><br>
+    <%= f.number_field :tel_number %>
+  </div>
+  <div class="field">
+    <%= f.label :price %><br>
+    <%= f.number_field :price %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>
