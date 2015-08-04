@@ -16,8 +16,8 @@
 </p>
 
 <p>
-  <strong>Password digest:</strong>
-  <%= @user.password_digest %>
+  <strong>Saloon:</strong>
+  <%= link_to Saloon.find(@user.saloon_id).name, Saloon.find(@user.saloon_id)  %>
 </p>
 
 <%= link_to 'Edit', edit_user_path(@user) %> |

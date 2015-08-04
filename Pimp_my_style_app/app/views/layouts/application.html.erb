@@ -8,17 +8,24 @@
 </head>
 <body>
 
-<div class= "user_status">
-<% if current_user %>
-Logged in as <%= current_user.email %>
-<%= link_to "logout", session_path("current"), method: "delete" %>
- <% else %>
-  <%= link_to "signup", new_user_path %> or
-  <%= link_to "login", new_session_path %>
-  <% end %>
-</div>
+  <div class= "user_status">
+    <% if current_user %>
+    <p>Hello, <%= current_user.email %></p>
+    <p>You are a <%= current_user.role %></p>
+    <%= link_to "Logout", logout_path, method: :delete, data: {confirm: "Are you sure?"} %>
+    <% else %>
+    <%= link_to "Please Login", login_path %>
+    <% end %>
+  </div>
 
-<%= yield %>
+  <% flash.each do |name, message| %>
+  <div class="flash-message flash-message-<%= name %>">
+    <%= message %>
+  </div>
+  <% end %>
+
+
+  <%= yield %>
 
 </body>
 </html>

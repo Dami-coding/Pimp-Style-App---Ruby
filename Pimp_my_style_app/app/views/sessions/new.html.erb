@@ -1,19 +1,19 @@
 <h1>Login</h1>
 <p>Please login to your Pimped account</p>
 
-<%= form_for sessions_path do |f| %>
+<%= form_tag sessions_path do |f| %>
 
   <div class="field">
-    <%= f.label :email %>
-    <%= f.text_field :email %>
+    <%= label_tag :email %>
+    <%= text_field_tag :email %>
   </div><br>
   <div class="field">
-    <%= f.label :password %>
-    <%= f.password_field :password %>
+    <%= label_tag :password %>
+    <%= password_field_tag :password %>
   </div><br>
   
   <div class="actions">
-    <%= f.submit "login" %>
+    <%= submit_tag "login" %>
   </div>
 
 <% end %>

@@ -31,7 +31,22 @@
     <%= f.label :password_confirmation %>
     <%= f.password_field :password_confirmation %>
   </div><br>
+  
+  <% if @user.role == nil %>
+  <div class="field">
+    <%= f.label :role %>
+    <%= f.select :role, options_for_select(["Client", "Barber"]) %>
+  </div><br>
+  <% end %>
+
+  <% if @user.role == "Barber" %>
+    <%= f.label :saloon_id, "Which Saloon do you belong to?" %>
+    <%= f.collection_select :saloon_id, Saloon.all, :id, :name %>
+
+    
+  <% end %>
+
   <div class="actions">
-    <%= f.submit %>
+    <%= f.submit "Get Pimped!" %>
   </div>
 <% end %>

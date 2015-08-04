@@ -25,5 +25,14 @@
   <%= @saloon.price %>
 </p>
 
+<p>
+  <strong>Barbers:</strong>
+  <ul>
+  <% @saloon.barbers.each do |barber| %>
+    <li><%= link_to "#{barber.first_name} #{barber.last_name}", barber  %></li>
+  <% end %>
+  </ul>
+</p>
+
 <%= link_to 'Edit', edit_saloon_path(@saloon) %> |
 <%= link_to 'Back', saloons_path %>
