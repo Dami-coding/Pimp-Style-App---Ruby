@@ -23,6 +23,7 @@
     <%= f.label :email %>
     <%= f.text_field :email %>
   </div><br>
+
   <div class="field">
     <%= f.label :password %>
     <%= f.password_field :password %>
@@ -42,9 +43,20 @@
   <% if @user.role == "Barber" %>
     <%= f.label :saloon_id, "Which Saloon do you belong to?" %>
     <%= f.collection_select :saloon_id, Saloon.all, :id, :name %>
+    <br>
+    <%= f.label :location, "Location" %>
+    <%= f.select :location, options_for_select(["Camden", "City", "Croydon", "Ealing", "Enfield", "Greenwich", "Hackney", "Haringey", "Islington", "Lambeth", "Southwark", "Tower Hamlets", "Westminster"]) %>
+    <br>
+    <%= f.label :price, "Price" %>
+    <%= f.number_field :price %>
+    <br>
+    <%= f.label :availability, "Availablity" %>
+    <%= f.date_field :availability %>
+    <br>
+    <%= f.label :description, "A Little about yourself:" %>
+    <%= f.text_area :description %>
 
-    
-  <% end %>
+  <% end %><br>
 
   <div class="actions">
     <%= f.submit "Get Pimped!" %>

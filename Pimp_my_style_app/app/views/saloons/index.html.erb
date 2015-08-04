@@ -23,14 +23,8 @@
         <td><%= saloon.tel_number %></td>
         <td><%= saloon.price %></td>
         <td><%= link_to 'Show', saloon %></td>
-       
-        <td> 
-        
-        <%= link_to 'Edit', edit_saloon_path(saloon) %> 
-        </td>
-       
-
-       <%= link_to 'Destroy', saloon, method: :delete, data: { confirm: 'Are you sure?' } %> </td>
+        <td><%= link_to 'Edit', edit_saloon_path(saloon) %>  </td>
+        <td><%= link_to 'Destroy', saloon, method: :delete, data: { confirm: 'Are you sure?' } %> </td>
       </tr>
    <% end %>
 
