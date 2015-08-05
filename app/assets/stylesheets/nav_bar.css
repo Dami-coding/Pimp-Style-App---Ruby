@@ -30,7 +30,7 @@ input{
  font-size: 25px;
 }
 
-a:after {
+.opr-container a:after {
   content: '';
   position: relative;
   display: block;
@@ -39,6 +39,9 @@ a:after {
   transition: 0.3s ease-in-out;
 }
 
+.button-radius {
+  color: red;
+}
 
 
 

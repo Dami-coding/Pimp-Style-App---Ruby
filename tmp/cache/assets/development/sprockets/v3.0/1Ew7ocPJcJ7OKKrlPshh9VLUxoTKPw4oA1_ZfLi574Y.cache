@@ -1,0 +1,7 @@
+I"u(function() {
+  $(document.body).animate({
+    'scrollTop': $('#game').offset().top
+  }, 1500);
+
+}).call(this);
+:ET

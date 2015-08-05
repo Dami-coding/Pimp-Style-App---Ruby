@@ -27,14 +27,14 @@
       <ul class="right">
         <li class="active"><a href="/saloons"> Find a Saloon </a></li>
         <li class="active"><a href="/barbers"> Barbers </a></li>
-    
+
         <li class="has-dropdown">
           <a href="/style">Style</a>
           <ul class="dropdown">
             <li><a href="/style">funk</a></li>
             <li class="active"><a href="/style">punk</a></li>
           </ul>
-         <li class= "user_status">
+          <li class= "user_status">
            <% if current_user %>
            <p>Hello, <%= current_user.email %></p>
            <p>You are a <%= current_user.role %></p>
@@ -44,25 +44,36 @@
            <%= link_to "Login", login_path %>
            <% end %>
          </li>
-          <li class="active"><a href="/users/new"> Register </a></li>
+         <li class="active"><a href="/users/new"> Register </a></li>
+       </li>
+     </li>
+   </ul>
+ </section>
+</nav>
 
-          
-              
-          </li>
-        </li>
-      </ul>
-      </section>
-      </nav>
+<% flash.each do |name, message| %>
+<div class="flash-message flash-message-<%= name %>">
+  <%= message %>
+</div>
+<% end %>
+<%= yield %>
+</body>
 
-      
 
-      <% flash.each do |name, message| %>
-      <div class="flash-message flash-message-<%= name %>">
-        <%= message %>
-      </div>
-      <% end %>
 
-      <%= yield %>
+<footer class="site-footer">
+<nav id="nav-main">
+    <ul class="opr-nav">
+        <li><a data-target="1">Home</a></li>
+        <li><a data-target="2">About us</a></li>
+        <li><a data-target="3">Barbers chosen by Pimp My Style</a></li>
+        <li><a data-target="4">Barber Shops</a></li>
+        <li><a data-target="5">Saloons</a></li>
+    </ul>
+</nav>
 
-    </body>
-    </html>
+<p>&copy copyright 2015</p>
+</footer>
+
+
+</html>
