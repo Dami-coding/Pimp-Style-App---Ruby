@@ -1,6 +1,6 @@
 .top-bar {
-  background-color: red;
-  height: 100px;
+  background-color: #1E415E;
+  height: 45px;
 }
 
 h1 {
@@ -12,4 +12,20 @@ h1 {
 
 h2, h3, h4, h5 {
   color: white;
+}
+
+ul{
+margin-left: 40px;
+}
+
+.saloon_search{
+width: 40%;
+}
+
+input{
+  border-radius: 3px;
+}
+
+ h1 a {
+ font-size: 25px;
 }
