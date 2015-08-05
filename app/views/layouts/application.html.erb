@@ -1,32 +1,75 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>PimpMyStyleApp</title>
-  <%= stylesheet_link_tag    'application' => true %>
-  <%= javascript_include_tag 'application' => true %>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title><%= content_for?(:title) ? yield(:title) : "foundation-rails" %></title>
+
+  <%= stylesheet_link_tag    "application" %>
+  <%= javascript_include_tag "vendor/modernizr" %>
+  <%= javascript_include_tag "application" %>
   <%= csrf_meta_tags %>
 </head>
+
 <body>
+  <nav class="top-bar" data-topbar role="navigation">
+    <ul class="title-area">
+      <li class="name">
+        <h1><a href="#">Pimp My Style</a></h1>
+      </li>
+      <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
+      <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
+    </ul>
 
-  <div class= "user_status">
-    <% if current_user %>
-    <p>Hello, <%= current_user.email %></p>
-    <p>You are a <%= current_user.role %></p>
-    <%= link_to "Edit Profile", edit_user_path(current_user) %>
-    <%= link_to "Logout", logout_path, method: :delete, data: {confirm: "Are you sure?"} %>
-    <% else %>
-    <%= link_to "Please Login", login_path %>
-    <% end %>
-  </div>
+    <section class="top-bar-section">
+      <!-- Right Nav Section -->
+      <ul class="right">
+        <li class="active"><a href="#"> Barbers </a></li>
+        
+        <li class="has-dropdown">
+          <a href="#">Style</a>
+          <ul class="dropdown">
+            <li><a href="#">funk</a></li>
+            <li class="active"><a href="#">punk</a></li>
+          </ul>
+          <li class="active"><a href="#"> login </a></li>
+          <li class="active"><a href="#"> Register </a></li>
 
-  <% flash.each do |name, message| %>
-  <div class="flash-message flash-message-<%= name %>">
-    <%= message %>
-  </div>
-  <% end %>
+          <li class="has-form">
+            <div class="row collapse">
+              <div class="large-8 small-9 columns">
+                <input type="text" placeholder="Find Stuff">
+              </div>
+              <div class="large-4 small-3 columns">
+                <a href="#" class="alert button expand">Search</a>
+              </div>
+            </div>
+          </li>
+        </li>
+      </ul>
 
 
-  <%= yield %>
 
-</body>
-</html>
+      <div class= "user_status">
+        <% if current_user %>
+        <p>Hello, <%= current_user.email %></p>
+        <p>You are a <%= current_user.role %></p>
+        <%= link_to "Edit Profile", edit_user_path(current_user) %>
+        <%= link_to "Logout", logout_path, method: :delete, data: {confirm: "Are you sure?"} %>
+        <% else %>
+        <%= link_to "Please Login", login_path %>
+        <% end %>
+      </div>
+
+      <% flash.each do |name, message| %>
+      <div class="flash-message flash-message-<%= name %>">
+        <%= message %>
+      </div>
+      <% end %>
+
+
+      <%= yield %>
+
+    </body>
+    </html>

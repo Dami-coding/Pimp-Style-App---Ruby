@@ -12,6 +12,7 @@
 //
 //= require jquery
 //= require jquery_ujs
+//= require foundation
 //= require turbolinks
 //= require_tree .
 
@@ -24,3 +25,5 @@
      wrapper.classList.toggle("active")  
    }, 3000);
    
+
+$(function(){ $(document).foundation(); });
