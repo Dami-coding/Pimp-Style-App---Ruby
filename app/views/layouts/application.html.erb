@@ -16,7 +16,7 @@
   <nav class="top-bar" data-topbar role="navigation">
     <ul class="title-area">
       <li class="name">
-        <h1><a href="#">Pimp My Style</a></h1>
+        <h1><a href="/home">Pimp My Style</a></h1>
       </li>
       <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
       <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
@@ -25,13 +25,15 @@
     <section class="top-bar-section">
       <!-- Right Nav Section -->
       <ul class="right">
-        <li class="active"><a href="#"> Barbers </a></li>
+        <li class="active"><a href="/barbers"> Barbers </a></li>
+
+        <li class="active"><a href="/saloons"> Find a Saloon </a></li>
         
         <li class="has-dropdown">
-          <a href="#">Style</a>
+          <a href="/style">Style</a>
           <ul class="dropdown">
-            <li><a href="#">funk</a></li>
-            <li class="active"><a href="#">punk</a></li>
+            <li><a href="/style">funk</a></li>
+            <li class="active"><a href="/style">punk</a></li>
           </ul>
          <li class= "user_status">
            <% if current_user %>
@@ -43,7 +45,7 @@
            <%= link_to "Login", login_path %>
            <% end %>
          </li>
-          <li class="active"><a href="#"> Register </a></li>
+          <li class="active"><a href="/users/new"> Register </a></li>
 
           
               
