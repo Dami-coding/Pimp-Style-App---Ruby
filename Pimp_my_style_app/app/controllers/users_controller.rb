@@ -11,6 +11,7 @@ class UsersController < ApplicationController
   # GET /users/1.json
   def show
   #  @users = User.like!(user_params)
+  
   end
 
   # GET /users/new

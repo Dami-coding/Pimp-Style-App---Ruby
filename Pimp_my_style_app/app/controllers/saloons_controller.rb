@@ -4,6 +4,8 @@ class SaloonsController < ApplicationController
   # GET /saloons
   # GET /saloons.json
   def index
+    @search = Saloons.search(param[:q])
+    @saloons = @search.result
     @saloons = Saloon.all
   end
 
@@ -60,6 +62,12 @@ class SaloonsController < ApplicationController
       format.html { redirect_to saloons_url, notice: 'Saloon was successfully destroyed.' }
       format.json { head :no_content }
     end
+  end
+
+  def upvote
+    @saloon = Saloon.find(params[:id])
+    @saloon.upvote_by current_user
+    redirect_to @saloon
   end
 
   private

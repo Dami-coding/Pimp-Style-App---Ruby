@@ -8,5 +8,11 @@ Rails.application.routes.draw do
  get '/logout', to: 'sessions#destroy'
  resources :sessions, only: [:new, :create, :destroy]
 
+ resources :saloons do
+   member do
+     get "like", to: "saloons#upvote"
+   end
+ end
+
 
 end

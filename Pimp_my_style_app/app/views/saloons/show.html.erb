@@ -34,5 +34,13 @@
   </ul>
 </p>
 
+<h2>Likes: <%= @saloon.get_likes.size %></h2>
+
+<% if @saloon.liked_by current_user %>
+  <p>You have already Liked this saloon!</p>
+<% else %>
+<%= link_to "upvote", like_saloon_path(@saloon), method: :put %>
+<% end %>
+
 <%= link_to 'Edit', edit_saloon_path(@saloon) %> |
 <%= link_to 'Back', saloons_path %>
