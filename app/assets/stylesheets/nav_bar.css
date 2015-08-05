@@ -1,6 +1,6 @@
 .top-bar {
   background-color: #1E415E;
-  height: 45px;
+  height: 47px;
 }
 
 h1 {
@@ -29,3 +29,17 @@ input{
  h1 a {
  font-size: 25px;
 }
+
+a:after {
+  content: '';
+  position: relative;
+  display: block;
+  width: 8px;
+  border-bottom: 2px solid #333;
+  transition: 0.3s ease-in-out;
+}
+
+
+
+
+

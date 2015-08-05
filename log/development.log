@@ -43477,3 +43477,3294 @@ Started GET "/home" for ::1 at 2015-08-05 19:54:37 +0100
 Processing by HomeController#new as HTML
   Rendered home/new.html.erb within layouts/application (0.1ms)
 Completed 200 OK in 360ms (Views: 359.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/barbers" for ::1 at 2015-08-05 19:59:40 +0100
+Processing by BarbersController#new as HTML
+  Rendered barbers/new.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 492ms (Views: 490.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/saloons" for ::1 at 2015-08-05 19:59:42 +0100
+Processing by SaloonsController#index as HTML
+  [1m[35mSaloon Load (0.3ms)[0m  SELECT "saloons".* FROM "saloons"
+  Rendered saloons/index.html.erb within layouts/application (6.6ms)
+Completed 200 OK in 600ms (Views: 598.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/style" for ::1 at 2015-08-05 19:59:45 +0100
+Processing by StyleController#new as HTML
+  Rendered style/new.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 770ms (Views: 768.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/barbers" for ::1 at 2015-08-05 19:59:47 +0100
+Processing by BarbersController#new as HTML
+  Rendered barbers/new.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 408ms (Views: 407.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/saloons" for ::1 at 2015-08-05 19:59:53 +0100
+Processing by SaloonsController#index as HTML
+  [1m[36mSaloon Load (0.4ms)[0m  [1mSELECT "saloons".* FROM "saloons"[0m
+  Rendered saloons/index.html.erb within layouts/application (5.9ms)
+Completed 200 OK in 400ms (Views: 395.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/saloons" for ::1 at 2015-08-05 20:00:41 +0100
+Processing by SaloonsController#index as HTML
+  [1m[35mSaloon Load (0.3ms)[0m  SELECT "saloons".* FROM "saloons"
+  Rendered saloons/index.html.erb within layouts/application (5.2ms)
+Completed 200 OK in 706ms (Views: 704.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/foundation_and_overrides.self-b61dfd322ef67243923023aac0591c74ea20fca90045603df1c534fdfdbecfcf.css?body=1" for ::1 at 2015-08-05 20:00:42 +0100
+
+
+Started GET "/assets/nav_bar.self-2cb84c152fa95829261c40f01bf2cca3db20a0db63a67743f1428cc7824816ec.css?body=1" for ::1 at 2015-08-05 20:00:42 +0100
+
+
+Started GET "/assets/saloons.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-08-05 20:00:42 +0100
+
+
+Started GET "/assets/home.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-08-05 20:00:42 +0100
+
+
+Started GET "/assets/style.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-08-05 20:00:42 +0100
+
+
+Started GET "/assets/scaffolds.self-052d2e641572a5ba24cd3fbea3f76146c96d0c92e2d5f14810893d6a6d7e3136.css?body=1" for ::1 at 2015-08-05 20:00:42 +0100
+
+
+Started GET "/assets/users.self-9a964ccfd99c58275aded15c5ea08d2b394bc647b284142168d10e1da0f3a5bb.css?body=1" for ::1 at 2015-08-05 20:00:42 +0100
+
+
+Started GET "/assets/application.self-167193cd81d9330d9ddb5c4ec7b44214fea529aa8a94f3a86e6526e4f652fc02.css?body=1" for ::1 at 2015-08-05 20:00:42 +0100
+
+
+Started GET "/assets/vendor/modernizr.self-74da3245def7569da28115667be6a85a2ad97464abe707c9829c46d8975597bc.js?body=1" for ::1 at 2015-08-05 20:00:42 +0100
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-08-05 20:00:42 +0100
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-08-05 20:00:42 +0100
+
+
+Started GET "/assets/barbers.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-08-05 20:00:42 +0100
+
+
+Started GET "/assets/foundation/foundation.self-ee5396739ce46beb039f26ea629172a74143752d74f703c6c3b219fc52aecf73.js?body=1" for ::1 at 2015-08-05 20:00:42 +0100
+
+
+Started GET "/assets/foundation/foundation.accordion.self-d55abdcb0a7a29512be2f31f63d418cc8cc4505a0a3c71946d25484b0a0b3f4e.js?body=1" for ::1 at 2015-08-05 20:00:42 +0100
+
+
+Started GET "/assets/foundation/foundation.abide.self-f8b56c707a79139807305a5f7efc2aaa0848f0c677abcc056496f507e0192b79.js?body=1" for ::1 at 2015-08-05 20:00:42 +0100
+
+
+Started GET "/assets/foundation/foundation.alert.self-fbde7afb61e8ffd8ab9b717f0bed1e58cb9e0144a25cc773fea634d5554f62cd.js?body=1" for ::1 at 2015-08-05 20:00:42 +0100
+
+
+Started GET "/assets/foundation/foundation.clearing.self-54610737b435a97590fcb176848c3c7a44c4d55d369894260fa7c28c97a70a23.js?body=1" for ::1 at 2015-08-05 20:00:42 +0100
+
+
+Started GET "/assets/foundation/foundation.equalizer.self-7aa743bf4660deb2fb2f601c112806a1703c430067531da3f41e4afffe19fee9.js?body=1" for ::1 at 2015-08-05 20:00:42 +0100
+
+
+Started GET "/assets/foundation/foundation.dropdown.self-c9ee29909e266373e5e814a73fc6ea062245ddd29466d35d232448f73350d78a.js?body=1" for ::1 at 2015-08-05 20:00:42 +0100
+
+
+Started GET "/assets/foundation/foundation.interchange.self-dad8415355087cb21a16fa44bac20d602344d52de5aca9e588e3588fce5dd5a7.js?body=1" for ::1 at 2015-08-05 20:00:42 +0100
+
+
+Started GET "/assets/foundation/foundation.joyride.self-0a5271728699423f583dd5b3b8a11bfe0dc9fb5044446bcf3218ef8ca906a82d.js?body=1" for ::1 at 2015-08-05 20:00:42 +0100
+
+
+Started GET "/assets/foundation/foundation.magellan.self-a50193f172f11e57b373c3001072ba2d6b34b857ab251e9ded30af5242855687.js?body=1" for ::1 at 2015-08-05 20:00:42 +0100
+
+
+Started GET "/assets/foundation/foundation.orbit.self-f8d30eb1717c874db26723f9e07901ec0a325d59263f1404ee83a616bb597ad2.js?body=1" for ::1 at 2015-08-05 20:00:42 +0100
+
+
+Started GET "/assets/foundation/foundation.offcanvas.self-75bffd0c7f4f0d2992ab95f0cc6959282ebb5807da70123d40c01d76e230ec88.js?body=1" for ::1 at 2015-08-05 20:00:42 +0100
+
+
+Started GET "/assets/foundation/foundation.tooltip.self-834156796c253580629cfffc720bdc3d191b1e5a5a6ddbc1102ecd08c876516c.js?body=1" for ::1 at 2015-08-05 20:00:42 +0100
+
+
+Started GET "/assets/foundation/foundation.slider.self-8911a7352cb577b6b7973b0734d57d2b624c79286558ffa36fcac0c29b2d0bee.js?body=1" for ::1 at 2015-08-05 20:00:42 +0100
+
+
+Started GET "/assets/foundation/foundation.tab.self-9bf6791513d1b20e213bb1aee3df0bc17128c7e18421258dc68a2a4ccabe1647.js?body=1" for ::1 at 2015-08-05 20:00:42 +0100
+
+
+Started GET "/assets/foundation/foundation.topbar.self-105416f061562f07c6a0a8057d68282fdc1eeb5dc306713fcae6c9a53001fc55.js?body=1" for ::1 at 2015-08-05 20:00:42 +0100
+
+
+Started GET "/assets/foundation/foundation.reveal.self-95f01feb3e25e47b58b78da0021ae2fffafdee70846682067c180e0e10f7b095.js?body=1" for ::1 at 2015-08-05 20:00:42 +0100
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-08-05 20:00:42 +0100
+
+
+Started GET "/assets/barbers.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-08-05 20:00:42 +0100
+
+
+Started GET "/assets/foundation.self-abe4ee7a105042f73b12b1f1a28788522d2f253445a475a94ab4d6e1f7b0ec52.js?body=1" for ::1 at 2015-08-05 20:00:42 +0100
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-08-05 20:00:42 +0100
+
+
+Started GET "/assets/saloons.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-08-05 20:00:42 +0100
+
+
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-08-05 20:00:42 +0100
+
+
+Started GET "/assets/style.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-08-05 20:00:42 +0100
+
+
+Started GET "/assets/application.self-ae886bac2282e732c520fdcf5e96a3f074e152124a0d788c1baf2f80f253106d.js?body=1" for ::1 at 2015-08-05 20:00:42 +0100
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-08-05 20:00:42 +0100
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-08-05 20:00:42 +0100
+
+
+Started GET "/assets/foundation/foundation.self-ee5396739ce46beb039f26ea629172a74143752d74f703c6c3b219fc52aecf73.js?body=1" for ::1 at 2015-08-05 20:00:43 +0100
+
+
+Started GET "/assets/foundation/foundation.tooltip.self-834156796c253580629cfffc720bdc3d191b1e5a5a6ddbc1102ecd08c876516c.js?body=1" for ::1 at 2015-08-05 20:00:43 +0100
+
+
+Started GET "/assets/foundation/foundation.topbar.self-105416f061562f07c6a0a8057d68282fdc1eeb5dc306713fcae6c9a53001fc55.js?body=1" for ::1 at 2015-08-05 20:00:43 +0100
+
+
+Started GET "/assets/foundation.self-abe4ee7a105042f73b12b1f1a28788522d2f253445a475a94ab4d6e1f7b0ec52.js?body=1" for ::1 at 2015-08-05 20:00:43 +0100
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-08-05 20:00:43 +0100
+
+
+Started GET "/saloons" for ::1 at 2015-08-05 20:00:50 +0100
+Processing by SaloonsController#index as HTML
+  [1m[36mSaloon Load (0.3ms)[0m  [1mSELECT "saloons".* FROM "saloons"[0m
+  Rendered saloons/index.html.erb within layouts/application (6.6ms)
+Completed 200 OK in 568ms (Views: 566.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/saloons" for ::1 at 2015-08-05 20:11:15 +0100
+Processing by SaloonsController#index as HTML
+  [1m[35mSaloon Load (0.3ms)[0m  SELECT "saloons".* FROM "saloons"
+  Rendered saloons/index.html.erb within layouts/application (12.8ms)
+Completed 200 OK in 1156ms (Views: 1150.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/foundation_and_overrides.self-b61dfd322ef67243923023aac0591c74ea20fca90045603df1c534fdfdbecfcf.css?body=1" for ::1 at 2015-08-05 20:11:17 +0100
+
+
+Started GET "/assets/home.self-d0b404e281312e6107fb40daaa0ccb22b619ed3dcf7e0256b9e474eee9808665.css?body=1" for ::1 at 2015-08-05 20:11:17 +0100
+
+
+Started GET "/assets/barbers.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-08-05 20:11:17 +0100
+
+
+Started GET "/assets/saloons.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-08-05 20:11:17 +0100
+
+
+Started GET "/assets/nav_bar.self-2cb84c152fa95829261c40f01bf2cca3db20a0db63a67743f1428cc7824816ec.css?body=1" for ::1 at 2015-08-05 20:11:17 +0100
+
+
+Started GET "/assets/style.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-08-05 20:11:17 +0100
+
+
+Started GET "/assets/scaffolds.self-052d2e641572a5ba24cd3fbea3f76146c96d0c92e2d5f14810893d6a6d7e3136.css?body=1" for ::1 at 2015-08-05 20:11:17 +0100
+
+
+Started GET "/assets/users.self-9a964ccfd99c58275aded15c5ea08d2b394bc647b284142168d10e1da0f3a5bb.css?body=1" for ::1 at 2015-08-05 20:11:17 +0100
+
+
+Started GET "/assets/application.self-167193cd81d9330d9ddb5c4ec7b44214fea529aa8a94f3a86e6526e4f652fc02.css?body=1" for ::1 at 2015-08-05 20:11:17 +0100
+
+
+Started GET "/assets/foundation/foundation.abide.self-f8b56c707a79139807305a5f7efc2aaa0848f0c677abcc056496f507e0192b79.js?body=1" for ::1 at 2015-08-05 20:11:17 +0100
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-08-05 20:11:17 +0100
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-08-05 20:11:17 +0100
+
+
+Started GET "/assets/foundation/foundation.self-ee5396739ce46beb039f26ea629172a74143752d74f703c6c3b219fc52aecf73.js?body=1" for ::1 at 2015-08-05 20:11:17 +0100
+
+
+Started GET "/assets/vendor/modernizr.self-74da3245def7569da28115667be6a85a2ad97464abe707c9829c46d8975597bc.js?body=1" for ::1 at 2015-08-05 20:11:17 +0100
+
+
+Started GET "/assets/foundation/foundation.accordion.self-d55abdcb0a7a29512be2f31f63d418cc8cc4505a0a3c71946d25484b0a0b3f4e.js?body=1" for ::1 at 2015-08-05 20:11:17 +0100
+
+
+Started GET "/assets/foundation/foundation.alert.self-fbde7afb61e8ffd8ab9b717f0bed1e58cb9e0144a25cc773fea634d5554f62cd.js?body=1" for ::1 at 2015-08-05 20:11:17 +0100
+
+
+Started GET "/assets/foundation/foundation.clearing.self-54610737b435a97590fcb176848c3c7a44c4d55d369894260fa7c28c97a70a23.js?body=1" for ::1 at 2015-08-05 20:11:17 +0100
+
+
+Started GET "/assets/foundation/foundation.dropdown.self-c9ee29909e266373e5e814a73fc6ea062245ddd29466d35d232448f73350d78a.js?body=1" for ::1 at 2015-08-05 20:11:17 +0100
+
+
+Started GET "/assets/foundation/foundation.equalizer.self-7aa743bf4660deb2fb2f601c112806a1703c430067531da3f41e4afffe19fee9.js?body=1" for ::1 at 2015-08-05 20:11:17 +0100
+
+
+Started GET "/assets/foundation/foundation.interchange.self-dad8415355087cb21a16fa44bac20d602344d52de5aca9e588e3588fce5dd5a7.js?body=1" for ::1 at 2015-08-05 20:11:17 +0100
+
+
+Started GET "/assets/foundation/foundation.joyride.self-0a5271728699423f583dd5b3b8a11bfe0dc9fb5044446bcf3218ef8ca906a82d.js?body=1" for ::1 at 2015-08-05 20:11:17 +0100
+
+
+Started GET "/assets/foundation/foundation.slider.self-8911a7352cb577b6b7973b0734d57d2b624c79286558ffa36fcac0c29b2d0bee.js?body=1" for ::1 at 2015-08-05 20:11:17 +0100
+
+
+Started GET "/assets/foundation/foundation.offcanvas.self-75bffd0c7f4f0d2992ab95f0cc6959282ebb5807da70123d40c01d76e230ec88.js?body=1" for ::1 at 2015-08-05 20:11:17 +0100
+
+
+Started GET "/assets/foundation/foundation.orbit.self-f8d30eb1717c874db26723f9e07901ec0a325d59263f1404ee83a616bb597ad2.js?body=1" for ::1 at 2015-08-05 20:11:17 +0100
+
+
+Started GET "/assets/foundation/foundation.magellan.self-a50193f172f11e57b373c3001072ba2d6b34b857ab251e9ded30af5242855687.js?body=1" for ::1 at 2015-08-05 20:11:18 +0100
+
+
+Started GET "/assets/foundation/foundation.tab.self-9bf6791513d1b20e213bb1aee3df0bc17128c7e18421258dc68a2a4ccabe1647.js?body=1" for ::1 at 2015-08-05 20:11:18 +0100
+
+
+Started GET "/assets/foundation/foundation.tooltip.self-834156796c253580629cfffc720bdc3d191b1e5a5a6ddbc1102ecd08c876516c.js?body=1" for ::1 at 2015-08-05 20:11:18 +0100
+
+
+Started GET "/assets/foundation/foundation.reveal.self-95f01feb3e25e47b58b78da0021ae2fffafdee70846682067c180e0e10f7b095.js?body=1" for ::1 at 2015-08-05 20:11:18 +0100
+
+
+Started GET "/assets/foundation/foundation.topbar.self-105416f061562f07c6a0a8057d68282fdc1eeb5dc306713fcae6c9a53001fc55.js?body=1" for ::1 at 2015-08-05 20:11:18 +0100
+
+
+Started GET "/assets/foundation.self-abe4ee7a105042f73b12b1f1a28788522d2f253445a475a94ab4d6e1f7b0ec52.js?body=1" for ::1 at 2015-08-05 20:11:18 +0100
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-08-05 20:11:18 +0100
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-08-05 20:11:18 +0100
+
+
+Started GET "/assets/barbers.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-08-05 20:11:18 +0100
+
+
+Started GET "/assets/saloons.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-08-05 20:11:18 +0100
+
+
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-08-05 20:11:18 +0100
+
+
+Started GET "/assets/style.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-08-05 20:11:18 +0100
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-08-05 20:11:18 +0100
+
+
+Started GET "/assets/application.self-ae886bac2282e732c520fdcf5e96a3f074e152124a0d788c1baf2f80f253106d.js?body=1" for ::1 at 2015-08-05 20:11:18 +0100
+
+
+Started GET "/home" for ::1 at 2015-08-05 20:11:34 +0100
+Processing by HomeController#new as HTML
+  Rendered home/new.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 388ms (Views: 387.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home" for ::1 at 2015-08-05 20:12:06 +0100
+Processing by HomeController#new as HTML
+  Rendered home/new.html.erb within layouts/application (16.8ms)
+Completed 200 OK in 807ms (Views: 806.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/foundation_and_overrides.self-b61dfd322ef67243923023aac0591c74ea20fca90045603df1c534fdfdbecfcf.css?body=1" for ::1 at 2015-08-05 20:12:07 +0100
+
+
+Started GET "/assets/saloons.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-08-05 20:12:07 +0100
+
+
+Started GET "/assets/home.self-d0b404e281312e6107fb40daaa0ccb22b619ed3dcf7e0256b9e474eee9808665.css?body=1" for ::1 at 2015-08-05 20:12:07 +0100
+
+
+Started GET "/assets/scaffolds.self-052d2e641572a5ba24cd3fbea3f76146c96d0c92e2d5f14810893d6a6d7e3136.css?body=1" for ::1 at 2015-08-05 20:12:07 +0100
+
+
+Started GET "/assets/nav_bar.self-2cb84c152fa95829261c40f01bf2cca3db20a0db63a67743f1428cc7824816ec.css?body=1" for ::1 at 2015-08-05 20:12:07 +0100
+
+
+Started GET "/assets/barbers.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-08-05 20:12:07 +0100
+
+
+Started GET "/assets/users.self-9a964ccfd99c58275aded15c5ea08d2b394bc647b284142168d10e1da0f3a5bb.css?body=1" for ::1 at 2015-08-05 20:12:07 +0100
+
+
+Started GET "/assets/application.self-167193cd81d9330d9ddb5c4ec7b44214fea529aa8a94f3a86e6526e4f652fc02.css?body=1" for ::1 at 2015-08-05 20:12:07 +0100
+
+
+Started GET "/assets/style.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-08-05 20:12:07 +0100
+
+
+Started GET "/assets/vendor/modernizr.self-74da3245def7569da28115667be6a85a2ad97464abe707c9829c46d8975597bc.js?body=1" for ::1 at 2015-08-05 20:12:07 +0100
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-08-05 20:12:07 +0100
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-08-05 20:12:07 +0100
+
+
+Started GET "/assets/foundation/foundation.self-ee5396739ce46beb039f26ea629172a74143752d74f703c6c3b219fc52aecf73.js?body=1" for ::1 at 2015-08-05 20:12:07 +0100
+
+
+Started GET "/assets/foundation/foundation.alert.self-fbde7afb61e8ffd8ab9b717f0bed1e58cb9e0144a25cc773fea634d5554f62cd.js?body=1" for ::1 at 2015-08-05 20:12:07 +0100
+
+
+Started GET "/assets/foundation/foundation.clearing.self-54610737b435a97590fcb176848c3c7a44c4d55d369894260fa7c28c97a70a23.js?body=1" for ::1 at 2015-08-05 20:12:07 +0100
+
+
+Started GET "/assets/foundation/foundation.equalizer.self-7aa743bf4660deb2fb2f601c112806a1703c430067531da3f41e4afffe19fee9.js?body=1" for ::1 at 2015-08-05 20:12:07 +0100
+
+
+Started GET "/assets/foundation/foundation.accordion.self-d55abdcb0a7a29512be2f31f63d418cc8cc4505a0a3c71946d25484b0a0b3f4e.js?body=1" for ::1 at 2015-08-05 20:12:07 +0100
+
+
+Started GET "/assets/foundation/foundation.interchange.self-dad8415355087cb21a16fa44bac20d602344d52de5aca9e588e3588fce5dd5a7.js?body=1" for ::1 at 2015-08-05 20:12:07 +0100
+
+
+Started GET "/assets/foundation/foundation.abide.self-f8b56c707a79139807305a5f7efc2aaa0848f0c677abcc056496f507e0192b79.js?body=1" for ::1 at 2015-08-05 20:12:07 +0100
+
+
+Started GET "/assets/foundation/foundation.joyride.self-0a5271728699423f583dd5b3b8a11bfe0dc9fb5044446bcf3218ef8ca906a82d.js?body=1" for ::1 at 2015-08-05 20:12:07 +0100
+
+
+Started GET "/assets/foundation/foundation.dropdown.self-c9ee29909e266373e5e814a73fc6ea062245ddd29466d35d232448f73350d78a.js?body=1" for ::1 at 2015-08-05 20:12:07 +0100
+
+
+Started GET "/assets/foundation/foundation.offcanvas.self-75bffd0c7f4f0d2992ab95f0cc6959282ebb5807da70123d40c01d76e230ec88.js?body=1" for ::1 at 2015-08-05 20:12:08 +0100
+
+
+Started GET "/assets/foundation/foundation.orbit.self-f8d30eb1717c874db26723f9e07901ec0a325d59263f1404ee83a616bb597ad2.js?body=1" for ::1 at 2015-08-05 20:12:08 +0100
+
+
+Started GET "/assets/foundation/foundation.reveal.self-95f01feb3e25e47b58b78da0021ae2fffafdee70846682067c180e0e10f7b095.js?body=1" for ::1 at 2015-08-05 20:12:08 +0100
+
+
+Started GET "/assets/foundation/foundation.magellan.self-a50193f172f11e57b373c3001072ba2d6b34b857ab251e9ded30af5242855687.js?body=1" for ::1 at 2015-08-05 20:12:08 +0100
+
+
+Started GET "/assets/foundation/foundation.tab.self-9bf6791513d1b20e213bb1aee3df0bc17128c7e18421258dc68a2a4ccabe1647.js?body=1" for ::1 at 2015-08-05 20:12:08 +0100
+
+
+Started GET "/assets/foundation/foundation.tooltip.self-834156796c253580629cfffc720bdc3d191b1e5a5a6ddbc1102ecd08c876516c.js?body=1" for ::1 at 2015-08-05 20:12:08 +0100
+
+
+Started GET "/assets/foundation/foundation.topbar.self-105416f061562f07c6a0a8057d68282fdc1eeb5dc306713fcae6c9a53001fc55.js?body=1" for ::1 at 2015-08-05 20:12:08 +0100
+
+
+Started GET "/assets/foundation/foundation.slider.self-8911a7352cb577b6b7973b0734d57d2b624c79286558ffa36fcac0c29b2d0bee.js?body=1" for ::1 at 2015-08-05 20:12:08 +0100
+
+
+Started GET "/assets/foundation.self-abe4ee7a105042f73b12b1f1a28788522d2f253445a475a94ab4d6e1f7b0ec52.js?body=1" for ::1 at 2015-08-05 20:12:08 +0100
+
+
+Started GET "/assets/barbers.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-08-05 20:12:08 +0100
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-08-05 20:12:08 +0100
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-08-05 20:12:08 +0100
+
+
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-08-05 20:12:08 +0100
+
+
+Started GET "/assets/saloons.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-08-05 20:12:08 +0100
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-08-05 20:12:08 +0100
+
+
+Started GET "/assets/application.self-ae886bac2282e732c520fdcf5e96a3f074e152124a0d788c1baf2f80f253106d.js?body=1" for ::1 at 2015-08-05 20:12:08 +0100
+
+
+Started GET "/assets/style.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-08-05 20:12:08 +0100
+
+
+Started GET "/home" for ::1 at 2015-08-05 20:12:31 +0100
+Processing by HomeController#new as HTML
+  Rendered home/new.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 398ms (Views: 397.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home" for ::1 at 2015-08-05 20:13:49 +0100
+Processing by HomeController#new as HTML
+  Rendered home/new.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 408ms (Views: 407.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home" for ::1 at 2015-08-05 20:23:18 +0100
+Processing by HomeController#new as HTML
+  Rendered home/new.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 530ms (Views: 528.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/foundation_and_overrides.self-b61dfd322ef67243923023aac0591c74ea20fca90045603df1c534fdfdbecfcf.css?body=1" for ::1 at 2015-08-05 20:23:19 +0100
+
+
+Started GET "/assets/home.self-d0b404e281312e6107fb40daaa0ccb22b619ed3dcf7e0256b9e474eee9808665.css?body=1" for ::1 at 2015-08-05 20:23:19 +0100
+
+
+Started GET "/assets/nav_bar.self-5f652b2512e63db77858dfa96fa293b621d5c58197741ab395fcf571a321e48b.css?body=1" for ::1 at 2015-08-05 20:23:19 +0100
+
+
+Started GET "/assets/saloons.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-08-05 20:23:19 +0100
+
+
+Started GET "/assets/barbers.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-08-05 20:23:19 +0100
+
+
+Started GET "/assets/style.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-08-05 20:23:19 +0100
+
+
+Started GET "/assets/scaffolds.self-052d2e641572a5ba24cd3fbea3f76146c96d0c92e2d5f14810893d6a6d7e3136.css?body=1" for ::1 at 2015-08-05 20:23:19 +0100
+
+
+Started GET "/assets/application.self-167193cd81d9330d9ddb5c4ec7b44214fea529aa8a94f3a86e6526e4f652fc02.css?body=1" for ::1 at 2015-08-05 20:23:19 +0100
+
+
+Started GET "/assets/users.self-9a964ccfd99c58275aded15c5ea08d2b394bc647b284142168d10e1da0f3a5bb.css?body=1" for ::1 at 2015-08-05 20:23:19 +0100
+
+
+Started GET "/assets/vendor/modernizr.self-74da3245def7569da28115667be6a85a2ad97464abe707c9829c46d8975597bc.js?body=1" for ::1 at 2015-08-05 20:23:19 +0100
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-08-05 20:23:19 +0100
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-08-05 20:23:20 +0100
+
+
+Started GET "/assets/foundation/foundation.self-ee5396739ce46beb039f26ea629172a74143752d74f703c6c3b219fc52aecf73.js?body=1" for ::1 at 2015-08-05 20:23:20 +0100
+
+
+Started GET "/assets/foundation/foundation.abide.self-f8b56c707a79139807305a5f7efc2aaa0848f0c677abcc056496f507e0192b79.js?body=1" for ::1 at 2015-08-05 20:23:20 +0100
+
+
+Started GET "/assets/foundation/foundation.accordion.self-d55abdcb0a7a29512be2f31f63d418cc8cc4505a0a3c71946d25484b0a0b3f4e.js?body=1" for ::1 at 2015-08-05 20:23:20 +0100
+
+
+Started GET "/assets/foundation/foundation.alert.self-fbde7afb61e8ffd8ab9b717f0bed1e58cb9e0144a25cc773fea634d5554f62cd.js?body=1" for ::1 at 2015-08-05 20:23:20 +0100
+
+
+Started GET "/assets/foundation/foundation.dropdown.self-c9ee29909e266373e5e814a73fc6ea062245ddd29466d35d232448f73350d78a.js?body=1" for ::1 at 2015-08-05 20:23:20 +0100
+
+
+Started GET "/assets/foundation/foundation.clearing.self-54610737b435a97590fcb176848c3c7a44c4d55d369894260fa7c28c97a70a23.js?body=1" for ::1 at 2015-08-05 20:23:20 +0100
+
+
+Started GET "/assets/foundation/foundation.equalizer.self-7aa743bf4660deb2fb2f601c112806a1703c430067531da3f41e4afffe19fee9.js?body=1" for ::1 at 2015-08-05 20:23:20 +0100
+
+
+Started GET "/assets/foundation/foundation.interchange.self-dad8415355087cb21a16fa44bac20d602344d52de5aca9e588e3588fce5dd5a7.js?body=1" for ::1 at 2015-08-05 20:23:20 +0100
+
+
+Started GET "/assets/foundation/foundation.joyride.self-0a5271728699423f583dd5b3b8a11bfe0dc9fb5044446bcf3218ef8ca906a82d.js?body=1" for ::1 at 2015-08-05 20:23:20 +0100
+
+
+Started GET "/assets/foundation/foundation.magellan.self-a50193f172f11e57b373c3001072ba2d6b34b857ab251e9ded30af5242855687.js?body=1" for ::1 at 2015-08-05 20:23:20 +0100
+
+
+Started GET "/assets/foundation/foundation.orbit.self-f8d30eb1717c874db26723f9e07901ec0a325d59263f1404ee83a616bb597ad2.js?body=1" for ::1 at 2015-08-05 20:23:20 +0100
+
+
+Started GET "/assets/foundation/foundation.offcanvas.self-75bffd0c7f4f0d2992ab95f0cc6959282ebb5807da70123d40c01d76e230ec88.js?body=1" for ::1 at 2015-08-05 20:23:20 +0100
+
+
+Started GET "/assets/foundation/foundation.reveal.self-95f01feb3e25e47b58b78da0021ae2fffafdee70846682067c180e0e10f7b095.js?body=1" for ::1 at 2015-08-05 20:23:20 +0100
+
+
+Started GET "/assets/foundation/foundation.slider.self-8911a7352cb577b6b7973b0734d57d2b624c79286558ffa36fcac0c29b2d0bee.js?body=1" for ::1 at 2015-08-05 20:23:20 +0100
+
+
+Started GET "/assets/foundation/foundation.tab.self-9bf6791513d1b20e213bb1aee3df0bc17128c7e18421258dc68a2a4ccabe1647.js?body=1" for ::1 at 2015-08-05 20:23:20 +0100
+
+
+Started GET "/assets/foundation/foundation.tooltip.self-834156796c253580629cfffc720bdc3d191b1e5a5a6ddbc1102ecd08c876516c.js?body=1" for ::1 at 2015-08-05 20:23:20 +0100
+
+
+Started GET "/assets/foundation/foundation.topbar.self-105416f061562f07c6a0a8057d68282fdc1eeb5dc306713fcae6c9a53001fc55.js?body=1" for ::1 at 2015-08-05 20:23:20 +0100
+
+
+Started GET "/assets/foundation.self-abe4ee7a105042f73b12b1f1a28788522d2f253445a475a94ab4d6e1f7b0ec52.js?body=1" for ::1 at 2015-08-05 20:23:20 +0100
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-08-05 20:23:20 +0100
+
+
+Started GET "/assets/barbers.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-08-05 20:23:21 +0100
+
+
+Started GET "/assets/saloons.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-08-05 20:23:21 +0100
+
+
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-08-05 20:23:21 +0100
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-08-05 20:23:21 +0100
+
+
+Started GET "/assets/style.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-08-05 20:23:21 +0100
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-08-05 20:23:21 +0100
+
+
+Started GET "/assets/application.self-ae886bac2282e732c520fdcf5e96a3f074e152124a0d788c1baf2f80f253106d.js?body=1" for ::1 at 2015-08-05 20:23:21 +0100
+
+
+Started GET "/home" for ::1 at 2015-08-05 20:26:05 +0100
+Processing by HomeController#new as HTML
+  Rendered home/new.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 556ms (Views: 555.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/barbers.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-08-05 20:26:06 +0100
+
+
+Started GET "/assets/foundation_and_overrides.self-b61dfd322ef67243923023aac0591c74ea20fca90045603df1c534fdfdbecfcf.css?body=1" for ::1 at 2015-08-05 20:26:06 +0100
+
+
+Started GET "/assets/saloons.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-08-05 20:26:06 +0100
+
+
+Started GET "/assets/scaffolds.self-052d2e641572a5ba24cd3fbea3f76146c96d0c92e2d5f14810893d6a6d7e3136.css?body=1" for ::1 at 2015-08-05 20:26:06 +0100
+
+
+Started GET "/assets/home.self-d0b404e281312e6107fb40daaa0ccb22b619ed3dcf7e0256b9e474eee9808665.css?body=1" for ::1 at 2015-08-05 20:26:06 +0100
+
+
+Started GET "/assets/nav_bar.self-5f652b2512e63db77858dfa96fa293b621d5c58197741ab395fcf571a321e48b.css?body=1" for ::1 at 2015-08-05 20:26:06 +0100
+
+
+Started GET "/assets/style.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-08-05 20:26:06 +0100
+
+
+Started GET "/assets/users.self-9a964ccfd99c58275aded15c5ea08d2b394bc647b284142168d10e1da0f3a5bb.css?body=1" for ::1 at 2015-08-05 20:26:06 +0100
+
+
+Started GET "/assets/application.self-167193cd81d9330d9ddb5c4ec7b44214fea529aa8a94f3a86e6526e4f652fc02.css?body=1" for ::1 at 2015-08-05 20:26:06 +0100
+
+
+Started GET "/assets/vendor/modernizr.self-74da3245def7569da28115667be6a85a2ad97464abe707c9829c46d8975597bc.js?body=1" for ::1 at 2015-08-05 20:26:06 +0100
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-08-05 20:26:06 +0100
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-08-05 20:26:06 +0100
+
+
+Started GET "/assets/foundation/foundation.self-ee5396739ce46beb039f26ea629172a74143752d74f703c6c3b219fc52aecf73.js?body=1" for ::1 at 2015-08-05 20:26:06 +0100
+
+
+Started GET "/assets/foundation/foundation.accordion.self-d55abdcb0a7a29512be2f31f63d418cc8cc4505a0a3c71946d25484b0a0b3f4e.js?body=1" for ::1 at 2015-08-05 20:26:06 +0100
+
+
+Started GET "/assets/foundation/foundation.abide.self-f8b56c707a79139807305a5f7efc2aaa0848f0c677abcc056496f507e0192b79.js?body=1" for ::1 at 2015-08-05 20:26:06 +0100
+
+
+Started GET "/assets/foundation/foundation.clearing.self-54610737b435a97590fcb176848c3c7a44c4d55d369894260fa7c28c97a70a23.js?body=1" for ::1 at 2015-08-05 20:26:06 +0100
+
+
+Started GET "/assets/foundation/foundation.alert.self-fbde7afb61e8ffd8ab9b717f0bed1e58cb9e0144a25cc773fea634d5554f62cd.js?body=1" for ::1 at 2015-08-05 20:26:06 +0100
+
+
+Started GET "/assets/foundation/foundation.equalizer.self-7aa743bf4660deb2fb2f601c112806a1703c430067531da3f41e4afffe19fee9.js?body=1" for ::1 at 2015-08-05 20:26:06 +0100
+
+
+Started GET "/assets/foundation/foundation.dropdown.self-c9ee29909e266373e5e814a73fc6ea062245ddd29466d35d232448f73350d78a.js?body=1" for ::1 at 2015-08-05 20:26:06 +0100
+
+
+Started GET "/assets/foundation/foundation.interchange.self-dad8415355087cb21a16fa44bac20d602344d52de5aca9e588e3588fce5dd5a7.js?body=1" for ::1 at 2015-08-05 20:26:06 +0100
+
+
+Started GET "/assets/foundation/foundation.slider.self-8911a7352cb577b6b7973b0734d57d2b624c79286558ffa36fcac0c29b2d0bee.js?body=1" for ::1 at 2015-08-05 20:26:07 +0100
+
+
+Started GET "/assets/foundation/foundation.offcanvas.self-75bffd0c7f4f0d2992ab95f0cc6959282ebb5807da70123d40c01d76e230ec88.js?body=1" for ::1 at 2015-08-05 20:26:07 +0100
+
+
+Started GET "/assets/foundation/foundation.tab.self-9bf6791513d1b20e213bb1aee3df0bc17128c7e18421258dc68a2a4ccabe1647.js?body=1" for ::1 at 2015-08-05 20:26:07 +0100
+
+
+Started GET "/assets/foundation/foundation.joyride.self-0a5271728699423f583dd5b3b8a11bfe0dc9fb5044446bcf3218ef8ca906a82d.js?body=1" for ::1 at 2015-08-05 20:26:07 +0100
+
+
+Started GET "/assets/foundation/foundation.reveal.self-95f01feb3e25e47b58b78da0021ae2fffafdee70846682067c180e0e10f7b095.js?body=1" for ::1 at 2015-08-05 20:26:07 +0100
+
+
+Started GET "/assets/foundation/foundation.orbit.self-f8d30eb1717c874db26723f9e07901ec0a325d59263f1404ee83a616bb597ad2.js?body=1" for ::1 at 2015-08-05 20:26:07 +0100
+
+
+Started GET "/assets/foundation/foundation.magellan.self-a50193f172f11e57b373c3001072ba2d6b34b857ab251e9ded30af5242855687.js?body=1" for ::1 at 2015-08-05 20:26:07 +0100
+
+
+Started GET "/assets/foundation/foundation.tooltip.self-834156796c253580629cfffc720bdc3d191b1e5a5a6ddbc1102ecd08c876516c.js?body=1" for ::1 at 2015-08-05 20:26:07 +0100
+
+
+Started GET "/assets/foundation/foundation.topbar.self-105416f061562f07c6a0a8057d68282fdc1eeb5dc306713fcae6c9a53001fc55.js?body=1" for ::1 at 2015-08-05 20:26:07 +0100
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-08-05 20:26:07 +0100
+
+
+Started GET "/assets/foundation.self-abe4ee7a105042f73b12b1f1a28788522d2f253445a475a94ab4d6e1f7b0ec52.js?body=1" for ::1 at 2015-08-05 20:26:07 +0100
+
+
+Started GET "/assets/barbers.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-08-05 20:26:07 +0100
+
+
+Started GET "/assets/saloons.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-08-05 20:26:07 +0100
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-08-05 20:26:07 +0100
+
+
+Started GET "/assets/style.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-08-05 20:26:07 +0100
+
+
+Started GET "/assets/application.self-ae886bac2282e732c520fdcf5e96a3f074e152124a0d788c1baf2f80f253106d.js?body=1" for ::1 at 2015-08-05 20:26:07 +0100
+
+
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-08-05 20:26:07 +0100
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-08-05 20:26:07 +0100
+
+
+Started GET "/home" for ::1 at 2015-08-05 20:26:27 +0100
+Processing by HomeController#new as HTML
+  Rendered home/new.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 625ms (Views: 624.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home" for ::1 at 2015-08-05 20:29:40 +0100
+Processing by HomeController#new as HTML
+  Rendered home/new.html.erb within layouts/application (19.7ms)
+Completed 200 OK in 670ms (Views: 668.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/foundation_and_overrides.self-b61dfd322ef67243923023aac0591c74ea20fca90045603df1c534fdfdbecfcf.css?body=1" for ::1 at 2015-08-05 20:29:41 +0100
+
+
+Started GET "/assets/home.self-d0b404e281312e6107fb40daaa0ccb22b619ed3dcf7e0256b9e474eee9808665.css?body=1" for ::1 at 2015-08-05 20:29:41 +0100
+
+
+Started GET "/assets/scaffolds.self-052d2e641572a5ba24cd3fbea3f76146c96d0c92e2d5f14810893d6a6d7e3136.css?body=1" for ::1 at 2015-08-05 20:29:41 +0100
+
+
+Started GET "/assets/saloons.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-08-05 20:29:41 +0100
+
+
+Started GET "/assets/barbers.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-08-05 20:29:41 +0100
+
+
+Started GET "/assets/nav_bar.self-5f652b2512e63db77858dfa96fa293b621d5c58197741ab395fcf571a321e48b.css?body=1" for ::1 at 2015-08-05 20:29:41 +0100
+
+
+Started GET "/assets/style.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-08-05 20:29:41 +0100
+
+
+Started GET "/assets/users.self-9a964ccfd99c58275aded15c5ea08d2b394bc647b284142168d10e1da0f3a5bb.css?body=1" for ::1 at 2015-08-05 20:29:41 +0100
+
+
+Started GET "/assets/application.self-167193cd81d9330d9ddb5c4ec7b44214fea529aa8a94f3a86e6526e4f652fc02.css?body=1" for ::1 at 2015-08-05 20:29:41 +0100
+
+
+Started GET "/assets/vendor/modernizr.self-74da3245def7569da28115667be6a85a2ad97464abe707c9829c46d8975597bc.js?body=1" for ::1 at 2015-08-05 20:29:41 +0100
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-08-05 20:29:41 +0100
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-08-05 20:29:41 +0100
+
+
+Started GET "/assets/foundation/foundation.self-ee5396739ce46beb039f26ea629172a74143752d74f703c6c3b219fc52aecf73.js?body=1" for ::1 at 2015-08-05 20:29:41 +0100
+
+
+Started GET "/assets/foundation/foundation.abide.self-f8b56c707a79139807305a5f7efc2aaa0848f0c677abcc056496f507e0192b79.js?body=1" for ::1 at 2015-08-05 20:29:41 +0100
+
+
+Started GET "/assets/foundation/foundation.accordion.self-d55abdcb0a7a29512be2f31f63d418cc8cc4505a0a3c71946d25484b0a0b3f4e.js?body=1" for ::1 at 2015-08-05 20:29:41 +0100
+
+
+Started GET "/assets/foundation/foundation.alert.self-fbde7afb61e8ffd8ab9b717f0bed1e58cb9e0144a25cc773fea634d5554f62cd.js?body=1" for ::1 at 2015-08-05 20:29:41 +0100
+
+
+Started GET "/assets/foundation/foundation.clearing.self-54610737b435a97590fcb176848c3c7a44c4d55d369894260fa7c28c97a70a23.js?body=1" for ::1 at 2015-08-05 20:29:41 +0100
+
+
+Started GET "/assets/foundation/foundation.equalizer.self-7aa743bf4660deb2fb2f601c112806a1703c430067531da3f41e4afffe19fee9.js?body=1" for ::1 at 2015-08-05 20:29:41 +0100
+
+
+Started GET "/assets/foundation/foundation.joyride.self-0a5271728699423f583dd5b3b8a11bfe0dc9fb5044446bcf3218ef8ca906a82d.js?body=1" for ::1 at 2015-08-05 20:29:41 +0100
+
+
+Started GET "/assets/foundation/foundation.interchange.self-dad8415355087cb21a16fa44bac20d602344d52de5aca9e588e3588fce5dd5a7.js?body=1" for ::1 at 2015-08-05 20:29:41 +0100
+
+
+Started GET "/assets/foundation/foundation.magellan.self-a50193f172f11e57b373c3001072ba2d6b34b857ab251e9ded30af5242855687.js?body=1" for ::1 at 2015-08-05 20:29:41 +0100
+
+
+Started GET "/assets/foundation/foundation.dropdown.self-c9ee29909e266373e5e814a73fc6ea062245ddd29466d35d232448f73350d78a.js?body=1" for ::1 at 2015-08-05 20:29:41 +0100
+
+
+Started GET "/assets/foundation/foundation.offcanvas.self-75bffd0c7f4f0d2992ab95f0cc6959282ebb5807da70123d40c01d76e230ec88.js?body=1" for ::1 at 2015-08-05 20:29:41 +0100
+
+
+Started GET "/assets/foundation/foundation.orbit.self-f8d30eb1717c874db26723f9e07901ec0a325d59263f1404ee83a616bb597ad2.js?body=1" for ::1 at 2015-08-05 20:29:41 +0100
+
+
+Started GET "/assets/foundation/foundation.reveal.self-95f01feb3e25e47b58b78da0021ae2fffafdee70846682067c180e0e10f7b095.js?body=1" for ::1 at 2015-08-05 20:29:42 +0100
+
+
+Started GET "/assets/foundation/foundation.tooltip.self-834156796c253580629cfffc720bdc3d191b1e5a5a6ddbc1102ecd08c876516c.js?body=1" for ::1 at 2015-08-05 20:29:42 +0100
+
+
+Started GET "/assets/foundation/foundation.tab.self-9bf6791513d1b20e213bb1aee3df0bc17128c7e18421258dc68a2a4ccabe1647.js?body=1" for ::1 at 2015-08-05 20:29:42 +0100
+
+
+Started GET "/assets/foundation/foundation.slider.self-8911a7352cb577b6b7973b0734d57d2b624c79286558ffa36fcac0c29b2d0bee.js?body=1" for ::1 at 2015-08-05 20:29:42 +0100
+
+
+Started GET "/assets/foundation/foundation.topbar.self-105416f061562f07c6a0a8057d68282fdc1eeb5dc306713fcae6c9a53001fc55.js?body=1" for ::1 at 2015-08-05 20:29:42 +0100
+
+
+Started GET "/assets/foundation.self-abe4ee7a105042f73b12b1f1a28788522d2f253445a475a94ab4d6e1f7b0ec52.js?body=1" for ::1 at 2015-08-05 20:29:42 +0100
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-08-05 20:29:42 +0100
+
+
+Started GET "/assets/barbers.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-08-05 20:29:42 +0100
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-08-05 20:29:42 +0100
+
+
+Started GET "/assets/saloons.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-08-05 20:29:42 +0100
+
+
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-08-05 20:29:42 +0100
+
+
+Started GET "/assets/style.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-08-05 20:29:42 +0100
+
+
+Started GET "/assets/application.self-ae886bac2282e732c520fdcf5e96a3f074e152124a0d788c1baf2f80f253106d.js?body=1" for ::1 at 2015-08-05 20:29:42 +0100
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-08-05 20:29:42 +0100
+
+
+Started GET "/assets/foundation/foundation.tab.self-9bf6791513d1b20e213bb1aee3df0bc17128c7e18421258dc68a2a4ccabe1647.js?body=1" for ::1 at 2015-08-05 20:29:42 +0100
+
+
+Started GET "/assets/foundation/foundation.topbar.self-105416f061562f07c6a0a8057d68282fdc1eeb5dc306713fcae6c9a53001fc55.js?body=1" for ::1 at 2015-08-05 20:29:42 +0100
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-08-05 20:29:42 +0100
+
+
+Started GET "/home" for ::1 at 2015-08-05 20:33:57 +0100
+Processing by HomeController#new as HTML
+  Rendered home/new.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 867ms (Views: 866.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/foundation_and_overrides.self-b61dfd322ef67243923023aac0591c74ea20fca90045603df1c534fdfdbecfcf.css?body=1" for ::1 at 2015-08-05 20:33:59 +0100
+
+
+Started GET "/assets/home.self-49d6fb44226944e13efa173e892a5d943f7150013646452cc3b8fa1b01b8f890.css?body=1" for ::1 at 2015-08-05 20:33:59 +0100
+
+
+Started GET "/assets/nav_bar.self-5f652b2512e63db77858dfa96fa293b621d5c58197741ab395fcf571a321e48b.css?body=1" for ::1 at 2015-08-05 20:33:59 +0100
+
+
+Started GET "/assets/saloons.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-08-05 20:33:59 +0100
+
+
+Started GET "/assets/scaffolds.self-052d2e641572a5ba24cd3fbea3f76146c96d0c92e2d5f14810893d6a6d7e3136.css?body=1" for ::1 at 2015-08-05 20:33:59 +0100
+
+
+Started GET "/assets/users.self-9a964ccfd99c58275aded15c5ea08d2b394bc647b284142168d10e1da0f3a5bb.css?body=1" for ::1 at 2015-08-05 20:33:59 +0100
+
+
+Started GET "/assets/style.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-08-05 20:33:59 +0100
+
+
+Started GET "/assets/application.self-167193cd81d9330d9ddb5c4ec7b44214fea529aa8a94f3a86e6526e4f652fc02.css?body=1" for ::1 at 2015-08-05 20:33:59 +0100
+
+
+Started GET "/assets/vendor/modernizr.self-74da3245def7569da28115667be6a85a2ad97464abe707c9829c46d8975597bc.js?body=1" for ::1 at 2015-08-05 20:33:59 +0100
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-08-05 20:33:59 +0100
+
+
+Started GET "/assets/barbers.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-08-05 20:33:59 +0100
+
+
+Started GET "/assets/foundation/foundation.self-ee5396739ce46beb039f26ea629172a74143752d74f703c6c3b219fc52aecf73.js?body=1" for ::1 at 2015-08-05 20:33:59 +0100
+
+
+Started GET "/assets/foundation/foundation.abide.self-f8b56c707a79139807305a5f7efc2aaa0848f0c677abcc056496f507e0192b79.js?body=1" for ::1 at 2015-08-05 20:33:59 +0100
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-08-05 20:33:59 +0100
+
+
+Started GET "/assets/foundation/foundation.alert.self-fbde7afb61e8ffd8ab9b717f0bed1e58cb9e0144a25cc773fea634d5554f62cd.js?body=1" for ::1 at 2015-08-05 20:33:59 +0100
+
+
+Started GET "/assets/foundation/foundation.accordion.self-d55abdcb0a7a29512be2f31f63d418cc8cc4505a0a3c71946d25484b0a0b3f4e.js?body=1" for ::1 at 2015-08-05 20:33:59 +0100
+
+
+Started GET "/assets/foundation/foundation.clearing.self-54610737b435a97590fcb176848c3c7a44c4d55d369894260fa7c28c97a70a23.js?body=1" for ::1 at 2015-08-05 20:33:59 +0100
+
+
+Started GET "/assets/foundation/foundation.equalizer.self-7aa743bf4660deb2fb2f601c112806a1703c430067531da3f41e4afffe19fee9.js?body=1" for ::1 at 2015-08-05 20:33:59 +0100
+
+
+Started GET "/assets/foundation/foundation.magellan.self-a50193f172f11e57b373c3001072ba2d6b34b857ab251e9ded30af5242855687.js?body=1" for ::1 at 2015-08-05 20:33:59 +0100
+
+
+Started GET "/assets/foundation/foundation.dropdown.self-c9ee29909e266373e5e814a73fc6ea062245ddd29466d35d232448f73350d78a.js?body=1" for ::1 at 2015-08-05 20:33:59 +0100
+
+
+Started GET "/assets/foundation/foundation.joyride.self-0a5271728699423f583dd5b3b8a11bfe0dc9fb5044446bcf3218ef8ca906a82d.js?body=1" for ::1 at 2015-08-05 20:33:59 +0100
+
+
+Started GET "/assets/foundation/foundation.interchange.self-dad8415355087cb21a16fa44bac20d602344d52de5aca9e588e3588fce5dd5a7.js?body=1" for ::1 at 2015-08-05 20:33:59 +0100
+
+
+Started GET "/assets/foundation/foundation.offcanvas.self-75bffd0c7f4f0d2992ab95f0cc6959282ebb5807da70123d40c01d76e230ec88.js?body=1" for ::1 at 2015-08-05 20:33:59 +0100
+
+
+Started GET "/assets/foundation/foundation.orbit.self-f8d30eb1717c874db26723f9e07901ec0a325d59263f1404ee83a616bb597ad2.js?body=1" for ::1 at 2015-08-05 20:33:59 +0100
+
+
+Started GET "/assets/foundation/foundation.tab.self-9bf6791513d1b20e213bb1aee3df0bc17128c7e18421258dc68a2a4ccabe1647.js?body=1" for ::1 at 2015-08-05 20:33:59 +0100
+
+
+Started GET "/assets/foundation/foundation.slider.self-8911a7352cb577b6b7973b0734d57d2b624c79286558ffa36fcac0c29b2d0bee.js?body=1" for ::1 at 2015-08-05 20:33:59 +0100
+
+
+Started GET "/assets/foundation/foundation.reveal.self-95f01feb3e25e47b58b78da0021ae2fffafdee70846682067c180e0e10f7b095.js?body=1" for ::1 at 2015-08-05 20:33:59 +0100
+
+
+Started GET "/assets/foundation/foundation.tooltip.self-834156796c253580629cfffc720bdc3d191b1e5a5a6ddbc1102ecd08c876516c.js?body=1" for ::1 at 2015-08-05 20:33:59 +0100
+
+
+Started GET "/assets/foundation.self-abe4ee7a105042f73b12b1f1a28788522d2f253445a475a94ab4d6e1f7b0ec52.js?body=1" for ::1 at 2015-08-05 20:33:59 +0100
+
+
+Started GET "/assets/foundation/foundation.topbar.self-105416f061562f07c6a0a8057d68282fdc1eeb5dc306713fcae6c9a53001fc55.js?body=1" for ::1 at 2015-08-05 20:33:59 +0100
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-08-05 20:33:59 +0100
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-08-05 20:33:59 +0100
+
+
+Started GET "/assets/barbers.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-08-05 20:33:59 +0100
+
+
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-08-05 20:33:59 +0100
+
+
+Started GET "/assets/saloons.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-08-05 20:33:59 +0100
+
+
+Started GET "/assets/style.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-08-05 20:33:59 +0100
+
+
+Started GET "/assets/application.self-ae886bac2282e732c520fdcf5e96a3f074e152124a0d788c1baf2f80f253106d.js?body=1" for ::1 at 2015-08-05 20:33:59 +0100
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-08-05 20:33:59 +0100
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-08-05 20:33:59 +0100
+
+
+Started GET "/assets/foundation/foundation.clearing.self-54610737b435a97590fcb176848c3c7a44c4d55d369894260fa7c28c97a70a23.js?body=1" for ::1 at 2015-08-05 20:34:00 +0100
+
+
+Started GET "/assets/foundation/foundation.interchange.self-dad8415355087cb21a16fa44bac20d602344d52de5aca9e588e3588fce5dd5a7.js?body=1" for ::1 at 2015-08-05 20:34:00 +0100
+
+
+Started GET "/assets/foundation/foundation.joyride.self-0a5271728699423f583dd5b3b8a11bfe0dc9fb5044446bcf3218ef8ca906a82d.js?body=1" for ::1 at 2015-08-05 20:34:00 +0100
+
+
+Started GET "/assets/foundation/foundation.orbit.self-f8d30eb1717c874db26723f9e07901ec0a325d59263f1404ee83a616bb597ad2.js?body=1" for ::1 at 2015-08-05 20:34:00 +0100
+
+
+Started GET "/assets/foundation/foundation.reveal.self-95f01feb3e25e47b58b78da0021ae2fffafdee70846682067c180e0e10f7b095.js?body=1" for ::1 at 2015-08-05 20:34:00 +0100
+
+
+Started GET "/assets/foundation/foundation.slider.self-8911a7352cb577b6b7973b0734d57d2b624c79286558ffa36fcac0c29b2d0bee.js?body=1" for ::1 at 2015-08-05 20:34:00 +0100
+
+
+Started GET "/assets/foundation/foundation.tab.self-9bf6791513d1b20e213bb1aee3df0bc17128c7e18421258dc68a2a4ccabe1647.js?body=1" for ::1 at 2015-08-05 20:34:00 +0100
+
+
+Started GET "/assets/foundation/foundation.topbar.self-105416f061562f07c6a0a8057d68282fdc1eeb5dc306713fcae6c9a53001fc55.js?body=1" for ::1 at 2015-08-05 20:34:00 +0100
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-08-05 20:34:00 +0100
+
+
+Started GET "/saloons" for ::1 at 2015-08-05 20:34:54 +0100
+Processing by SaloonsController#index as HTML
+  [1m[36mSaloon Load (0.6ms)[0m  [1mSELECT "saloons".* FROM "saloons"[0m
+  Rendered saloons/index.html.erb within layouts/application (11.2ms)
+Completed 200 OK in 771ms (Views: 769.1ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/saloons" for ::1 at 2015-08-05 20:34:57 +0100
+Processing by SaloonsController#index as HTML
+  [1m[35mSaloon Load (0.3ms)[0m  SELECT "saloons".* FROM "saloons"
+  Rendered saloons/index.html.erb within layouts/application (5.4ms)
+Completed 200 OK in 1091ms (Views: 1088.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/saloons" for ::1 at 2015-08-05 20:35:00 +0100
+Processing by SaloonsController#index as HTML
+  [1m[36mSaloon Load (0.5ms)[0m  [1mSELECT "saloons".* FROM "saloons"[0m
+  Rendered saloons/index.html.erb within layouts/application (52.1ms)
+Completed 200 OK in 1189ms (Views: 1187.5ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/barbers.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-08-05 20:35:01 +0100
+
+
+Started GET "/assets/home.self-49d6fb44226944e13efa173e892a5d943f7150013646452cc3b8fa1b01b8f890.css?body=1" for ::1 at 2015-08-05 20:35:01 +0100
+
+
+Started GET "/assets/nav_bar.self-5f652b2512e63db77858dfa96fa293b621d5c58197741ab395fcf571a321e48b.css?body=1" for ::1 at 2015-08-05 20:35:01 +0100
+
+
+Started GET "/assets/saloons.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-08-05 20:35:01 +0100
+
+
+Started GET "/assets/foundation_and_overrides.self-b61dfd322ef67243923023aac0591c74ea20fca90045603df1c534fdfdbecfcf.css?body=1" for ::1 at 2015-08-05 20:35:01 +0100
+
+
+Started GET "/assets/style.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-08-05 20:35:01 +0100
+
+
+Started GET "/assets/users.self-9a964ccfd99c58275aded15c5ea08d2b394bc647b284142168d10e1da0f3a5bb.css?body=1" for ::1 at 2015-08-05 20:35:01 +0100
+
+
+Started GET "/assets/application.self-167193cd81d9330d9ddb5c4ec7b44214fea529aa8a94f3a86e6526e4f652fc02.css?body=1" for ::1 at 2015-08-05 20:35:01 +0100
+
+
+Started GET "/assets/scaffolds.self-052d2e641572a5ba24cd3fbea3f76146c96d0c92e2d5f14810893d6a6d7e3136.css?body=1" for ::1 at 2015-08-05 20:35:01 +0100
+
+
+Started GET "/assets/vendor/modernizr.self-74da3245def7569da28115667be6a85a2ad97464abe707c9829c46d8975597bc.js?body=1" for ::1 at 2015-08-05 20:35:01 +0100
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-08-05 20:35:01 +0100
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-08-05 20:35:01 +0100
+
+
+Started GET "/assets/foundation/foundation.self-ee5396739ce46beb039f26ea629172a74143752d74f703c6c3b219fc52aecf73.js?body=1" for ::1 at 2015-08-05 20:35:01 +0100
+
+
+Started GET "/assets/foundation/foundation.abide.self-f8b56c707a79139807305a5f7efc2aaa0848f0c677abcc056496f507e0192b79.js?body=1" for ::1 at 2015-08-05 20:35:01 +0100
+
+
+Started GET "/assets/foundation/foundation.alert.self-fbde7afb61e8ffd8ab9b717f0bed1e58cb9e0144a25cc773fea634d5554f62cd.js?body=1" for ::1 at 2015-08-05 20:35:01 +0100
+
+
+Started GET "/assets/foundation/foundation.accordion.self-d55abdcb0a7a29512be2f31f63d418cc8cc4505a0a3c71946d25484b0a0b3f4e.js?body=1" for ::1 at 2015-08-05 20:35:02 +0100
+
+
+Started GET "/assets/foundation/foundation.clearing.self-54610737b435a97590fcb176848c3c7a44c4d55d369894260fa7c28c97a70a23.js?body=1" for ::1 at 2015-08-05 20:35:02 +0100
+
+
+Started GET "/assets/foundation/foundation.dropdown.self-c9ee29909e266373e5e814a73fc6ea062245ddd29466d35d232448f73350d78a.js?body=1" for ::1 at 2015-08-05 20:35:02 +0100
+
+
+Started GET "/assets/foundation/foundation.interchange.self-dad8415355087cb21a16fa44bac20d602344d52de5aca9e588e3588fce5dd5a7.js?body=1" for ::1 at 2015-08-05 20:35:02 +0100
+
+
+Started GET "/assets/foundation/foundation.joyride.self-0a5271728699423f583dd5b3b8a11bfe0dc9fb5044446bcf3218ef8ca906a82d.js?body=1" for ::1 at 2015-08-05 20:35:02 +0100
+
+
+Started GET "/assets/foundation/foundation.magellan.self-a50193f172f11e57b373c3001072ba2d6b34b857ab251e9ded30af5242855687.js?body=1" for ::1 at 2015-08-05 20:35:02 +0100
+
+
+Started GET "/assets/foundation/foundation.equalizer.self-7aa743bf4660deb2fb2f601c112806a1703c430067531da3f41e4afffe19fee9.js?body=1" for ::1 at 2015-08-05 20:35:02 +0100
+
+
+Started GET "/assets/foundation/foundation.offcanvas.self-75bffd0c7f4f0d2992ab95f0cc6959282ebb5807da70123d40c01d76e230ec88.js?body=1" for ::1 at 2015-08-05 20:35:02 +0100
+
+
+Started GET "/assets/foundation/foundation.orbit.self-f8d30eb1717c874db26723f9e07901ec0a325d59263f1404ee83a616bb597ad2.js?body=1" for ::1 at 2015-08-05 20:35:02 +0100
+
+
+Started GET "/assets/foundation/foundation.reveal.self-95f01feb3e25e47b58b78da0021ae2fffafdee70846682067c180e0e10f7b095.js?body=1" for ::1 at 2015-08-05 20:35:02 +0100
+
+
+Started GET "/assets/foundation/foundation.slider.self-8911a7352cb577b6b7973b0734d57d2b624c79286558ffa36fcac0c29b2d0bee.js?body=1" for ::1 at 2015-08-05 20:35:02 +0100
+
+
+Started GET "/assets/foundation/foundation.tab.self-9bf6791513d1b20e213bb1aee3df0bc17128c7e18421258dc68a2a4ccabe1647.js?body=1" for ::1 at 2015-08-05 20:35:02 +0100
+
+
+Started GET "/assets/foundation/foundation.tooltip.self-834156796c253580629cfffc720bdc3d191b1e5a5a6ddbc1102ecd08c876516c.js?body=1" for ::1 at 2015-08-05 20:35:02 +0100
+
+
+Started GET "/assets/foundation/foundation.topbar.self-105416f061562f07c6a0a8057d68282fdc1eeb5dc306713fcae6c9a53001fc55.js?body=1" for ::1 at 2015-08-05 20:35:02 +0100
+
+
+Started GET "/assets/foundation.self-abe4ee7a105042f73b12b1f1a28788522d2f253445a475a94ab4d6e1f7b0ec52.js?body=1" for ::1 at 2015-08-05 20:35:02 +0100
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-08-05 20:35:02 +0100
+
+
+Started GET "/assets/barbers.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-08-05 20:35:02 +0100
+
+
+Started GET "/assets/saloons.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-08-05 20:35:02 +0100
+
+
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-08-05 20:35:02 +0100
+
+
+Started GET "/assets/style.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-08-05 20:35:02 +0100
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-08-05 20:35:02 +0100
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-08-05 20:35:02 +0100
+
+
+Started GET "/assets/application.self-ae886bac2282e732c520fdcf5e96a3f074e152124a0d788c1baf2f80f253106d.js?body=1" for ::1 at 2015-08-05 20:35:02 +0100
+
+
+Started GET "/assets/foundation/foundation.dropdown.self-c9ee29909e266373e5e814a73fc6ea062245ddd29466d35d232448f73350d78a.js?body=1" for ::1 at 2015-08-05 20:35:02 +0100
+
+
+Started GET "/assets/foundation/foundation.interchange.self-dad8415355087cb21a16fa44bac20d602344d52de5aca9e588e3588fce5dd5a7.js?body=1" for ::1 at 2015-08-05 20:35:02 +0100
+
+
+Started GET "/assets/foundation/foundation.joyride.self-0a5271728699423f583dd5b3b8a11bfe0dc9fb5044446bcf3218ef8ca906a82d.js?body=1" for ::1 at 2015-08-05 20:35:02 +0100
+
+
+Started GET "/assets/foundation/foundation.orbit.self-f8d30eb1717c874db26723f9e07901ec0a325d59263f1404ee83a616bb597ad2.js?body=1" for ::1 at 2015-08-05 20:35:02 +0100
+
+
+Started GET "/assets/foundation/foundation.reveal.self-95f01feb3e25e47b58b78da0021ae2fffafdee70846682067c180e0e10f7b095.js?body=1" for ::1 at 2015-08-05 20:35:02 +0100
+
+
+Started GET "/assets/foundation/foundation.slider.self-8911a7352cb577b6b7973b0734d57d2b624c79286558ffa36fcac0c29b2d0bee.js?body=1" for ::1 at 2015-08-05 20:35:02 +0100
+
+
+Started GET "/assets/foundation/foundation.tab.self-9bf6791513d1b20e213bb1aee3df0bc17128c7e18421258dc68a2a4ccabe1647.js?body=1" for ::1 at 2015-08-05 20:35:02 +0100
+
+
+Started GET "/assets/foundation/foundation.topbar.self-105416f061562f07c6a0a8057d68282fdc1eeb5dc306713fcae6c9a53001fc55.js?body=1" for ::1 at 2015-08-05 20:35:02 +0100
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-08-05 20:35:03 +0100
+
+
+Started GET "/saloons" for ::1 at 2015-08-05 20:35:09 +0100
+Processing by SaloonsController#index as HTML
+  [1m[35mSaloon Load (0.3ms)[0m  SELECT "saloons".* FROM "saloons"
+  Rendered saloons/index.html.erb within layouts/application (5.8ms)
+Completed 200 OK in 480ms (Views: 478.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/barbers" for ::1 at 2015-08-05 20:35:14 +0100
+Processing by BarbersController#new as HTML
+  Rendered barbers/new.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 401ms (Views: 399.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/saloons" for ::1 at 2015-08-05 20:35:16 +0100
+Processing by SaloonsController#index as HTML
+  [1m[36mSaloon Load (0.6ms)[0m  [1mSELECT "saloons".* FROM "saloons"[0m
+  Rendered saloons/index.html.erb within layouts/application (6.9ms)
+Completed 200 OK in 939ms (Views: 936.9ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/style" for ::1 at 2015-08-05 20:35:19 +0100
+Processing by StyleController#new as HTML
+  Rendered style/new.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 982ms (Views: 981.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/login" for ::1 at 2015-08-05 20:35:20 +0100
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 1280ms (Views: 1278.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/new" for ::1 at 2015-08-05 20:35:23 +0100
+Processing by UsersController#new as HTML
+  Rendered users/_form.html.erb (5.1ms)
+  Rendered users/new.html.erb within layouts/application (20.1ms)
+Completed 200 OK in 793ms (Views: 791.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home" for ::1 at 2015-08-05 20:35:29 +0100
+Processing by HomeController#new as HTML
+  Rendered home/new.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 418ms (Views: 416.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/saloons" for ::1 at 2015-08-05 20:35:39 +0100
+Processing by SaloonsController#index as HTML
+  [1m[35mSaloon Load (0.3ms)[0m  SELECT "saloons".* FROM "saloons"
+  Rendered saloons/index.html.erb within layouts/application (6.7ms)
+Completed 200 OK in 738ms (Views: 736.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/saloons" for ::1 at 2015-08-05 20:38:06 +0100
+Processing by SaloonsController#index as HTML
+  [1m[36mSaloon Load (0.6ms)[0m  [1mSELECT "saloons".* FROM "saloons"[0m
+  Rendered saloons/index.html.erb within layouts/application (21.6ms)
+Completed 200 OK in 874ms (Views: 855.6ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/foundation_and_overrides.self-b61dfd322ef67243923023aac0591c74ea20fca90045603df1c534fdfdbecfcf.css?body=1" for ::1 at 2015-08-05 20:38:07 +0100
+
+
+Started GET "/assets/barbers.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-08-05 20:38:07 +0100
+
+
+Started GET "/assets/style.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-08-05 20:38:07 +0100
+
+
+Started GET "/assets/home.self-49d6fb44226944e13efa173e892a5d943f7150013646452cc3b8fa1b01b8f890.css?body=1" for ::1 at 2015-08-05 20:38:07 +0100
+
+
+Started GET "/assets/nav_bar.self-5f652b2512e63db77858dfa96fa293b621d5c58197741ab395fcf571a321e48b.css?body=1" for ::1 at 2015-08-05 20:38:07 +0100
+
+
+Started GET "/assets/scaffolds.self-052d2e641572a5ba24cd3fbea3f76146c96d0c92e2d5f14810893d6a6d7e3136.css?body=1" for ::1 at 2015-08-05 20:38:07 +0100
+
+
+Started GET "/assets/saloons.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-08-05 20:38:07 +0100
+
+
+Started GET "/assets/users.self-9a964ccfd99c58275aded15c5ea08d2b394bc647b284142168d10e1da0f3a5bb.css?body=1" for ::1 at 2015-08-05 20:38:07 +0100
+
+
+Started GET "/assets/application.self-167193cd81d9330d9ddb5c4ec7b44214fea529aa8a94f3a86e6526e4f652fc02.css?body=1" for ::1 at 2015-08-05 20:38:07 +0100
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-08-05 20:38:07 +0100
+
+
+Started GET "/assets/vendor/modernizr.self-74da3245def7569da28115667be6a85a2ad97464abe707c9829c46d8975597bc.js?body=1" for ::1 at 2015-08-05 20:38:07 +0100
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-08-05 20:38:07 +0100
+
+
+Started GET "/assets/foundation/foundation.self-ee5396739ce46beb039f26ea629172a74143752d74f703c6c3b219fc52aecf73.js?body=1" for ::1 at 2015-08-05 20:38:07 +0100
+
+
+Started GET "/assets/foundation/foundation.abide.self-f8b56c707a79139807305a5f7efc2aaa0848f0c677abcc056496f507e0192b79.js?body=1" for ::1 at 2015-08-05 20:38:07 +0100
+
+
+Started GET "/assets/foundation/foundation.accordion.self-d55abdcb0a7a29512be2f31f63d418cc8cc4505a0a3c71946d25484b0a0b3f4e.js?body=1" for ::1 at 2015-08-05 20:38:07 +0100
+
+
+Started GET "/assets/foundation/foundation.clearing.self-54610737b435a97590fcb176848c3c7a44c4d55d369894260fa7c28c97a70a23.js?body=1" for ::1 at 2015-08-05 20:38:07 +0100
+
+
+Started GET "/assets/foundation/foundation.interchange.self-dad8415355087cb21a16fa44bac20d602344d52de5aca9e588e3588fce5dd5a7.js?body=1" for ::1 at 2015-08-05 20:38:08 +0100
+
+
+Started GET "/assets/foundation/foundation.dropdown.self-c9ee29909e266373e5e814a73fc6ea062245ddd29466d35d232448f73350d78a.js?body=1" for ::1 at 2015-08-05 20:38:08 +0100
+
+
+Started GET "/assets/foundation/foundation.alert.self-fbde7afb61e8ffd8ab9b717f0bed1e58cb9e0144a25cc773fea634d5554f62cd.js?body=1" for ::1 at 2015-08-05 20:38:08 +0100
+
+
+Started GET "/assets/foundation/foundation.equalizer.self-7aa743bf4660deb2fb2f601c112806a1703c430067531da3f41e4afffe19fee9.js?body=1" for ::1 at 2015-08-05 20:38:08 +0100
+
+
+Started GET "/assets/foundation/foundation.joyride.self-0a5271728699423f583dd5b3b8a11bfe0dc9fb5044446bcf3218ef8ca906a82d.js?body=1" for ::1 at 2015-08-05 20:38:08 +0100
+
+
+Started GET "/assets/foundation/foundation.magellan.self-a50193f172f11e57b373c3001072ba2d6b34b857ab251e9ded30af5242855687.js?body=1" for ::1 at 2015-08-05 20:38:08 +0100
+
+
+Started GET "/assets/foundation/foundation.orbit.self-f8d30eb1717c874db26723f9e07901ec0a325d59263f1404ee83a616bb597ad2.js?body=1" for ::1 at 2015-08-05 20:38:08 +0100
+
+
+Started GET "/assets/foundation/foundation.offcanvas.self-75bffd0c7f4f0d2992ab95f0cc6959282ebb5807da70123d40c01d76e230ec88.js?body=1" for ::1 at 2015-08-05 20:38:08 +0100
+
+
+Started GET "/assets/foundation/foundation.reveal.self-95f01feb3e25e47b58b78da0021ae2fffafdee70846682067c180e0e10f7b095.js?body=1" for ::1 at 2015-08-05 20:38:08 +0100
+
+
+Started GET "/assets/foundation/foundation.slider.self-8911a7352cb577b6b7973b0734d57d2b624c79286558ffa36fcac0c29b2d0bee.js?body=1" for ::1 at 2015-08-05 20:38:08 +0100
+
+
+Started GET "/assets/foundation/foundation.tab.self-9bf6791513d1b20e213bb1aee3df0bc17128c7e18421258dc68a2a4ccabe1647.js?body=1" for ::1 at 2015-08-05 20:38:08 +0100
+
+
+Started GET "/assets/foundation/foundation.tooltip.self-834156796c253580629cfffc720bdc3d191b1e5a5a6ddbc1102ecd08c876516c.js?body=1" for ::1 at 2015-08-05 20:38:08 +0100
+
+
+Started GET "/assets/foundation/foundation.topbar.self-105416f061562f07c6a0a8057d68282fdc1eeb5dc306713fcae6c9a53001fc55.js?body=1" for ::1 at 2015-08-05 20:38:08 +0100
+
+
+Started GET "/assets/foundation.self-abe4ee7a105042f73b12b1f1a28788522d2f253445a475a94ab4d6e1f7b0ec52.js?body=1" for ::1 at 2015-08-05 20:38:08 +0100
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-08-05 20:38:08 +0100
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-08-05 20:38:08 +0100
+
+
+Started GET "/assets/barbers.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-08-05 20:38:09 +0100
+
+
+Started GET "/assets/saloons.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-08-05 20:38:09 +0100
+
+
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-08-05 20:38:09 +0100
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-08-05 20:38:09 +0100
+
+
+Started GET "/assets/style.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-08-05 20:38:09 +0100
+
+
+Started GET "/assets/application.self-ae886bac2282e732c520fdcf5e96a3f074e152124a0d788c1baf2f80f253106d.js?body=1" for ::1 at 2015-08-05 20:38:09 +0100
+
+
+Started GET "/assets/foundation/foundation.abide.self-f8b56c707a79139807305a5f7efc2aaa0848f0c677abcc056496f507e0192b79.js?body=1" for ::1 at 2015-08-05 20:38:09 +0100
+
+
+Started GET "/assets/foundation/foundation.equalizer.self-7aa743bf4660deb2fb2f601c112806a1703c430067531da3f41e4afffe19fee9.js?body=1" for ::1 at 2015-08-05 20:38:09 +0100
+
+
+Started GET "/assets/foundation/foundation.joyride.self-0a5271728699423f583dd5b3b8a11bfe0dc9fb5044446bcf3218ef8ca906a82d.js?body=1" for ::1 at 2015-08-05 20:38:09 +0100
+
+
+Started GET "/assets/foundation/foundation.offcanvas.self-75bffd0c7f4f0d2992ab95f0cc6959282ebb5807da70123d40c01d76e230ec88.js?body=1" for ::1 at 2015-08-05 20:38:09 +0100
+
+
+Started GET "/assets/foundation/foundation.orbit.self-f8d30eb1717c874db26723f9e07901ec0a325d59263f1404ee83a616bb597ad2.js?body=1" for ::1 at 2015-08-05 20:38:09 +0100
+
+
+Started GET "/assets/foundation/foundation.reveal.self-95f01feb3e25e47b58b78da0021ae2fffafdee70846682067c180e0e10f7b095.js?body=1" for ::1 at 2015-08-05 20:38:09 +0100
+
+
+Started GET "/assets/foundation/foundation.tab.self-9bf6791513d1b20e213bb1aee3df0bc17128c7e18421258dc68a2a4ccabe1647.js?body=1" for ::1 at 2015-08-05 20:38:09 +0100
+
+
+Started GET "/assets/foundation/foundation.tooltip.self-834156796c253580629cfffc720bdc3d191b1e5a5a6ddbc1102ecd08c876516c.js?body=1" for ::1 at 2015-08-05 20:38:09 +0100
+
+
+Started GET "/assets/foundation/foundation.topbar.self-105416f061562f07c6a0a8057d68282fdc1eeb5dc306713fcae6c9a53001fc55.js?body=1" for ::1 at 2015-08-05 20:38:09 +0100
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-08-05 20:38:09 +0100
+
+
+Started GET "/saloons" for ::1 at 2015-08-05 20:38:12 +0100
+Processing by SaloonsController#index as HTML
+  [1m[35mSaloon Load (0.3ms)[0m  SELECT "saloons".* FROM "saloons"
+  Rendered saloons/index.html.erb within layouts/application (5.7ms)
+Completed 200 OK in 979ms (Views: 977.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/saloons" for ::1 at 2015-08-05 20:38:37 +0100
+Processing by SaloonsController#index as HTML
+  [1m[36mSaloon Load (0.3ms)[0m  [1mSELECT "saloons".* FROM "saloons"[0m
+  Rendered saloons/index.html.erb within layouts/application (20.0ms)
+Completed 200 OK in 720ms (Views: 718.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/foundation_and_overrides.self-b61dfd322ef67243923023aac0591c74ea20fca90045603df1c534fdfdbecfcf.css?body=1" for ::1 at 2015-08-05 20:38:38 +0100
+
+
+Started GET "/assets/home.self-49d6fb44226944e13efa173e892a5d943f7150013646452cc3b8fa1b01b8f890.css?body=1" for ::1 at 2015-08-05 20:38:38 +0100
+
+
+Started GET "/assets/saloons.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-08-05 20:38:38 +0100
+
+
+Started GET "/assets/scaffolds.self-052d2e641572a5ba24cd3fbea3f76146c96d0c92e2d5f14810893d6a6d7e3136.css?body=1" for ::1 at 2015-08-05 20:38:38 +0100
+
+
+Started GET "/assets/nav_bar.self-18e58008964cfb55ee794322291fdf407d97b7b1e4fe18a44308738fb704badf.css?body=1" for ::1 at 2015-08-05 20:38:38 +0100
+
+
+Started GET "/assets/barbers.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-08-05 20:38:38 +0100
+
+
+Started GET "/assets/style.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-08-05 20:38:38 +0100
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-08-05 20:38:38 +0100
+
+
+Started GET "/assets/users.self-9a964ccfd99c58275aded15c5ea08d2b394bc647b284142168d10e1da0f3a5bb.css?body=1" for ::1 at 2015-08-05 20:38:38 +0100
+
+
+Started GET "/assets/application.self-167193cd81d9330d9ddb5c4ec7b44214fea529aa8a94f3a86e6526e4f652fc02.css?body=1" for ::1 at 2015-08-05 20:38:38 +0100
+
+
+Started GET "/assets/vendor/modernizr.self-74da3245def7569da28115667be6a85a2ad97464abe707c9829c46d8975597bc.js?body=1" for ::1 at 2015-08-05 20:38:38 +0100
+
+
+Started GET "/assets/foundation/foundation.abide.self-f8b56c707a79139807305a5f7efc2aaa0848f0c677abcc056496f507e0192b79.js?body=1" for ::1 at 2015-08-05 20:38:38 +0100
+
+
+Started GET "/assets/foundation/foundation.clearing.self-54610737b435a97590fcb176848c3c7a44c4d55d369894260fa7c28c97a70a23.js?body=1" for ::1 at 2015-08-05 20:38:38 +0100
+
+
+Started GET "/assets/foundation/foundation.dropdown.self-c9ee29909e266373e5e814a73fc6ea062245ddd29466d35d232448f73350d78a.js?body=1" for ::1 at 2015-08-05 20:38:38 +0100
+
+
+Started GET "/assets/foundation/foundation.accordion.self-d55abdcb0a7a29512be2f31f63d418cc8cc4505a0a3c71946d25484b0a0b3f4e.js?body=1" for ::1 at 2015-08-05 20:38:38 +0100
+
+
+Started GET "/assets/foundation/foundation.self-ee5396739ce46beb039f26ea629172a74143752d74f703c6c3b219fc52aecf73.js?body=1" for ::1 at 2015-08-05 20:38:38 +0100
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-08-05 20:38:38 +0100
+
+
+Started GET "/assets/foundation/foundation.alert.self-fbde7afb61e8ffd8ab9b717f0bed1e58cb9e0144a25cc773fea634d5554f62cd.js?body=1" for ::1 at 2015-08-05 20:38:38 +0100
+
+
+Started GET "/assets/foundation/foundation.equalizer.self-7aa743bf4660deb2fb2f601c112806a1703c430067531da3f41e4afffe19fee9.js?body=1" for ::1 at 2015-08-05 20:38:38 +0100
+
+
+Started GET "/assets/foundation/foundation.magellan.self-a50193f172f11e57b373c3001072ba2d6b34b857ab251e9ded30af5242855687.js?body=1" for ::1 at 2015-08-05 20:38:38 +0100
+
+
+Started GET "/assets/foundation/foundation.joyride.self-0a5271728699423f583dd5b3b8a11bfe0dc9fb5044446bcf3218ef8ca906a82d.js?body=1" for ::1 at 2015-08-05 20:38:38 +0100
+
+
+Started GET "/assets/foundation/foundation.interchange.self-dad8415355087cb21a16fa44bac20d602344d52de5aca9e588e3588fce5dd5a7.js?body=1" for ::1 at 2015-08-05 20:38:38 +0100
+
+
+Started GET "/assets/foundation/foundation.offcanvas.self-75bffd0c7f4f0d2992ab95f0cc6959282ebb5807da70123d40c01d76e230ec88.js?body=1" for ::1 at 2015-08-05 20:38:38 +0100
+
+
+Started GET "/assets/foundation/foundation.orbit.self-f8d30eb1717c874db26723f9e07901ec0a325d59263f1404ee83a616bb597ad2.js?body=1" for ::1 at 2015-08-05 20:38:38 +0100
+
+
+Started GET "/assets/foundation/foundation.tab.self-9bf6791513d1b20e213bb1aee3df0bc17128c7e18421258dc68a2a4ccabe1647.js?body=1" for ::1 at 2015-08-05 20:38:38 +0100
+
+
+Started GET "/assets/foundation/foundation.slider.self-8911a7352cb577b6b7973b0734d57d2b624c79286558ffa36fcac0c29b2d0bee.js?body=1" for ::1 at 2015-08-05 20:38:38 +0100
+
+
+Started GET "/assets/foundation/foundation.reveal.self-95f01feb3e25e47b58b78da0021ae2fffafdee70846682067c180e0e10f7b095.js?body=1" for ::1 at 2015-08-05 20:38:38 +0100
+
+
+Started GET "/assets/foundation/foundation.tooltip.self-834156796c253580629cfffc720bdc3d191b1e5a5a6ddbc1102ecd08c876516c.js?body=1" for ::1 at 2015-08-05 20:38:38 +0100
+
+
+Started GET "/assets/foundation.self-abe4ee7a105042f73b12b1f1a28788522d2f253445a475a94ab4d6e1f7b0ec52.js?body=1" for ::1 at 2015-08-05 20:38:38 +0100
+
+
+Started GET "/assets/barbers.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-08-05 20:38:38 +0100
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-08-05 20:38:38 +0100
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-08-05 20:38:38 +0100
+
+
+Started GET "/assets/foundation/foundation.topbar.self-105416f061562f07c6a0a8057d68282fdc1eeb5dc306713fcae6c9a53001fc55.js?body=1" for ::1 at 2015-08-05 20:38:38 +0100
+
+
+Started GET "/assets/saloons.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-08-05 20:38:38 +0100
+
+
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-08-05 20:38:38 +0100
+
+
+Started GET "/assets/style.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-08-05 20:38:38 +0100
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-08-05 20:38:38 +0100
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-08-05 20:38:38 +0100
+
+
+Started GET "/assets/application.self-ae886bac2282e732c520fdcf5e96a3f074e152124a0d788c1baf2f80f253106d.js?body=1" for ::1 at 2015-08-05 20:38:38 +0100
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-08-05 20:38:39 +0100
+
+
+Started GET "/assets/foundation/foundation.self-ee5396739ce46beb039f26ea629172a74143752d74f703c6c3b219fc52aecf73.js?body=1" for ::1 at 2015-08-05 20:38:39 +0100
+
+
+Started GET "/assets/foundation/foundation.clearing.self-54610737b435a97590fcb176848c3c7a44c4d55d369894260fa7c28c97a70a23.js?body=1" for ::1 at 2015-08-05 20:38:39 +0100
+
+
+Started GET "/assets/foundation/foundation.joyride.self-0a5271728699423f583dd5b3b8a11bfe0dc9fb5044446bcf3218ef8ca906a82d.js?body=1" for ::1 at 2015-08-05 20:38:39 +0100
+
+
+Started GET "/assets/foundation/foundation.magellan.self-a50193f172f11e57b373c3001072ba2d6b34b857ab251e9ded30af5242855687.js?body=1" for ::1 at 2015-08-05 20:38:39 +0100
+
+
+Started GET "/assets/foundation/foundation.offcanvas.self-75bffd0c7f4f0d2992ab95f0cc6959282ebb5807da70123d40c01d76e230ec88.js?body=1" for ::1 at 2015-08-05 20:38:39 +0100
+
+
+Started GET "/assets/foundation/foundation.orbit.self-f8d30eb1717c874db26723f9e07901ec0a325d59263f1404ee83a616bb597ad2.js?body=1" for ::1 at 2015-08-05 20:38:39 +0100
+
+
+Started GET "/assets/foundation/foundation.reveal.self-95f01feb3e25e47b58b78da0021ae2fffafdee70846682067c180e0e10f7b095.js?body=1" for ::1 at 2015-08-05 20:38:39 +0100
+
+
+Started GET "/assets/foundation/foundation.tab.self-9bf6791513d1b20e213bb1aee3df0bc17128c7e18421258dc68a2a4ccabe1647.js?body=1" for ::1 at 2015-08-05 20:38:39 +0100
+
+
+Started GET "/assets/foundation/foundation.tooltip.self-834156796c253580629cfffc720bdc3d191b1e5a5a6ddbc1102ecd08c876516c.js?body=1" for ::1 at 2015-08-05 20:38:39 +0100
+
+
+Started GET "/assets/foundation/foundation.topbar.self-105416f061562f07c6a0a8057d68282fdc1eeb5dc306713fcae6c9a53001fc55.js?body=1" for ::1 at 2015-08-05 20:38:39 +0100
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-08-05 20:38:39 +0100
+
+
+Started GET "/saloons" for ::1 at 2015-08-05 20:38:57 +0100
+Processing by SaloonsController#index as HTML
+  [1m[35mSaloon Load (0.3ms)[0m  SELECT "saloons".* FROM "saloons"
+  Rendered saloons/index.html.erb within layouts/application (4.9ms)
+Completed 200 OK in 729ms (Views: 727.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/foundation_and_overrides.self-b61dfd322ef67243923023aac0591c74ea20fca90045603df1c534fdfdbecfcf.css?body=1" for ::1 at 2015-08-05 20:38:58 +0100
+
+
+Started GET "/assets/home.self-49d6fb44226944e13efa173e892a5d943f7150013646452cc3b8fa1b01b8f890.css?body=1" for ::1 at 2015-08-05 20:38:58 +0100
+
+
+Started GET "/assets/saloons.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-08-05 20:38:58 +0100
+
+
+Started GET "/assets/scaffolds.self-052d2e641572a5ba24cd3fbea3f76146c96d0c92e2d5f14810893d6a6d7e3136.css?body=1" for ::1 at 2015-08-05 20:38:58 +0100
+
+
+Started GET "/assets/nav_bar.self-64908983bc7e441db7be54270233d5045ba85672b6f9802bf425e75f0e264fd5.css?body=1" for ::1 at 2015-08-05 20:38:58 +0100
+
+
+Started GET "/assets/barbers.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-08-05 20:38:58 +0100
+
+
+Started GET "/assets/style.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-08-05 20:38:58 +0100
+
+
+Started GET "/assets/users.self-9a964ccfd99c58275aded15c5ea08d2b394bc647b284142168d10e1da0f3a5bb.css?body=1" for ::1 at 2015-08-05 20:38:58 +0100
+
+
+Started GET "/assets/application.self-167193cd81d9330d9ddb5c4ec7b44214fea529aa8a94f3a86e6526e4f652fc02.css?body=1" for ::1 at 2015-08-05 20:38:58 +0100
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-08-05 20:38:58 +0100
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-08-05 20:38:58 +0100
+
+
+Started GET "/assets/foundation/foundation.self-ee5396739ce46beb039f26ea629172a74143752d74f703c6c3b219fc52aecf73.js?body=1" for ::1 at 2015-08-05 20:38:58 +0100
+
+
+Started GET "/assets/foundation/foundation.accordion.self-d55abdcb0a7a29512be2f31f63d418cc8cc4505a0a3c71946d25484b0a0b3f4e.js?body=1" for ::1 at 2015-08-05 20:38:58 +0100
+
+
+Started GET "/assets/foundation/foundation.clearing.self-54610737b435a97590fcb176848c3c7a44c4d55d369894260fa7c28c97a70a23.js?body=1" for ::1 at 2015-08-05 20:38:58 +0100
+
+
+Started GET "/assets/foundation/foundation.abide.self-f8b56c707a79139807305a5f7efc2aaa0848f0c677abcc056496f507e0192b79.js?body=1" for ::1 at 2015-08-05 20:38:58 +0100
+
+
+Started GET "/assets/foundation/foundation.dropdown.self-c9ee29909e266373e5e814a73fc6ea062245ddd29466d35d232448f73350d78a.js?body=1" for ::1 at 2015-08-05 20:38:58 +0100
+
+
+Started GET "/assets/vendor/modernizr.self-74da3245def7569da28115667be6a85a2ad97464abe707c9829c46d8975597bc.js?body=1" for ::1 at 2015-08-05 20:38:58 +0100
+
+
+Started GET "/assets/foundation/foundation.equalizer.self-7aa743bf4660deb2fb2f601c112806a1703c430067531da3f41e4afffe19fee9.js?body=1" for ::1 at 2015-08-05 20:38:58 +0100
+
+
+Started GET "/assets/foundation/foundation.interchange.self-dad8415355087cb21a16fa44bac20d602344d52de5aca9e588e3588fce5dd5a7.js?body=1" for ::1 at 2015-08-05 20:38:58 +0100
+
+
+Started GET "/assets/foundation/foundation.orbit.self-f8d30eb1717c874db26723f9e07901ec0a325d59263f1404ee83a616bb597ad2.js?body=1" for ::1 at 2015-08-05 20:38:58 +0100
+
+
+Started GET "/assets/foundation/foundation.offcanvas.self-75bffd0c7f4f0d2992ab95f0cc6959282ebb5807da70123d40c01d76e230ec88.js?body=1" for ::1 at 2015-08-05 20:38:58 +0100
+
+
+Started GET "/assets/foundation/foundation.alert.self-fbde7afb61e8ffd8ab9b717f0bed1e58cb9e0144a25cc773fea634d5554f62cd.js?body=1" for ::1 at 2015-08-05 20:38:58 +0100
+
+
+Started GET "/assets/foundation/foundation.joyride.self-0a5271728699423f583dd5b3b8a11bfe0dc9fb5044446bcf3218ef8ca906a82d.js?body=1" for ::1 at 2015-08-05 20:38:58 +0100
+
+
+Started GET "/assets/foundation/foundation.magellan.self-a50193f172f11e57b373c3001072ba2d6b34b857ab251e9ded30af5242855687.js?body=1" for ::1 at 2015-08-05 20:38:58 +0100
+
+
+Started GET "/assets/foundation/foundation.slider.self-8911a7352cb577b6b7973b0734d57d2b624c79286558ffa36fcac0c29b2d0bee.js?body=1" for ::1 at 2015-08-05 20:38:58 +0100
+
+
+Started GET "/assets/foundation/foundation.tooltip.self-834156796c253580629cfffc720bdc3d191b1e5a5a6ddbc1102ecd08c876516c.js?body=1" for ::1 at 2015-08-05 20:38:58 +0100
+
+
+Started GET "/assets/foundation/foundation.topbar.self-105416f061562f07c6a0a8057d68282fdc1eeb5dc306713fcae6c9a53001fc55.js?body=1" for ::1 at 2015-08-05 20:38:58 +0100
+
+
+Started GET "/assets/foundation/foundation.reveal.self-95f01feb3e25e47b58b78da0021ae2fffafdee70846682067c180e0e10f7b095.js?body=1" for ::1 at 2015-08-05 20:38:58 +0100
+
+
+Started GET "/assets/foundation/foundation.tab.self-9bf6791513d1b20e213bb1aee3df0bc17128c7e18421258dc68a2a4ccabe1647.js?body=1" for ::1 at 2015-08-05 20:38:58 +0100
+
+
+Started GET "/assets/foundation.self-abe4ee7a105042f73b12b1f1a28788522d2f253445a475a94ab4d6e1f7b0ec52.js?body=1" for ::1 at 2015-08-05 20:38:59 +0100
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-08-05 20:38:59 +0100
+
+
+Started GET "/assets/barbers.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-08-05 20:38:59 +0100
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-08-05 20:38:59 +0100
+
+
+Started GET "/assets/saloons.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-08-05 20:38:59 +0100
+
+
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-08-05 20:38:59 +0100
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-08-05 20:38:59 +0100
+
+
+Started GET "/assets/style.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-08-05 20:38:59 +0100
+
+
+Started GET "/assets/application.self-ae886bac2282e732c520fdcf5e96a3f074e152124a0d788c1baf2f80f253106d.js?body=1" for ::1 at 2015-08-05 20:38:59 +0100
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-08-05 20:38:59 +0100
+
+
+Started GET "/assets/foundation/foundation.dropdown.self-c9ee29909e266373e5e814a73fc6ea062245ddd29466d35d232448f73350d78a.js?body=1" for ::1 at 2015-08-05 20:38:59 +0100
+
+
+Started GET "/assets/foundation/foundation.joyride.self-0a5271728699423f583dd5b3b8a11bfe0dc9fb5044446bcf3218ef8ca906a82d.js?body=1" for ::1 at 2015-08-05 20:38:59 +0100
+
+
+Started GET "/assets/foundation/foundation.offcanvas.self-75bffd0c7f4f0d2992ab95f0cc6959282ebb5807da70123d40c01d76e230ec88.js?body=1" for ::1 at 2015-08-05 20:38:59 +0100
+
+
+Started GET "/assets/foundation/foundation.orbit.self-f8d30eb1717c874db26723f9e07901ec0a325d59263f1404ee83a616bb597ad2.js?body=1" for ::1 at 2015-08-05 20:38:59 +0100
+
+
+Started GET "/assets/foundation/foundation.reveal.self-95f01feb3e25e47b58b78da0021ae2fffafdee70846682067c180e0e10f7b095.js?body=1" for ::1 at 2015-08-05 20:38:59 +0100
+
+
+Started GET "/assets/foundation/foundation.slider.self-8911a7352cb577b6b7973b0734d57d2b624c79286558ffa36fcac0c29b2d0bee.js?body=1" for ::1 at 2015-08-05 20:38:59 +0100
+
+
+Started GET "/assets/foundation/foundation.tooltip.self-834156796c253580629cfffc720bdc3d191b1e5a5a6ddbc1102ecd08c876516c.js?body=1" for ::1 at 2015-08-05 20:38:59 +0100
+
+
+Started GET "/assets/foundation/foundation.topbar.self-105416f061562f07c6a0a8057d68282fdc1eeb5dc306713fcae6c9a53001fc55.js?body=1" for ::1 at 2015-08-05 20:38:59 +0100
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-08-05 20:38:59 +0100
+
+
+Started GET "/saloons" for ::1 at 2015-08-05 20:39:17 +0100
+Processing by SaloonsController#index as HTML
+  [1m[36mSaloon Load (0.3ms)[0m  [1mSELECT "saloons".* FROM "saloons"[0m
+  Rendered saloons/index.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 805ms (Views: 803.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/foundation_and_overrides.self-b61dfd322ef67243923023aac0591c74ea20fca90045603df1c534fdfdbecfcf.css?body=1" for ::1 at 2015-08-05 20:39:18 +0100
+
+
+Started GET "/assets/home.self-49d6fb44226944e13efa173e892a5d943f7150013646452cc3b8fa1b01b8f890.css?body=1" for ::1 at 2015-08-05 20:39:18 +0100
+
+
+Started GET "/assets/nav_bar.self-3eca88b91807d88eb9a6bd3a029470da75e3106fab12372f34f6d9061a6801c1.css?body=1" for ::1 at 2015-08-05 20:39:18 +0100
+
+
+Started GET "/assets/saloons.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-08-05 20:39:18 +0100
+
+
+Started GET "/assets/scaffolds.self-052d2e641572a5ba24cd3fbea3f76146c96d0c92e2d5f14810893d6a6d7e3136.css?body=1" for ::1 at 2015-08-05 20:39:18 +0100
+
+
+Started GET "/assets/barbers.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-08-05 20:39:18 +0100
+
+
+Started GET "/assets/vendor/modernizr.self-74da3245def7569da28115667be6a85a2ad97464abe707c9829c46d8975597bc.js?body=1" for ::1 at 2015-08-05 20:39:18 +0100
+
+
+Started GET "/assets/style.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-08-05 20:39:18 +0100
+
+
+Started GET "/assets/users.self-9a964ccfd99c58275aded15c5ea08d2b394bc647b284142168d10e1da0f3a5bb.css?body=1" for ::1 at 2015-08-05 20:39:18 +0100
+
+
+Started GET "/assets/application.self-167193cd81d9330d9ddb5c4ec7b44214fea529aa8a94f3a86e6526e4f652fc02.css?body=1" for ::1 at 2015-08-05 20:39:18 +0100
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-08-05 20:39:18 +0100
+
+
+Started GET "/assets/foundation/foundation.abide.self-f8b56c707a79139807305a5f7efc2aaa0848f0c677abcc056496f507e0192b79.js?body=1" for ::1 at 2015-08-05 20:39:18 +0100
+
+
+Started GET "/assets/foundation/foundation.self-ee5396739ce46beb039f26ea629172a74143752d74f703c6c3b219fc52aecf73.js?body=1" for ::1 at 2015-08-05 20:39:18 +0100
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-08-05 20:39:18 +0100
+
+
+Started GET "/assets/foundation/foundation.accordion.self-d55abdcb0a7a29512be2f31f63d418cc8cc4505a0a3c71946d25484b0a0b3f4e.js?body=1" for ::1 at 2015-08-05 20:39:18 +0100
+
+
+Started GET "/assets/foundation/foundation.alert.self-fbde7afb61e8ffd8ab9b717f0bed1e58cb9e0144a25cc773fea634d5554f62cd.js?body=1" for ::1 at 2015-08-05 20:39:18 +0100
+
+
+Started GET "/assets/foundation/foundation.clearing.self-54610737b435a97590fcb176848c3c7a44c4d55d369894260fa7c28c97a70a23.js?body=1" for ::1 at 2015-08-05 20:39:18 +0100
+
+
+Started GET "/assets/foundation/foundation.dropdown.self-c9ee29909e266373e5e814a73fc6ea062245ddd29466d35d232448f73350d78a.js?body=1" for ::1 at 2015-08-05 20:39:18 +0100
+
+
+Started GET "/assets/foundation/foundation.interchange.self-dad8415355087cb21a16fa44bac20d602344d52de5aca9e588e3588fce5dd5a7.js?body=1" for ::1 at 2015-08-05 20:39:18 +0100
+
+
+Started GET "/assets/foundation/foundation.joyride.self-0a5271728699423f583dd5b3b8a11bfe0dc9fb5044446bcf3218ef8ca906a82d.js?body=1" for ::1 at 2015-08-05 20:39:18 +0100
+
+
+Started GET "/assets/foundation/foundation.magellan.self-a50193f172f11e57b373c3001072ba2d6b34b857ab251e9ded30af5242855687.js?body=1" for ::1 at 2015-08-05 20:39:18 +0100
+
+
+Started GET "/assets/foundation/foundation.offcanvas.self-75bffd0c7f4f0d2992ab95f0cc6959282ebb5807da70123d40c01d76e230ec88.js?body=1" for ::1 at 2015-08-05 20:39:18 +0100
+
+
+Started GET "/assets/foundation/foundation.equalizer.self-7aa743bf4660deb2fb2f601c112806a1703c430067531da3f41e4afffe19fee9.js?body=1" for ::1 at 2015-08-05 20:39:18 +0100
+
+
+Started GET "/assets/foundation/foundation.orbit.self-f8d30eb1717c874db26723f9e07901ec0a325d59263f1404ee83a616bb597ad2.js?body=1" for ::1 at 2015-08-05 20:39:18 +0100
+
+
+Started GET "/assets/foundation/foundation.tab.self-9bf6791513d1b20e213bb1aee3df0bc17128c7e18421258dc68a2a4ccabe1647.js?body=1" for ::1 at 2015-08-05 20:39:18 +0100
+
+
+Started GET "/assets/foundation/foundation.tooltip.self-834156796c253580629cfffc720bdc3d191b1e5a5a6ddbc1102ecd08c876516c.js?body=1" for ::1 at 2015-08-05 20:39:18 +0100
+
+
+Started GET "/assets/foundation/foundation.slider.self-8911a7352cb577b6b7973b0734d57d2b624c79286558ffa36fcac0c29b2d0bee.js?body=1" for ::1 at 2015-08-05 20:39:18 +0100
+
+
+Started GET "/assets/foundation/foundation.reveal.self-95f01feb3e25e47b58b78da0021ae2fffafdee70846682067c180e0e10f7b095.js?body=1" for ::1 at 2015-08-05 20:39:18 +0100
+
+
+Started GET "/assets/foundation/foundation.topbar.self-105416f061562f07c6a0a8057d68282fdc1eeb5dc306713fcae6c9a53001fc55.js?body=1" for ::1 at 2015-08-05 20:39:18 +0100
+
+
+Started GET "/assets/foundation.self-abe4ee7a105042f73b12b1f1a28788522d2f253445a475a94ab4d6e1f7b0ec52.js?body=1" for ::1 at 2015-08-05 20:39:18 +0100
+
+
+Started GET "/assets/saloons.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-08-05 20:39:18 +0100
+
+
+Started GET "/assets/barbers.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-08-05 20:39:18 +0100
+
+
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-08-05 20:39:18 +0100
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-08-05 20:39:18 +0100
+
+
+Started GET "/assets/style.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-08-05 20:39:18 +0100
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-08-05 20:39:18 +0100
+
+
+Started GET "/assets/application.self-ae886bac2282e732c520fdcf5e96a3f074e152124a0d788c1baf2f80f253106d.js?body=1" for ::1 at 2015-08-05 20:39:18 +0100
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-08-05 20:39:18 +0100
+
+
+Started GET "/assets/foundation/foundation.self-ee5396739ce46beb039f26ea629172a74143752d74f703c6c3b219fc52aecf73.js?body=1" for ::1 at 2015-08-05 20:39:19 +0100
+
+
+Started GET "/assets/foundation/foundation.accordion.self-d55abdcb0a7a29512be2f31f63d418cc8cc4505a0a3c71946d25484b0a0b3f4e.js?body=1" for ::1 at 2015-08-05 20:39:19 +0100
+
+
+Started GET "/assets/foundation/foundation.clearing.self-54610737b435a97590fcb176848c3c7a44c4d55d369894260fa7c28c97a70a23.js?body=1" for ::1 at 2015-08-05 20:39:19 +0100
+
+
+Started GET "/assets/foundation/foundation.dropdown.self-c9ee29909e266373e5e814a73fc6ea062245ddd29466d35d232448f73350d78a.js?body=1" for ::1 at 2015-08-05 20:39:19 +0100
+
+
+Started GET "/assets/foundation/foundation.joyride.self-0a5271728699423f583dd5b3b8a11bfe0dc9fb5044446bcf3218ef8ca906a82d.js?body=1" for ::1 at 2015-08-05 20:39:19 +0100
+
+
+Started GET "/assets/foundation/foundation.magellan.self-a50193f172f11e57b373c3001072ba2d6b34b857ab251e9ded30af5242855687.js?body=1" for ::1 at 2015-08-05 20:39:19 +0100
+
+
+Started GET "/assets/foundation/foundation.offcanvas.self-75bffd0c7f4f0d2992ab95f0cc6959282ebb5807da70123d40c01d76e230ec88.js?body=1" for ::1 at 2015-08-05 20:39:19 +0100
+
+
+Started GET "/assets/foundation/foundation.orbit.self-f8d30eb1717c874db26723f9e07901ec0a325d59263f1404ee83a616bb597ad2.js?body=1" for ::1 at 2015-08-05 20:39:19 +0100
+
+
+Started GET "/assets/foundation/foundation.reveal.self-95f01feb3e25e47b58b78da0021ae2fffafdee70846682067c180e0e10f7b095.js?body=1" for ::1 at 2015-08-05 20:39:19 +0100
+
+
+Started GET "/assets/foundation/foundation.tab.self-9bf6791513d1b20e213bb1aee3df0bc17128c7e18421258dc68a2a4ccabe1647.js?body=1" for ::1 at 2015-08-05 20:39:19 +0100
+
+
+Started GET "/assets/foundation/foundation.tooltip.self-834156796c253580629cfffc720bdc3d191b1e5a5a6ddbc1102ecd08c876516c.js?body=1" for ::1 at 2015-08-05 20:39:19 +0100
+
+
+Started GET "/assets/foundation/foundation.topbar.self-105416f061562f07c6a0a8057d68282fdc1eeb5dc306713fcae6c9a53001fc55.js?body=1" for ::1 at 2015-08-05 20:39:19 +0100
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-08-05 20:39:19 +0100
+
+
+Started GET "/saloons" for ::1 at 2015-08-05 20:41:20 +0100
+Processing by SaloonsController#index as HTML
+  [1m[35mSaloon Load (0.3ms)[0m  SELECT "saloons".* FROM "saloons"
+  Rendered saloons/index.html.erb within layouts/application (6.7ms)
+Completed 200 OK in 1198ms (Views: 1196.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/foundation_and_overrides.self-b61dfd322ef67243923023aac0591c74ea20fca90045603df1c534fdfdbecfcf.css?body=1" for ::1 at 2015-08-05 20:41:22 +0100
+
+
+Started GET "/assets/home.self-8ad7d000c7133b0eab2c84c9219b5782bb7b4217031498c4924478b9bd4b2b7a.css?body=1" for ::1 at 2015-08-05 20:41:22 +0100
+
+
+Started GET "/assets/barbers.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-08-05 20:41:22 +0100
+
+
+Started GET "/assets/nav_bar.self-3eca88b91807d88eb9a6bd3a029470da75e3106fab12372f34f6d9061a6801c1.css?body=1" for ::1 at 2015-08-05 20:41:22 +0100
+
+
+Started GET "/assets/users.self-9a964ccfd99c58275aded15c5ea08d2b394bc647b284142168d10e1da0f3a5bb.css?body=1" for ::1 at 2015-08-05 20:41:22 +0100
+
+
+Started GET "/assets/scaffolds.self-052d2e641572a5ba24cd3fbea3f76146c96d0c92e2d5f14810893d6a6d7e3136.css?body=1" for ::1 at 2015-08-05 20:41:22 +0100
+
+
+Started GET "/assets/style.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-08-05 20:41:22 +0100
+
+
+Started GET "/assets/saloons.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-08-05 20:41:22 +0100
+
+
+Started GET "/assets/application.self-167193cd81d9330d9ddb5c4ec7b44214fea529aa8a94f3a86e6526e4f652fc02.css?body=1" for ::1 at 2015-08-05 20:41:22 +0100
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-08-05 20:41:22 +0100
+
+
+Started GET "/assets/foundation/foundation.self-ee5396739ce46beb039f26ea629172a74143752d74f703c6c3b219fc52aecf73.js?body=1" for ::1 at 2015-08-05 20:41:22 +0100
+
+
+Started GET "/assets/foundation/foundation.alert.self-fbde7afb61e8ffd8ab9b717f0bed1e58cb9e0144a25cc773fea634d5554f62cd.js?body=1" for ::1 at 2015-08-05 20:41:22 +0100
+
+
+Started GET "/assets/foundation/foundation.accordion.self-d55abdcb0a7a29512be2f31f63d418cc8cc4505a0a3c71946d25484b0a0b3f4e.js?body=1" for ::1 at 2015-08-05 20:41:22 +0100
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-08-05 20:41:22 +0100
+
+
+Started GET "/assets/vendor/modernizr.self-74da3245def7569da28115667be6a85a2ad97464abe707c9829c46d8975597bc.js?body=1" for ::1 at 2015-08-05 20:41:22 +0100
+
+
+Started GET "/assets/foundation/foundation.abide.self-f8b56c707a79139807305a5f7efc2aaa0848f0c677abcc056496f507e0192b79.js?body=1" for ::1 at 2015-08-05 20:41:22 +0100
+
+
+Started GET "/assets/foundation/foundation.dropdown.self-c9ee29909e266373e5e814a73fc6ea062245ddd29466d35d232448f73350d78a.js?body=1" for ::1 at 2015-08-05 20:41:22 +0100
+
+
+Started GET "/assets/foundation/foundation.clearing.self-54610737b435a97590fcb176848c3c7a44c4d55d369894260fa7c28c97a70a23.js?body=1" for ::1 at 2015-08-05 20:41:22 +0100
+
+
+Started GET "/assets/foundation/foundation.interchange.self-dad8415355087cb21a16fa44bac20d602344d52de5aca9e588e3588fce5dd5a7.js?body=1" for ::1 at 2015-08-05 20:41:22 +0100
+
+
+Started GET "/assets/foundation/foundation.equalizer.self-7aa743bf4660deb2fb2f601c112806a1703c430067531da3f41e4afffe19fee9.js?body=1" for ::1 at 2015-08-05 20:41:22 +0100
+
+
+Started GET "/assets/foundation/foundation.joyride.self-0a5271728699423f583dd5b3b8a11bfe0dc9fb5044446bcf3218ef8ca906a82d.js?body=1" for ::1 at 2015-08-05 20:41:22 +0100
+
+
+Started GET "/assets/foundation/foundation.magellan.self-a50193f172f11e57b373c3001072ba2d6b34b857ab251e9ded30af5242855687.js?body=1" for ::1 at 2015-08-05 20:41:22 +0100
+
+
+Started GET "/assets/foundation/foundation.orbit.self-f8d30eb1717c874db26723f9e07901ec0a325d59263f1404ee83a616bb597ad2.js?body=1" for ::1 at 2015-08-05 20:41:22 +0100
+
+
+Started GET "/assets/foundation/foundation.reveal.self-95f01feb3e25e47b58b78da0021ae2fffafdee70846682067c180e0e10f7b095.js?body=1" for ::1 at 2015-08-05 20:41:22 +0100
+
+
+Started GET "/assets/foundation/foundation.offcanvas.self-75bffd0c7f4f0d2992ab95f0cc6959282ebb5807da70123d40c01d76e230ec88.js?body=1" for ::1 at 2015-08-05 20:41:22 +0100
+
+
+Started GET "/assets/foundation/foundation.tab.self-9bf6791513d1b20e213bb1aee3df0bc17128c7e18421258dc68a2a4ccabe1647.js?body=1" for ::1 at 2015-08-05 20:41:22 +0100
+
+
+Started GET "/assets/foundation/foundation.slider.self-8911a7352cb577b6b7973b0734d57d2b624c79286558ffa36fcac0c29b2d0bee.js?body=1" for ::1 at 2015-08-05 20:41:22 +0100
+
+
+Started GET "/assets/foundation/foundation.tooltip.self-834156796c253580629cfffc720bdc3d191b1e5a5a6ddbc1102ecd08c876516c.js?body=1" for ::1 at 2015-08-05 20:41:22 +0100
+
+
+Started GET "/assets/foundation/foundation.topbar.self-105416f061562f07c6a0a8057d68282fdc1eeb5dc306713fcae6c9a53001fc55.js?body=1" for ::1 at 2015-08-05 20:41:22 +0100
+
+
+Started GET "/assets/foundation.self-abe4ee7a105042f73b12b1f1a28788522d2f253445a475a94ab4d6e1f7b0ec52.js?body=1" for ::1 at 2015-08-05 20:41:22 +0100
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-08-05 20:41:22 +0100
+
+
+Started GET "/assets/barbers.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-08-05 20:41:22 +0100
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-08-05 20:41:22 +0100
+
+
+Started GET "/assets/saloons.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-08-05 20:41:22 +0100
+
+
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-08-05 20:41:22 +0100
+
+
+Started GET "/assets/application.self-ae886bac2282e732c520fdcf5e96a3f074e152124a0d788c1baf2f80f253106d.js?body=1" for ::1 at 2015-08-05 20:41:23 +0100
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-08-05 20:41:23 +0100
+
+
+Started GET "/assets/style.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-08-05 20:41:23 +0100
+
+
+Started GET "/saloons" for ::1 at 2015-08-05 20:41:38 +0100
+Processing by SaloonsController#index as HTML
+  [1m[36mSaloon Load (0.4ms)[0m  [1mSELECT "saloons".* FROM "saloons"[0m
+  Rendered saloons/index.html.erb within layouts/application (5.7ms)
+Completed 200 OK in 1129ms (Views: 1116.9ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/foundation_and_overrides.self-b61dfd322ef67243923023aac0591c74ea20fca90045603df1c534fdfdbecfcf.css?body=1" for ::1 at 2015-08-05 20:41:40 +0100
+
+
+Started GET "/assets/home.self-a14d43d60678a12e93f722aa252a2397e2d762d68b7ec885600305894540de77.css?body=1" for ::1 at 2015-08-05 20:41:40 +0100
+
+
+Started GET "/assets/saloons.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-08-05 20:41:40 +0100
+
+
+Started GET "/assets/scaffolds.self-052d2e641572a5ba24cd3fbea3f76146c96d0c92e2d5f14810893d6a6d7e3136.css?body=1" for ::1 at 2015-08-05 20:41:40 +0100
+
+
+Started GET "/assets/style.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-08-05 20:41:40 +0100
+
+
+Started GET "/assets/nav_bar.self-3eca88b91807d88eb9a6bd3a029470da75e3106fab12372f34f6d9061a6801c1.css?body=1" for ::1 at 2015-08-05 20:41:40 +0100
+
+
+Started GET "/assets/barbers.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-08-05 20:41:40 +0100
+
+
+Started GET "/assets/application.self-167193cd81d9330d9ddb5c4ec7b44214fea529aa8a94f3a86e6526e4f652fc02.css?body=1" for ::1 at 2015-08-05 20:41:40 +0100
+
+
+Started GET "/assets/vendor/modernizr.self-74da3245def7569da28115667be6a85a2ad97464abe707c9829c46d8975597bc.js?body=1" for ::1 at 2015-08-05 20:41:40 +0100
+
+
+Started GET "/assets/users.self-9a964ccfd99c58275aded15c5ea08d2b394bc647b284142168d10e1da0f3a5bb.css?body=1" for ::1 at 2015-08-05 20:41:40 +0100
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-08-05 20:41:40 +0100
+
+
+Started GET "/assets/foundation/foundation.accordion.self-d55abdcb0a7a29512be2f31f63d418cc8cc4505a0a3c71946d25484b0a0b3f4e.js?body=1" for ::1 at 2015-08-05 20:41:40 +0100
+
+
+Started GET "/assets/foundation/foundation.alert.self-fbde7afb61e8ffd8ab9b717f0bed1e58cb9e0144a25cc773fea634d5554f62cd.js?body=1" for ::1 at 2015-08-05 20:41:40 +0100
+
+
+Started GET "/assets/foundation/foundation.abide.self-f8b56c707a79139807305a5f7efc2aaa0848f0c677abcc056496f507e0192b79.js?body=1" for ::1 at 2015-08-05 20:41:40 +0100
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-08-05 20:41:40 +0100
+
+
+Started GET "/assets/foundation/foundation.self-ee5396739ce46beb039f26ea629172a74143752d74f703c6c3b219fc52aecf73.js?body=1" for ::1 at 2015-08-05 20:41:40 +0100
+
+
+Started GET "/assets/foundation/foundation.clearing.self-54610737b435a97590fcb176848c3c7a44c4d55d369894260fa7c28c97a70a23.js?body=1" for ::1 at 2015-08-05 20:41:40 +0100
+
+
+Started GET "/assets/foundation/foundation.interchange.self-dad8415355087cb21a16fa44bac20d602344d52de5aca9e588e3588fce5dd5a7.js?body=1" for ::1 at 2015-08-05 20:41:40 +0100
+
+
+Started GET "/assets/foundation/foundation.dropdown.self-c9ee29909e266373e5e814a73fc6ea062245ddd29466d35d232448f73350d78a.js?body=1" for ::1 at 2015-08-05 20:41:40 +0100
+
+
+Started GET "/assets/foundation/foundation.equalizer.self-7aa743bf4660deb2fb2f601c112806a1703c430067531da3f41e4afffe19fee9.js?body=1" for ::1 at 2015-08-05 20:41:40 +0100
+
+
+Started GET "/assets/foundation/foundation.joyride.self-0a5271728699423f583dd5b3b8a11bfe0dc9fb5044446bcf3218ef8ca906a82d.js?body=1" for ::1 at 2015-08-05 20:41:40 +0100
+
+
+Started GET "/assets/foundation/foundation.magellan.self-a50193f172f11e57b373c3001072ba2d6b34b857ab251e9ded30af5242855687.js?body=1" for ::1 at 2015-08-05 20:41:40 +0100
+
+
+Started GET "/assets/foundation/foundation.offcanvas.self-75bffd0c7f4f0d2992ab95f0cc6959282ebb5807da70123d40c01d76e230ec88.js?body=1" for ::1 at 2015-08-05 20:41:40 +0100
+
+
+Started GET "/assets/foundation/foundation.orbit.self-f8d30eb1717c874db26723f9e07901ec0a325d59263f1404ee83a616bb597ad2.js?body=1" for ::1 at 2015-08-05 20:41:40 +0100
+
+
+Started GET "/assets/foundation/foundation.reveal.self-95f01feb3e25e47b58b78da0021ae2fffafdee70846682067c180e0e10f7b095.js?body=1" for ::1 at 2015-08-05 20:41:40 +0100
+
+
+Started GET "/assets/foundation/foundation.tab.self-9bf6791513d1b20e213bb1aee3df0bc17128c7e18421258dc68a2a4ccabe1647.js?body=1" for ::1 at 2015-08-05 20:41:40 +0100
+
+
+Started GET "/assets/foundation/foundation.slider.self-8911a7352cb577b6b7973b0734d57d2b624c79286558ffa36fcac0c29b2d0bee.js?body=1" for ::1 at 2015-08-05 20:41:40 +0100
+
+
+Started GET "/assets/foundation/foundation.tooltip.self-834156796c253580629cfffc720bdc3d191b1e5a5a6ddbc1102ecd08c876516c.js?body=1" for ::1 at 2015-08-05 20:41:40 +0100
+
+
+Started GET "/assets/foundation/foundation.topbar.self-105416f061562f07c6a0a8057d68282fdc1eeb5dc306713fcae6c9a53001fc55.js?body=1" for ::1 at 2015-08-05 20:41:40 +0100
+
+
+Started GET "/assets/foundation.self-abe4ee7a105042f73b12b1f1a28788522d2f253445a475a94ab4d6e1f7b0ec52.js?body=1" for ::1 at 2015-08-05 20:41:40 +0100
+
+
+Started GET "/assets/barbers.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-08-05 20:41:40 +0100
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-08-05 20:41:40 +0100
+
+
+Started GET "/assets/saloons.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-08-05 20:41:40 +0100
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-08-05 20:41:40 +0100
+
+
+Started GET "/assets/style.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-08-05 20:41:40 +0100
+
+
+Started GET "/assets/application.self-ae886bac2282e732c520fdcf5e96a3f074e152124a0d788c1baf2f80f253106d.js?body=1" for ::1 at 2015-08-05 20:41:40 +0100
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-08-05 20:41:40 +0100
+
+
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-08-05 20:41:40 +0100
+
+
+Started GET "/saloons" for ::1 at 2015-08-05 20:41:43 +0100
+Processing by SaloonsController#index as HTML
+  [1m[35mSaloon Load (0.3ms)[0m  SELECT "saloons".* FROM "saloons"
+  Rendered saloons/index.html.erb within layouts/application (7.6ms)
+Completed 200 OK in 571ms (Views: 569.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/saloons" for ::1 at 2015-08-05 20:42:00 +0100
+Processing by SaloonsController#index as HTML
+  [1m[36mSaloon Load (0.4ms)[0m  [1mSELECT "saloons".* FROM "saloons"[0m
+  Rendered saloons/index.html.erb within layouts/application (9.8ms)
+Completed 200 OK in 1201ms (Views: 1199.0ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/foundation_and_overrides.self-b61dfd322ef67243923023aac0591c74ea20fca90045603df1c534fdfdbecfcf.css?body=1" for ::1 at 2015-08-05 20:42:01 +0100
+
+
+Started GET "/assets/barbers.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-08-05 20:42:01 +0100
+
+
+Started GET "/assets/nav_bar.self-3eca88b91807d88eb9a6bd3a029470da75e3106fab12372f34f6d9061a6801c1.css?body=1" for ::1 at 2015-08-05 20:42:01 +0100
+
+
+Started GET "/assets/scaffolds.self-052d2e641572a5ba24cd3fbea3f76146c96d0c92e2d5f14810893d6a6d7e3136.css?body=1" for ::1 at 2015-08-05 20:42:01 +0100
+
+
+Started GET "/assets/saloons.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-08-05 20:42:01 +0100
+
+
+Started GET "/assets/home.self-7aa986884a88a3f929da06eba36b26662a660e498f70681d5a3ce764f817ed02.css?body=1" for ::1 at 2015-08-05 20:42:01 +0100
+
+
+Started GET "/assets/style.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-08-05 20:42:01 +0100
+
+
+Started GET "/assets/application.self-167193cd81d9330d9ddb5c4ec7b44214fea529aa8a94f3a86e6526e4f652fc02.css?body=1" for ::1 at 2015-08-05 20:42:01 +0100
+
+
+Started GET "/assets/vendor/modernizr.self-74da3245def7569da28115667be6a85a2ad97464abe707c9829c46d8975597bc.js?body=1" for ::1 at 2015-08-05 20:42:01 +0100
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-08-05 20:42:01 +0100
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-08-05 20:42:01 +0100
+
+
+Started GET "/assets/foundation/foundation.self-ee5396739ce46beb039f26ea629172a74143752d74f703c6c3b219fc52aecf73.js?body=1" for ::1 at 2015-08-05 20:42:01 +0100
+
+
+Started GET "/assets/foundation/foundation.alert.self-fbde7afb61e8ffd8ab9b717f0bed1e58cb9e0144a25cc773fea634d5554f62cd.js?body=1" for ::1 at 2015-08-05 20:42:01 +0100
+
+
+Started GET "/assets/foundation/foundation.abide.self-f8b56c707a79139807305a5f7efc2aaa0848f0c677abcc056496f507e0192b79.js?body=1" for ::1 at 2015-08-05 20:42:01 +0100
+
+
+Started GET "/assets/foundation/foundation.clearing.self-54610737b435a97590fcb176848c3c7a44c4d55d369894260fa7c28c97a70a23.js?body=1" for ::1 at 2015-08-05 20:42:01 +0100
+
+
+Started GET "/assets/foundation/foundation.dropdown.self-c9ee29909e266373e5e814a73fc6ea062245ddd29466d35d232448f73350d78a.js?body=1" for ::1 at 2015-08-05 20:42:01 +0100
+
+
+Started GET "/assets/foundation/foundation.accordion.self-d55abdcb0a7a29512be2f31f63d418cc8cc4505a0a3c71946d25484b0a0b3f4e.js?body=1" for ::1 at 2015-08-05 20:42:01 +0100
+
+
+Started GET "/assets/foundation/foundation.joyride.self-0a5271728699423f583dd5b3b8a11bfe0dc9fb5044446bcf3218ef8ca906a82d.js?body=1" for ::1 at 2015-08-05 20:42:01 +0100
+
+
+Started GET "/assets/foundation/foundation.interchange.self-dad8415355087cb21a16fa44bac20d602344d52de5aca9e588e3588fce5dd5a7.js?body=1" for ::1 at 2015-08-05 20:42:01 +0100
+
+
+Started GET "/assets/foundation/foundation.magellan.self-a50193f172f11e57b373c3001072ba2d6b34b857ab251e9ded30af5242855687.js?body=1" for ::1 at 2015-08-05 20:42:01 +0100
+
+
+Started GET "/assets/foundation/foundation.offcanvas.self-75bffd0c7f4f0d2992ab95f0cc6959282ebb5807da70123d40c01d76e230ec88.js?body=1" for ::1 at 2015-08-05 20:42:01 +0100
+
+
+Started GET "/assets/users.self-9a964ccfd99c58275aded15c5ea08d2b394bc647b284142168d10e1da0f3a5bb.css?body=1" for ::1 at 2015-08-05 20:42:01 +0100
+
+
+Started GET "/assets/foundation/foundation.orbit.self-f8d30eb1717c874db26723f9e07901ec0a325d59263f1404ee83a616bb597ad2.js?body=1" for ::1 at 2015-08-05 20:42:01 +0100
+
+
+Started GET "/assets/foundation/foundation.equalizer.self-7aa743bf4660deb2fb2f601c112806a1703c430067531da3f41e4afffe19fee9.js?body=1" for ::1 at 2015-08-05 20:42:01 +0100
+
+
+Started GET "/assets/foundation/foundation.reveal.self-95f01feb3e25e47b58b78da0021ae2fffafdee70846682067c180e0e10f7b095.js?body=1" for ::1 at 2015-08-05 20:42:01 +0100
+
+
+Started GET "/assets/foundation/foundation.slider.self-8911a7352cb577b6b7973b0734d57d2b624c79286558ffa36fcac0c29b2d0bee.js?body=1" for ::1 at 2015-08-05 20:42:01 +0100
+
+
+Started GET "/assets/foundation/foundation.tooltip.self-834156796c253580629cfffc720bdc3d191b1e5a5a6ddbc1102ecd08c876516c.js?body=1" for ::1 at 2015-08-05 20:42:01 +0100
+
+
+Started GET "/assets/foundation/foundation.tab.self-9bf6791513d1b20e213bb1aee3df0bc17128c7e18421258dc68a2a4ccabe1647.js?body=1" for ::1 at 2015-08-05 20:42:01 +0100
+
+
+Started GET "/assets/foundation/foundation.topbar.self-105416f061562f07c6a0a8057d68282fdc1eeb5dc306713fcae6c9a53001fc55.js?body=1" for ::1 at 2015-08-05 20:42:02 +0100
+
+
+Started GET "/assets/foundation.self-abe4ee7a105042f73b12b1f1a28788522d2f253445a475a94ab4d6e1f7b0ec52.js?body=1" for ::1 at 2015-08-05 20:42:02 +0100
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-08-05 20:42:02 +0100
+
+
+Started GET "/assets/barbers.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-08-05 20:42:02 +0100
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-08-05 20:42:02 +0100
+
+
+Started GET "/assets/saloons.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-08-05 20:42:02 +0100
+
+
+Started GET "/assets/application.self-ae886bac2282e732c520fdcf5e96a3f074e152124a0d788c1baf2f80f253106d.js?body=1" for ::1 at 2015-08-05 20:42:02 +0100
+
+
+Started GET "/assets/style.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-08-05 20:42:02 +0100
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-08-05 20:42:02 +0100
+
+
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-08-05 20:42:02 +0100
+
+
+Started GET "/saloons" for ::1 at 2015-08-05 20:43:55 +0100
+Processing by SaloonsController#index as HTML
+  [1m[35mSaloon Load (0.3ms)[0m  SELECT "saloons".* FROM "saloons"
+  Rendered saloons/index.html.erb within layouts/application (13.0ms)
+Completed 200 OK in 952ms (Views: 950.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/barbers.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-08-05 20:43:56 +0100
+
+
+Started GET "/assets/foundation_and_overrides.self-b61dfd322ef67243923023aac0591c74ea20fca90045603df1c534fdfdbecfcf.css?body=1" for ::1 at 2015-08-05 20:43:56 +0100
+
+
+Started GET "/assets/style.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-08-05 20:43:57 +0100
+
+
+Started GET "/assets/scaffolds.self-052d2e641572a5ba24cd3fbea3f76146c96d0c92e2d5f14810893d6a6d7e3136.css?body=1" for ::1 at 2015-08-05 20:43:57 +0100
+
+
+Started GET "/assets/saloons.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-08-05 20:43:57 +0100
+
+
+Started GET "/assets/nav_bar.self-3eca88b91807d88eb9a6bd3a029470da75e3106fab12372f34f6d9061a6801c1.css?body=1" for ::1 at 2015-08-05 20:43:57 +0100
+
+
+Started GET "/assets/home.self-77c3659af52298e90b20762e37abc91bb770428677899644a65866d4de189c81.css?body=1" for ::1 at 2015-08-05 20:43:57 +0100
+
+
+Started GET "/assets/application.self-167193cd81d9330d9ddb5c4ec7b44214fea529aa8a94f3a86e6526e4f652fc02.css?body=1" for ::1 at 2015-08-05 20:43:57 +0100
+
+
+Started GET "/assets/vendor/modernizr.self-74da3245def7569da28115667be6a85a2ad97464abe707c9829c46d8975597bc.js?body=1" for ::1 at 2015-08-05 20:43:57 +0100
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-08-05 20:43:57 +0100
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-08-05 20:43:57 +0100
+
+
+Started GET "/assets/users.self-9a964ccfd99c58275aded15c5ea08d2b394bc647b284142168d10e1da0f3a5bb.css?body=1" for ::1 at 2015-08-05 20:43:57 +0100
+
+
+Started GET "/assets/foundation/foundation.self-ee5396739ce46beb039f26ea629172a74143752d74f703c6c3b219fc52aecf73.js?body=1" for ::1 at 2015-08-05 20:43:57 +0100
+
+
+Started GET "/assets/foundation/foundation.abide.self-f8b56c707a79139807305a5f7efc2aaa0848f0c677abcc056496f507e0192b79.js?body=1" for ::1 at 2015-08-05 20:43:57 +0100
+
+
+Started GET "/assets/foundation/foundation.accordion.self-d55abdcb0a7a29512be2f31f63d418cc8cc4505a0a3c71946d25484b0a0b3f4e.js?body=1" for ::1 at 2015-08-05 20:43:57 +0100
+
+
+Started GET "/assets/foundation/foundation.alert.self-fbde7afb61e8ffd8ab9b717f0bed1e58cb9e0144a25cc773fea634d5554f62cd.js?body=1" for ::1 at 2015-08-05 20:43:57 +0100
+
+
+Started GET "/assets/foundation/foundation.clearing.self-54610737b435a97590fcb176848c3c7a44c4d55d369894260fa7c28c97a70a23.js?body=1" for ::1 at 2015-08-05 20:43:57 +0100
+
+
+Started GET "/assets/foundation/foundation.dropdown.self-c9ee29909e266373e5e814a73fc6ea062245ddd29466d35d232448f73350d78a.js?body=1" for ::1 at 2015-08-05 20:43:57 +0100
+
+
+Started GET "/assets/foundation/foundation.equalizer.self-7aa743bf4660deb2fb2f601c112806a1703c430067531da3f41e4afffe19fee9.js?body=1" for ::1 at 2015-08-05 20:43:57 +0100
+
+
+Started GET "/assets/foundation/foundation.joyride.self-0a5271728699423f583dd5b3b8a11bfe0dc9fb5044446bcf3218ef8ca906a82d.js?body=1" for ::1 at 2015-08-05 20:43:57 +0100
+
+
+Started GET "/assets/foundation/foundation.magellan.self-a50193f172f11e57b373c3001072ba2d6b34b857ab251e9ded30af5242855687.js?body=1" for ::1 at 2015-08-05 20:43:57 +0100
+
+
+Started GET "/assets/foundation/foundation.interchange.self-dad8415355087cb21a16fa44bac20d602344d52de5aca9e588e3588fce5dd5a7.js?body=1" for ::1 at 2015-08-05 20:43:57 +0100
+
+
+Started GET "/assets/foundation/foundation.offcanvas.self-75bffd0c7f4f0d2992ab95f0cc6959282ebb5807da70123d40c01d76e230ec88.js?body=1" for ::1 at 2015-08-05 20:43:57 +0100
+
+
+Started GET "/assets/foundation/foundation.orbit.self-f8d30eb1717c874db26723f9e07901ec0a325d59263f1404ee83a616bb597ad2.js?body=1" for ::1 at 2015-08-05 20:43:57 +0100
+
+
+Started GET "/assets/foundation/foundation.reveal.self-95f01feb3e25e47b58b78da0021ae2fffafdee70846682067c180e0e10f7b095.js?body=1" for ::1 at 2015-08-05 20:43:57 +0100
+
+
+Started GET "/assets/foundation/foundation.slider.self-8911a7352cb577b6b7973b0734d57d2b624c79286558ffa36fcac0c29b2d0bee.js?body=1" for ::1 at 2015-08-05 20:43:57 +0100
+
+
+Started GET "/assets/foundation/foundation.tab.self-9bf6791513d1b20e213bb1aee3df0bc17128c7e18421258dc68a2a4ccabe1647.js?body=1" for ::1 at 2015-08-05 20:43:57 +0100
+
+
+Started GET "/assets/foundation/foundation.tooltip.self-834156796c253580629cfffc720bdc3d191b1e5a5a6ddbc1102ecd08c876516c.js?body=1" for ::1 at 2015-08-05 20:43:57 +0100
+
+
+Started GET "/assets/foundation/foundation.topbar.self-105416f061562f07c6a0a8057d68282fdc1eeb5dc306713fcae6c9a53001fc55.js?body=1" for ::1 at 2015-08-05 20:43:57 +0100
+
+
+Started GET "/assets/foundation.self-abe4ee7a105042f73b12b1f1a28788522d2f253445a475a94ab4d6e1f7b0ec52.js?body=1" for ::1 at 2015-08-05 20:43:57 +0100
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-08-05 20:43:57 +0100
+
+
+Started GET "/assets/barbers.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-08-05 20:43:57 +0100
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-08-05 20:43:57 +0100
+
+
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-08-05 20:43:57 +0100
+
+
+Started GET "/assets/saloons.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-08-05 20:43:57 +0100
+
+
+Started GET "/assets/style.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-08-05 20:43:58 +0100
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-08-05 20:43:58 +0100
+
+
+Started GET "/assets/application.self-ae886bac2282e732c520fdcf5e96a3f074e152124a0d788c1baf2f80f253106d.js?body=1" for ::1 at 2015-08-05 20:43:58 +0100
+
+
+Started GET "/saloons" for ::1 at 2015-08-05 20:44:02 +0100
+Processing by SaloonsController#index as HTML
+  [1m[36mSaloon Load (0.3ms)[0m  [1mSELECT "saloons".* FROM "saloons"[0m
+  Rendered saloons/index.html.erb within layouts/application (6.2ms)
+Completed 200 OK in 731ms (Views: 728.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/barbers" for ::1 at 2015-08-05 20:44:05 +0100
+Processing by BarbersController#new as HTML
+  Rendered barbers/new.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 558ms (Views: 556.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home" for ::1 at 2015-08-05 20:44:10 +0100
+Processing by HomeController#new as HTML
+  Rendered home/new.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 880ms (Views: 879.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home" for ::1 at 2015-08-05 20:46:25 +0100
+Processing by HomeController#new as HTML
+  Rendered home/new.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 1044ms (Views: 1043.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/foundation_and_overrides.self-b61dfd322ef67243923023aac0591c74ea20fca90045603df1c534fdfdbecfcf.css?body=1" for ::1 at 2015-08-05 20:46:27 +0100
+
+
+Started GET "/assets/scaffolds.self-052d2e641572a5ba24cd3fbea3f76146c96d0c92e2d5f14810893d6a6d7e3136.css?body=1" for ::1 at 2015-08-05 20:46:27 +0100
+
+
+Started GET "/assets/home.self-29588bbc8f65295c1e12b9d04777fdd4c52274af2042764c90fc44b821e987f2.css?body=1" for ::1 at 2015-08-05 20:46:27 +0100
+
+
+Started GET "/assets/nav_bar.self-3eca88b91807d88eb9a6bd3a029470da75e3106fab12372f34f6d9061a6801c1.css?body=1" for ::1 at 2015-08-05 20:46:27 +0100
+
+
+Started GET "/assets/saloons.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-08-05 20:46:27 +0100
+
+
+Started GET "/assets/style.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-08-05 20:46:27 +0100
+
+
+Started GET "/assets/application.self-167193cd81d9330d9ddb5c4ec7b44214fea529aa8a94f3a86e6526e4f652fc02.css?body=1" for ::1 at 2015-08-05 20:46:27 +0100
+
+
+Started GET "/assets/vendor/modernizr.self-74da3245def7569da28115667be6a85a2ad97464abe707c9829c46d8975597bc.js?body=1" for ::1 at 2015-08-05 20:46:27 +0100
+
+
+Started GET "/assets/users.self-9a964ccfd99c58275aded15c5ea08d2b394bc647b284142168d10e1da0f3a5bb.css?body=1" for ::1 at 2015-08-05 20:46:27 +0100
+
+
+Started GET "/assets/barbers.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-08-05 20:46:27 +0100
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-08-05 20:46:27 +0100
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-08-05 20:46:27 +0100
+
+
+Started GET "/assets/foundation/foundation.abide.self-f8b56c707a79139807305a5f7efc2aaa0848f0c677abcc056496f507e0192b79.js?body=1" for ::1 at 2015-08-05 20:46:27 +0100
+
+
+Started GET "/assets/foundation/foundation.self-ee5396739ce46beb039f26ea629172a74143752d74f703c6c3b219fc52aecf73.js?body=1" for ::1 at 2015-08-05 20:46:27 +0100
+
+
+Started GET "/assets/foundation/foundation.accordion.self-d55abdcb0a7a29512be2f31f63d418cc8cc4505a0a3c71946d25484b0a0b3f4e.js?body=1" for ::1 at 2015-08-05 20:46:27 +0100
+
+
+Started GET "/assets/foundation/foundation.alert.self-fbde7afb61e8ffd8ab9b717f0bed1e58cb9e0144a25cc773fea634d5554f62cd.js?body=1" for ::1 at 2015-08-05 20:46:27 +0100
+
+
+Started GET "/assets/foundation/foundation.clearing.self-54610737b435a97590fcb176848c3c7a44c4d55d369894260fa7c28c97a70a23.js?body=1" for ::1 at 2015-08-05 20:46:27 +0100
+
+
+Started GET "/assets/foundation/foundation.dropdown.self-c9ee29909e266373e5e814a73fc6ea062245ddd29466d35d232448f73350d78a.js?body=1" for ::1 at 2015-08-05 20:46:27 +0100
+
+
+Started GET "/assets/foundation/foundation.equalizer.self-7aa743bf4660deb2fb2f601c112806a1703c430067531da3f41e4afffe19fee9.js?body=1" for ::1 at 2015-08-05 20:46:27 +0100
+
+
+Started GET "/assets/foundation/foundation.joyride.self-0a5271728699423f583dd5b3b8a11bfe0dc9fb5044446bcf3218ef8ca906a82d.js?body=1" for ::1 at 2015-08-05 20:46:27 +0100
+
+
+Started GET "/assets/foundation/foundation.offcanvas.self-75bffd0c7f4f0d2992ab95f0cc6959282ebb5807da70123d40c01d76e230ec88.js?body=1" for ::1 at 2015-08-05 20:46:27 +0100
+
+
+Started GET "/assets/foundation/foundation.interchange.self-dad8415355087cb21a16fa44bac20d602344d52de5aca9e588e3588fce5dd5a7.js?body=1" for ::1 at 2015-08-05 20:46:27 +0100
+
+
+Started GET "/assets/foundation/foundation.orbit.self-f8d30eb1717c874db26723f9e07901ec0a325d59263f1404ee83a616bb597ad2.js?body=1" for ::1 at 2015-08-05 20:46:27 +0100
+
+
+Started GET "/assets/foundation/foundation.magellan.self-a50193f172f11e57b373c3001072ba2d6b34b857ab251e9ded30af5242855687.js?body=1" for ::1 at 2015-08-05 20:46:27 +0100
+
+
+Started GET "/assets/foundation/foundation.slider.self-8911a7352cb577b6b7973b0734d57d2b624c79286558ffa36fcac0c29b2d0bee.js?body=1" for ::1 at 2015-08-05 20:46:27 +0100
+
+
+Started GET "/assets/foundation/foundation.reveal.self-95f01feb3e25e47b58b78da0021ae2fffafdee70846682067c180e0e10f7b095.js?body=1" for ::1 at 2015-08-05 20:46:27 +0100
+
+
+Started GET "/assets/foundation/foundation.tab.self-9bf6791513d1b20e213bb1aee3df0bc17128c7e18421258dc68a2a4ccabe1647.js?body=1" for ::1 at 2015-08-05 20:46:27 +0100
+
+
+Started GET "/assets/foundation.self-abe4ee7a105042f73b12b1f1a28788522d2f253445a475a94ab4d6e1f7b0ec52.js?body=1" for ::1 at 2015-08-05 20:46:27 +0100
+
+
+Started GET "/assets/foundation/foundation.topbar.self-105416f061562f07c6a0a8057d68282fdc1eeb5dc306713fcae6c9a53001fc55.js?body=1" for ::1 at 2015-08-05 20:46:27 +0100
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-08-05 20:46:27 +0100
+
+
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-08-05 20:46:27 +0100
+
+
+Started GET "/assets/foundation/foundation.tooltip.self-834156796c253580629cfffc720bdc3d191b1e5a5a6ddbc1102ecd08c876516c.js?body=1" for ::1 at 2015-08-05 20:46:27 +0100
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-08-05 20:46:27 +0100
+
+
+Started GET "/assets/barbers.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-08-05 20:46:27 +0100
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-08-05 20:46:27 +0100
+
+
+Started GET "/assets/application.self-ae886bac2282e732c520fdcf5e96a3f074e152124a0d788c1baf2f80f253106d.js?body=1" for ::1 at 2015-08-05 20:46:27 +0100
+
+
+Started GET "/assets/style.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-08-05 20:46:28 +0100
+
+
+Started GET "/assets/saloons.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-08-05 20:46:28 +0100
+
+
+Started GET "/assets/foundation/foundation.offcanvas.self-75bffd0c7f4f0d2992ab95f0cc6959282ebb5807da70123d40c01d76e230ec88.js?body=1" for ::1 at 2015-08-05 20:46:28 +0100
+
+
+Started GET "/assets/foundation/foundation.orbit.self-f8d30eb1717c874db26723f9e07901ec0a325d59263f1404ee83a616bb597ad2.js?body=1" for ::1 at 2015-08-05 20:46:28 +0100
+
+
+Started GET "/assets/foundation/foundation.reveal.self-95f01feb3e25e47b58b78da0021ae2fffafdee70846682067c180e0e10f7b095.js?body=1" for ::1 at 2015-08-05 20:46:28 +0100
+
+
+Started GET "/assets/foundation/foundation.slider.self-8911a7352cb577b6b7973b0734d57d2b624c79286558ffa36fcac0c29b2d0bee.js?body=1" for ::1 at 2015-08-05 20:46:28 +0100
+
+
+Started GET "/assets/foundation/foundation.tab.self-9bf6791513d1b20e213bb1aee3df0bc17128c7e18421258dc68a2a4ccabe1647.js?body=1" for ::1 at 2015-08-05 20:46:28 +0100
+
+
+Started GET "/assets/foundation/foundation.tooltip.self-834156796c253580629cfffc720bdc3d191b1e5a5a6ddbc1102ecd08c876516c.js?body=1" for ::1 at 2015-08-05 20:46:28 +0100
+
+
+Started GET "/assets/foundation/foundation.topbar.self-105416f061562f07c6a0a8057d68282fdc1eeb5dc306713fcae6c9a53001fc55.js?body=1" for ::1 at 2015-08-05 20:46:28 +0100
+
+
+Started GET "/assets/foundation.self-abe4ee7a105042f73b12b1f1a28788522d2f253445a475a94ab4d6e1f7b0ec52.js?body=1" for ::1 at 2015-08-05 20:46:28 +0100
+
+
+Started GET "/assets/barbers.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-08-05 20:46:28 +0100
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-08-05 20:46:28 +0100
+
+
+Started GET "/assets/saloons.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-08-05 20:46:28 +0100
+
+
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-08-05 20:46:28 +0100
+
+
+Started GET "/assets/style.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-08-05 20:46:28 +0100
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-08-05 20:46:28 +0100
+
+
+Started GET "/assets/application.self-ae886bac2282e732c520fdcf5e96a3f074e152124a0d788c1baf2f80f253106d.js?body=1" for ::1 at 2015-08-05 20:46:28 +0100
+
+
+Started GET "/home" for ::1 at 2015-08-05 20:47:44 +0100
+Processing by HomeController#new as HTML
+  Rendered home/new.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 778ms (Views: 777.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/foundation_and_overrides.self-b61dfd322ef67243923023aac0591c74ea20fca90045603df1c534fdfdbecfcf.css?body=1" for ::1 at 2015-08-05 20:47:44 +0100
+
+
+Started GET "/assets/home.self-29588bbc8f65295c1e12b9d04777fdd4c52274af2042764c90fc44b821e987f2.css?body=1" for ::1 at 2015-08-05 20:47:45 +0100
+
+
+Started GET "/assets/scaffolds.self-052d2e641572a5ba24cd3fbea3f76146c96d0c92e2d5f14810893d6a6d7e3136.css?body=1" for ::1 at 2015-08-05 20:47:45 +0100
+
+
+Started GET "/assets/saloons.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-08-05 20:47:45 +0100
+
+
+Started GET "/assets/nav_bar.self-3eca88b91807d88eb9a6bd3a029470da75e3106fab12372f34f6d9061a6801c1.css?body=1" for ::1 at 2015-08-05 20:47:45 +0100
+
+
+Started GET "/assets/style.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-08-05 20:47:45 +0100
+
+
+Started GET "/assets/users.self-9a964ccfd99c58275aded15c5ea08d2b394bc647b284142168d10e1da0f3a5bb.css?body=1" for ::1 at 2015-08-05 20:47:45 +0100
+
+
+Started GET "/assets/barbers.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-08-05 20:47:45 +0100
+
+
+Started GET "/assets/application.self-167193cd81d9330d9ddb5c4ec7b44214fea529aa8a94f3a86e6526e4f652fc02.css?body=1" for ::1 at 2015-08-05 20:47:45 +0100
+
+
+Started GET "/assets/vendor/modernizr.self-74da3245def7569da28115667be6a85a2ad97464abe707c9829c46d8975597bc.js?body=1" for ::1 at 2015-08-05 20:47:45 +0100
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-08-05 20:47:45 +0100
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-08-05 20:47:45 +0100
+
+
+Started GET "/assets/foundation/foundation.self-ee5396739ce46beb039f26ea629172a74143752d74f703c6c3b219fc52aecf73.js?body=1" for ::1 at 2015-08-05 20:47:45 +0100
+
+
+Started GET "/assets/foundation/foundation.abide.self-f8b56c707a79139807305a5f7efc2aaa0848f0c677abcc056496f507e0192b79.js?body=1" for ::1 at 2015-08-05 20:47:45 +0100
+
+
+Started GET "/assets/foundation/foundation.accordion.self-d55abdcb0a7a29512be2f31f63d418cc8cc4505a0a3c71946d25484b0a0b3f4e.js?body=1" for ::1 at 2015-08-05 20:47:45 +0100
+
+
+Started GET "/assets/foundation/foundation.alert.self-fbde7afb61e8ffd8ab9b717f0bed1e58cb9e0144a25cc773fea634d5554f62cd.js?body=1" for ::1 at 2015-08-05 20:47:45 +0100
+
+
+Started GET "/assets/foundation/foundation.clearing.self-54610737b435a97590fcb176848c3c7a44c4d55d369894260fa7c28c97a70a23.js?body=1" for ::1 at 2015-08-05 20:47:45 +0100
+
+
+Started GET "/assets/foundation/foundation.equalizer.self-7aa743bf4660deb2fb2f601c112806a1703c430067531da3f41e4afffe19fee9.js?body=1" for ::1 at 2015-08-05 20:47:45 +0100
+
+
+Started GET "/assets/foundation/foundation.interchange.self-dad8415355087cb21a16fa44bac20d602344d52de5aca9e588e3588fce5dd5a7.js?body=1" for ::1 at 2015-08-05 20:47:45 +0100
+
+
+Started GET "/assets/foundation/foundation.magellan.self-a50193f172f11e57b373c3001072ba2d6b34b857ab251e9ded30af5242855687.js?body=1" for ::1 at 2015-08-05 20:47:45 +0100
+
+
+Started GET "/assets/foundation/foundation.offcanvas.self-75bffd0c7f4f0d2992ab95f0cc6959282ebb5807da70123d40c01d76e230ec88.js?body=1" for ::1 at 2015-08-05 20:47:45 +0100
+
+
+Started GET "/assets/foundation/foundation.joyride.self-0a5271728699423f583dd5b3b8a11bfe0dc9fb5044446bcf3218ef8ca906a82d.js?body=1" for ::1 at 2015-08-05 20:47:45 +0100
+
+
+Started GET "/assets/foundation/foundation.dropdown.self-c9ee29909e266373e5e814a73fc6ea062245ddd29466d35d232448f73350d78a.js?body=1" for ::1 at 2015-08-05 20:47:45 +0100
+
+
+Started GET "/assets/foundation/foundation.orbit.self-f8d30eb1717c874db26723f9e07901ec0a325d59263f1404ee83a616bb597ad2.js?body=1" for ::1 at 2015-08-05 20:47:45 +0100
+
+
+Started GET "/assets/foundation/foundation.slider.self-8911a7352cb577b6b7973b0734d57d2b624c79286558ffa36fcac0c29b2d0bee.js?body=1" for ::1 at 2015-08-05 20:47:45 +0100
+
+
+Started GET "/assets/foundation/foundation.reveal.self-95f01feb3e25e47b58b78da0021ae2fffafdee70846682067c180e0e10f7b095.js?body=1" for ::1 at 2015-08-05 20:47:45 +0100
+
+
+Started GET "/assets/foundation/foundation.tab.self-9bf6791513d1b20e213bb1aee3df0bc17128c7e18421258dc68a2a4ccabe1647.js?body=1" for ::1 at 2015-08-05 20:47:45 +0100
+
+
+Started GET "/assets/foundation/foundation.tooltip.self-834156796c253580629cfffc720bdc3d191b1e5a5a6ddbc1102ecd08c876516c.js?body=1" for ::1 at 2015-08-05 20:47:45 +0100
+
+
+Started GET "/assets/foundation/foundation.topbar.self-105416f061562f07c6a0a8057d68282fdc1eeb5dc306713fcae6c9a53001fc55.js?body=1" for ::1 at 2015-08-05 20:47:45 +0100
+
+
+Started GET "/assets/foundation.self-abe4ee7a105042f73b12b1f1a28788522d2f253445a475a94ab4d6e1f7b0ec52.js?body=1" for ::1 at 2015-08-05 20:47:45 +0100
+
+
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-08-05 20:47:45 +0100
+
+
+Started GET "/assets/barbers.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-08-05 20:47:45 +0100
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-08-05 20:47:45 +0100
+
+
+Started GET "/assets/saloons.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-08-05 20:47:45 +0100
+
+
+Started GET "/assets/application.self-ae886bac2282e732c520fdcf5e96a3f074e152124a0d788c1baf2f80f253106d.js?body=1" for ::1 at 2015-08-05 20:47:45 +0100
+
+
+Started GET "/assets/style.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-08-05 20:47:45 +0100
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-08-05 20:47:45 +0100
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-08-05 20:47:45 +0100
+
+
+Started GET "/assets/barbers.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-08-05 20:47:46 +0100
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-08-05 20:47:46 +0100
+
+
+Started GET "/assets/saloons.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-08-05 20:47:46 +0100
+
+
+Started GET "/home" for ::1 at 2015-08-05 20:47:55 +0100
+Processing by HomeController#new as HTML
+  Rendered home/new.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 519ms (Views: 517.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/foundation_and_overrides.self-b61dfd322ef67243923023aac0591c74ea20fca90045603df1c534fdfdbecfcf.css?body=1" for ::1 at 2015-08-05 20:47:56 +0100
+
+
+Started GET "/assets/home.self-29588bbc8f65295c1e12b9d04777fdd4c52274af2042764c90fc44b821e987f2.css?body=1" for ::1 at 2015-08-05 20:47:56 +0100
+
+
+Started GET "/assets/nav_bar.self-3eca88b91807d88eb9a6bd3a029470da75e3106fab12372f34f6d9061a6801c1.css?body=1" for ::1 at 2015-08-05 20:47:56 +0100
+
+
+Started GET "/assets/saloons.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-08-05 20:47:56 +0100
+
+
+Started GET "/assets/scaffolds.self-052d2e641572a5ba24cd3fbea3f76146c96d0c92e2d5f14810893d6a6d7e3136.css?body=1" for ::1 at 2015-08-05 20:47:56 +0100
+
+
+Started GET "/assets/style.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-08-05 20:47:56 +0100
+
+
+Started GET "/assets/users.self-9a964ccfd99c58275aded15c5ea08d2b394bc647b284142168d10e1da0f3a5bb.css?body=1" for ::1 at 2015-08-05 20:47:56 +0100
+
+
+Started GET "/assets/vendor/modernizr.self-74da3245def7569da28115667be6a85a2ad97464abe707c9829c46d8975597bc.js?body=1" for ::1 at 2015-08-05 20:47:56 +0100
+
+
+Started GET "/assets/application.self-167193cd81d9330d9ddb5c4ec7b44214fea529aa8a94f3a86e6526e4f652fc02.css?body=1" for ::1 at 2015-08-05 20:47:56 +0100
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-08-05 20:47:56 +0100
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-08-05 20:47:56 +0100
+
+
+Started GET "/assets/foundation/foundation.self-ee5396739ce46beb039f26ea629172a74143752d74f703c6c3b219fc52aecf73.js?body=1" for ::1 at 2015-08-05 20:47:56 +0100
+
+
+Started GET "/assets/foundation/foundation.alert.self-fbde7afb61e8ffd8ab9b717f0bed1e58cb9e0144a25cc773fea634d5554f62cd.js?body=1" for ::1 at 2015-08-05 20:47:56 +0100
+
+
+Started GET "/assets/foundation/foundation.accordion.self-d55abdcb0a7a29512be2f31f63d418cc8cc4505a0a3c71946d25484b0a0b3f4e.js?body=1" for ::1 at 2015-08-05 20:47:56 +0100
+
+
+Started GET "/assets/foundation/foundation.dropdown.self-c9ee29909e266373e5e814a73fc6ea062245ddd29466d35d232448f73350d78a.js?body=1" for ::1 at 2015-08-05 20:47:56 +0100
+
+
+Started GET "/assets/barbers.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-08-05 20:47:56 +0100
+
+
+Started GET "/assets/foundation/foundation.abide.self-f8b56c707a79139807305a5f7efc2aaa0848f0c677abcc056496f507e0192b79.js?body=1" for ::1 at 2015-08-05 20:47:56 +0100
+
+
+Started GET "/assets/foundation/foundation.equalizer.self-7aa743bf4660deb2fb2f601c112806a1703c430067531da3f41e4afffe19fee9.js?body=1" for ::1 at 2015-08-05 20:47:56 +0100
+
+
+Started GET "/assets/foundation/foundation.clearing.self-54610737b435a97590fcb176848c3c7a44c4d55d369894260fa7c28c97a70a23.js?body=1" for ::1 at 2015-08-05 20:47:56 +0100
+
+
+Started GET "/assets/foundation/foundation.interchange.self-dad8415355087cb21a16fa44bac20d602344d52de5aca9e588e3588fce5dd5a7.js?body=1" for ::1 at 2015-08-05 20:47:56 +0100
+
+
+Started GET "/assets/foundation/foundation.offcanvas.self-75bffd0c7f4f0d2992ab95f0cc6959282ebb5807da70123d40c01d76e230ec88.js?body=1" for ::1 at 2015-08-05 20:47:56 +0100
+
+
+Started GET "/assets/foundation/foundation.joyride.self-0a5271728699423f583dd5b3b8a11bfe0dc9fb5044446bcf3218ef8ca906a82d.js?body=1" for ::1 at 2015-08-05 20:47:56 +0100
+
+
+Started GET "/assets/foundation/foundation.orbit.self-f8d30eb1717c874db26723f9e07901ec0a325d59263f1404ee83a616bb597ad2.js?body=1" for ::1 at 2015-08-05 20:47:56 +0100
+
+
+Started GET "/assets/foundation/foundation.magellan.self-a50193f172f11e57b373c3001072ba2d6b34b857ab251e9ded30af5242855687.js?body=1" for ::1 at 2015-08-05 20:47:56 +0100
+
+
+Started GET "/assets/foundation/foundation.reveal.self-95f01feb3e25e47b58b78da0021ae2fffafdee70846682067c180e0e10f7b095.js?body=1" for ::1 at 2015-08-05 20:47:56 +0100
+
+
+Started GET "/assets/foundation/foundation.slider.self-8911a7352cb577b6b7973b0734d57d2b624c79286558ffa36fcac0c29b2d0bee.js?body=1" for ::1 at 2015-08-05 20:47:56 +0100
+
+
+Started GET "/assets/foundation/foundation.tab.self-9bf6791513d1b20e213bb1aee3df0bc17128c7e18421258dc68a2a4ccabe1647.js?body=1" for ::1 at 2015-08-05 20:47:56 +0100
+
+
+Started GET "/assets/foundation/foundation.tooltip.self-834156796c253580629cfffc720bdc3d191b1e5a5a6ddbc1102ecd08c876516c.js?body=1" for ::1 at 2015-08-05 20:47:56 +0100
+
+
+Started GET "/assets/foundation.self-abe4ee7a105042f73b12b1f1a28788522d2f253445a475a94ab4d6e1f7b0ec52.js?body=1" for ::1 at 2015-08-05 20:47:56 +0100
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-08-05 20:47:56 +0100
+
+
+Started GET "/assets/foundation/foundation.topbar.self-105416f061562f07c6a0a8057d68282fdc1eeb5dc306713fcae6c9a53001fc55.js?body=1" for ::1 at 2015-08-05 20:47:56 +0100
+
+
+Started GET "/assets/barbers.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-08-05 20:47:56 +0100
+
+
+Started GET "/assets/saloons.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-08-05 20:47:56 +0100
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-08-05 20:47:56 +0100
+
+
+Started GET "/assets/style.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-08-05 20:47:56 +0100
+
+
+Started GET "/assets/application.self-ae886bac2282e732c520fdcf5e96a3f074e152124a0d788c1baf2f80f253106d.js?body=1" for ::1 at 2015-08-05 20:47:56 +0100
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-08-05 20:47:56 +0100
+
+
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-08-05 20:47:56 +0100
+
+
+Started GET "/home" for ::1 at 2015-08-05 20:58:42 +0100
+Processing by HomeController#new as HTML
+  Rendered home/new.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 939ms (Views: 938.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/foundation_and_overrides.self-b61dfd322ef67243923023aac0591c74ea20fca90045603df1c534fdfdbecfcf.css?body=1" for ::1 at 2015-08-05 20:58:43 +0100
+
+
+Started GET "/assets/nav_bar.self-3eca88b91807d88eb9a6bd3a029470da75e3106fab12372f34f6d9061a6801c1.css?body=1" for ::1 at 2015-08-05 20:58:43 +0100
+
+
+Started GET "/assets/home.self-51a1a9cafa1be13bede63f0d25c4b979c6c9cb6ea6e093bd535dab32059ddf53.css?body=1" for ::1 at 2015-08-05 20:58:43 +0100
+
+
+Started GET "/assets/saloons.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-08-05 20:58:43 +0100
+
+
+Started GET "/assets/barbers.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-08-05 20:58:43 +0100
+
+
+Started GET "/assets/scaffolds.self-052d2e641572a5ba24cd3fbea3f76146c96d0c92e2d5f14810893d6a6d7e3136.css?body=1" for ::1 at 2015-08-05 20:58:43 +0100
+
+
+Started GET "/assets/application.self-167193cd81d9330d9ddb5c4ec7b44214fea529aa8a94f3a86e6526e4f652fc02.css?body=1" for ::1 at 2015-08-05 20:58:43 +0100
+
+
+Started GET "/assets/vendor/modernizr.self-74da3245def7569da28115667be6a85a2ad97464abe707c9829c46d8975597bc.js?body=1" for ::1 at 2015-08-05 20:58:43 +0100
+
+
+Started GET "/assets/users.self-9a964ccfd99c58275aded15c5ea08d2b394bc647b284142168d10e1da0f3a5bb.css?body=1" for ::1 at 2015-08-05 20:58:43 +0100
+
+
+Started GET "/assets/style.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-08-05 20:58:43 +0100
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-08-05 20:58:43 +0100
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-08-05 20:58:43 +0100
+
+
+Started GET "/assets/foundation/foundation.abide.self-f8b56c707a79139807305a5f7efc2aaa0848f0c677abcc056496f507e0192b79.js?body=1" for ::1 at 2015-08-05 20:58:43 +0100
+
+
+Started GET "/assets/foundation/foundation.self-ee5396739ce46beb039f26ea629172a74143752d74f703c6c3b219fc52aecf73.js?body=1" for ::1 at 2015-08-05 20:58:43 +0100
+
+
+Started GET "/assets/foundation/foundation.accordion.self-d55abdcb0a7a29512be2f31f63d418cc8cc4505a0a3c71946d25484b0a0b3f4e.js?body=1" for ::1 at 2015-08-05 20:58:43 +0100
+
+
+Started GET "/assets/foundation/foundation.alert.self-fbde7afb61e8ffd8ab9b717f0bed1e58cb9e0144a25cc773fea634d5554f62cd.js?body=1" for ::1 at 2015-08-05 20:58:43 +0100
+
+
+Started GET "/assets/foundation/foundation.clearing.self-54610737b435a97590fcb176848c3c7a44c4d55d369894260fa7c28c97a70a23.js?body=1" for ::1 at 2015-08-05 20:58:43 +0100
+
+
+Started GET "/assets/foundation/foundation.dropdown.self-c9ee29909e266373e5e814a73fc6ea062245ddd29466d35d232448f73350d78a.js?body=1" for ::1 at 2015-08-05 20:58:43 +0100
+
+
+Started GET "/assets/foundation/foundation.interchange.self-dad8415355087cb21a16fa44bac20d602344d52de5aca9e588e3588fce5dd5a7.js?body=1" for ::1 at 2015-08-05 20:58:43 +0100
+
+
+Started GET "/assets/foundation/foundation.joyride.self-0a5271728699423f583dd5b3b8a11bfe0dc9fb5044446bcf3218ef8ca906a82d.js?body=1" for ::1 at 2015-08-05 20:58:43 +0100
+
+
+Started GET "/assets/foundation/foundation.equalizer.self-7aa743bf4660deb2fb2f601c112806a1703c430067531da3f41e4afffe19fee9.js?body=1" for ::1 at 2015-08-05 20:58:43 +0100
+
+
+Started GET "/assets/foundation/foundation.offcanvas.self-75bffd0c7f4f0d2992ab95f0cc6959282ebb5807da70123d40c01d76e230ec88.js?body=1" for ::1 at 2015-08-05 20:58:43 +0100
+
+
+Started GET "/assets/foundation/foundation.magellan.self-a50193f172f11e57b373c3001072ba2d6b34b857ab251e9ded30af5242855687.js?body=1" for ::1 at 2015-08-05 20:58:43 +0100
+
+
+Started GET "/assets/foundation/foundation.orbit.self-f8d30eb1717c874db26723f9e07901ec0a325d59263f1404ee83a616bb597ad2.js?body=1" for ::1 at 2015-08-05 20:58:43 +0100
+
+
+Started GET "/assets/foundation/foundation.reveal.self-95f01feb3e25e47b58b78da0021ae2fffafdee70846682067c180e0e10f7b095.js?body=1" for ::1 at 2015-08-05 20:58:43 +0100
+
+
+Started GET "/assets/foundation/foundation.tab.self-9bf6791513d1b20e213bb1aee3df0bc17128c7e18421258dc68a2a4ccabe1647.js?body=1" for ::1 at 2015-08-05 20:58:43 +0100
+
+
+Started GET "/assets/foundation/foundation.tooltip.self-834156796c253580629cfffc720bdc3d191b1e5a5a6ddbc1102ecd08c876516c.js?body=1" for ::1 at 2015-08-05 20:58:43 +0100
+
+
+Started GET "/assets/foundation/foundation.slider.self-8911a7352cb577b6b7973b0734d57d2b624c79286558ffa36fcac0c29b2d0bee.js?body=1" for ::1 at 2015-08-05 20:58:43 +0100
+
+
+Started GET "/assets/foundation/foundation.topbar.self-105416f061562f07c6a0a8057d68282fdc1eeb5dc306713fcae6c9a53001fc55.js?body=1" for ::1 at 2015-08-05 20:58:43 +0100
+
+
+Started GET "/assets/foundation.self-abe4ee7a105042f73b12b1f1a28788522d2f253445a475a94ab4d6e1f7b0ec52.js?body=1" for ::1 at 2015-08-05 20:58:43 +0100
+
+
+Started GET "/assets/barbers.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-08-05 20:58:43 +0100
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-08-05 20:58:43 +0100
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-08-05 20:58:43 +0100
+
+
+Started GET "/assets/saloons.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-08-05 20:58:43 +0100
+
+
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-08-05 20:58:43 +0100
+
+
+Started GET "/assets/style.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-08-05 20:58:44 +0100
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-08-05 20:58:44 +0100
+
+
+Started GET "/assets/application.self-ae886bac2282e732c520fdcf5e96a3f074e152124a0d788c1baf2f80f253106d.js?body=1" for ::1 at 2015-08-05 20:58:44 +0100
+
+
+Started GET "/home" for ::1 at 2015-08-05 20:59:31 +0100
+Processing by HomeController#new as HTML
+  Rendered home/new.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 804ms (Views: 802.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home.self-4cf684b454f0839a9e95b9efac930ea2fef72f7bda82b346ebf3e54d65204059.css?body=1" for ::1 at 2015-08-05 20:59:32 +0100
+
+
+Started GET "/assets/foundation_and_overrides.self-b61dfd322ef67243923023aac0591c74ea20fca90045603df1c534fdfdbecfcf.css?body=1" for ::1 at 2015-08-05 20:59:32 +0100
+
+
+Started GET "/assets/nav_bar.self-3eca88b91807d88eb9a6bd3a029470da75e3106fab12372f34f6d9061a6801c1.css?body=1" for ::1 at 2015-08-05 20:59:32 +0100
+
+
+Started GET "/assets/saloons.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-08-05 20:59:32 +0100
+
+
+Started GET "/assets/scaffolds.self-052d2e641572a5ba24cd3fbea3f76146c96d0c92e2d5f14810893d6a6d7e3136.css?body=1" for ::1 at 2015-08-05 20:59:32 +0100
+
+
+Started GET "/assets/application.self-167193cd81d9330d9ddb5c4ec7b44214fea529aa8a94f3a86e6526e4f652fc02.css?body=1" for ::1 at 2015-08-05 20:59:32 +0100
+
+
+Started GET "/assets/vendor/modernizr.self-74da3245def7569da28115667be6a85a2ad97464abe707c9829c46d8975597bc.js?body=1" for ::1 at 2015-08-05 20:59:33 +0100
+
+
+Started GET "/assets/style.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-08-05 20:59:33 +0100
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-08-05 20:59:33 +0100
+
+
+Started GET "/assets/users.self-9a964ccfd99c58275aded15c5ea08d2b394bc647b284142168d10e1da0f3a5bb.css?body=1" for ::1 at 2015-08-05 20:59:33 +0100
+
+
+Started GET "/assets/barbers.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-08-05 20:59:33 +0100
+
+
+Started GET "/assets/foundation/foundation.self-ee5396739ce46beb039f26ea629172a74143752d74f703c6c3b219fc52aecf73.js?body=1" for ::1 at 2015-08-05 20:59:33 +0100
+
+
+Started GET "/assets/foundation/foundation.accordion.self-d55abdcb0a7a29512be2f31f63d418cc8cc4505a0a3c71946d25484b0a0b3f4e.js?body=1" for ::1 at 2015-08-05 20:59:33 +0100
+
+
+Started GET "/assets/foundation/foundation.abide.self-f8b56c707a79139807305a5f7efc2aaa0848f0c677abcc056496f507e0192b79.js?body=1" for ::1 at 2015-08-05 20:59:33 +0100
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-08-05 20:59:33 +0100
+
+
+Started GET "/assets/foundation/foundation.alert.self-fbde7afb61e8ffd8ab9b717f0bed1e58cb9e0144a25cc773fea634d5554f62cd.js?body=1" for ::1 at 2015-08-05 20:59:33 +0100
+
+
+Started GET "/assets/foundation/foundation.equalizer.self-7aa743bf4660deb2fb2f601c112806a1703c430067531da3f41e4afffe19fee9.js?body=1" for ::1 at 2015-08-05 20:59:33 +0100
+
+
+Started GET "/assets/foundation/foundation.interchange.self-dad8415355087cb21a16fa44bac20d602344d52de5aca9e588e3588fce5dd5a7.js?body=1" for ::1 at 2015-08-05 20:59:33 +0100
+
+
+Started GET "/assets/foundation/foundation.joyride.self-0a5271728699423f583dd5b3b8a11bfe0dc9fb5044446bcf3218ef8ca906a82d.js?body=1" for ::1 at 2015-08-05 20:59:33 +0100
+
+
+Started GET "/assets/foundation/foundation.dropdown.self-c9ee29909e266373e5e814a73fc6ea062245ddd29466d35d232448f73350d78a.js?body=1" for ::1 at 2015-08-05 20:59:33 +0100
+
+
+Started GET "/assets/foundation/foundation.magellan.self-a50193f172f11e57b373c3001072ba2d6b34b857ab251e9ded30af5242855687.js?body=1" for ::1 at 2015-08-05 20:59:33 +0100
+
+
+Started GET "/assets/foundation/foundation.offcanvas.self-75bffd0c7f4f0d2992ab95f0cc6959282ebb5807da70123d40c01d76e230ec88.js?body=1" for ::1 at 2015-08-05 20:59:33 +0100
+
+
+Started GET "/assets/foundation/foundation.clearing.self-54610737b435a97590fcb176848c3c7a44c4d55d369894260fa7c28c97a70a23.js?body=1" for ::1 at 2015-08-05 20:59:33 +0100
+
+
+Started GET "/assets/foundation/foundation.slider.self-8911a7352cb577b6b7973b0734d57d2b624c79286558ffa36fcac0c29b2d0bee.js?body=1" for ::1 at 2015-08-05 20:59:33 +0100
+
+
+Started GET "/assets/foundation/foundation.reveal.self-95f01feb3e25e47b58b78da0021ae2fffafdee70846682067c180e0e10f7b095.js?body=1" for ::1 at 2015-08-05 20:59:33 +0100
+
+
+Started GET "/assets/foundation/foundation.orbit.self-f8d30eb1717c874db26723f9e07901ec0a325d59263f1404ee83a616bb597ad2.js?body=1" for ::1 at 2015-08-05 20:59:33 +0100
+
+
+Started GET "/assets/foundation/foundation.tab.self-9bf6791513d1b20e213bb1aee3df0bc17128c7e18421258dc68a2a4ccabe1647.js?body=1" for ::1 at 2015-08-05 20:59:33 +0100
+
+
+Started GET "/assets/foundation/foundation.tooltip.self-834156796c253580629cfffc720bdc3d191b1e5a5a6ddbc1102ecd08c876516c.js?body=1" for ::1 at 2015-08-05 20:59:33 +0100
+
+
+Started GET "/assets/foundation/foundation.topbar.self-105416f061562f07c6a0a8057d68282fdc1eeb5dc306713fcae6c9a53001fc55.js?body=1" for ::1 at 2015-08-05 20:59:33 +0100
+
+
+Started GET "/assets/foundation.self-abe4ee7a105042f73b12b1f1a28788522d2f253445a475a94ab4d6e1f7b0ec52.js?body=1" for ::1 at 2015-08-05 20:59:33 +0100
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-08-05 20:59:33 +0100
+
+
+Started GET "/assets/barbers.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-08-05 20:59:33 +0100
+
+
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-08-05 20:59:33 +0100
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-08-05 20:59:33 +0100
+
+
+Started GET "/assets/saloons.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-08-05 20:59:33 +0100
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-08-05 20:59:33 +0100
+
+
+Started GET "/assets/application.self-ae886bac2282e732c520fdcf5e96a3f074e152124a0d788c1baf2f80f253106d.js?body=1" for ::1 at 2015-08-05 20:59:33 +0100
+
+
+Started GET "/assets/style.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-08-05 20:59:33 +0100
+
+
+Started GET "/saloons" for ::1 at 2015-08-05 20:59:45 +0100
+Processing by SaloonsController#index as HTML
+  [1m[35mSaloon Load (0.4ms)[0m  SELECT "saloons".* FROM "saloons"
+  Rendered saloons/index.html.erb within layouts/application (18.1ms)
+Completed 200 OK in 605ms (Views: 603.6ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/barbers" for ::1 at 2015-08-05 20:59:48 +0100
+Processing by BarbersController#new as HTML
+  Rendered barbers/new.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 533ms (Views: 532.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/saloons" for ::1 at 2015-08-05 20:59:50 +0100
+Processing by SaloonsController#index as HTML
+  [1m[36mSaloon Load (0.3ms)[0m  [1mSELECT "saloons".* FROM "saloons"[0m
+  Rendered saloons/index.html.erb within layouts/application (6.9ms)
+Completed 200 OK in 612ms (Views: 610.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/login" for ::1 at 2015-08-05 21:00:00 +0100
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 769ms (Views: 768.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/style" for ::1 at 2015-08-05 21:00:01 +0100
+Processing by StyleController#new as HTML
+  Rendered style/new.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 870ms (Views: 869.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/barbers" for ::1 at 2015-08-05 21:00:02 +0100
+Processing by BarbersController#new as HTML
+  Rendered barbers/new.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 550ms (Views: 549.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/saloons" for ::1 at 2015-08-05 21:00:04 +0100
+Processing by SaloonsController#index as HTML
+  [1m[35mSaloon Load (0.3ms)[0m  SELECT "saloons".* FROM "saloons"
+  Rendered saloons/index.html.erb within layouts/application (7.3ms)
+Completed 200 OK in 440ms (Views: 438.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/home" for ::1 at 2015-08-05 21:00:11 +0100
+Processing by HomeController#new as HTML
+  Rendered home/new.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 407ms (Views: 406.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/new" for ::1 at 2015-08-05 21:01:34 +0100
+Processing by UsersController#new as HTML
+  Rendered users/_form.html.erb (5.9ms)
+  Rendered users/new.html.erb within layouts/application (26.7ms)
+Completed 200 OK in 1196ms (Views: 1194.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/foundation_and_overrides.self-b61dfd322ef67243923023aac0591c74ea20fca90045603df1c534fdfdbecfcf.css?body=1" for ::1 at 2015-08-05 21:01:36 +0100
+
+
+Started GET "/assets/saloons.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-08-05 21:01:36 +0100
+
+
+Started GET "/assets/nav_bar.self-3eca88b91807d88eb9a6bd3a029470da75e3106fab12372f34f6d9061a6801c1.css?body=1" for ::1 at 2015-08-05 21:01:36 +0100
+
+
+Started GET "/assets/home.self-4cf684b454f0839a9e95b9efac930ea2fef72f7bda82b346ebf3e54d65204059.css?body=1" for ::1 at 2015-08-05 21:01:36 +0100
+
+
+Started GET "/assets/scaffolds.self-052d2e641572a5ba24cd3fbea3f76146c96d0c92e2d5f14810893d6a6d7e3136.css?body=1" for ::1 at 2015-08-05 21:01:36 +0100
+
+
+Started GET "/assets/application.self-167193cd81d9330d9ddb5c4ec7b44214fea529aa8a94f3a86e6526e4f652fc02.css?body=1" for ::1 at 2015-08-05 21:01:36 +0100
+
+
+Started GET "/assets/vendor/modernizr.self-74da3245def7569da28115667be6a85a2ad97464abe707c9829c46d8975597bc.js?body=1" for ::1 at 2015-08-05 21:01:36 +0100
+
+
+Started GET "/assets/users.self-9a964ccfd99c58275aded15c5ea08d2b394bc647b284142168d10e1da0f3a5bb.css?body=1" for ::1 at 2015-08-05 21:01:36 +0100
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-08-05 21:01:36 +0100
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-08-05 21:01:36 +0100
+
+
+Started GET "/assets/foundation/foundation.self-ee5396739ce46beb039f26ea629172a74143752d74f703c6c3b219fc52aecf73.js?body=1" for ::1 at 2015-08-05 21:01:36 +0100
+
+
+Started GET "/assets/barbers.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-08-05 21:01:36 +0100
+
+
+Started GET "/assets/foundation/foundation.alert.self-fbde7afb61e8ffd8ab9b717f0bed1e58cb9e0144a25cc773fea634d5554f62cd.js?body=1" for ::1 at 2015-08-05 21:01:36 +0100
+
+
+Started GET "/assets/foundation/foundation.clearing.self-54610737b435a97590fcb176848c3c7a44c4d55d369894260fa7c28c97a70a23.js?body=1" for ::1 at 2015-08-05 21:01:36 +0100
+
+
+Started GET "/assets/style.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-08-05 21:01:36 +0100
+
+
+Started GET "/assets/foundation/foundation.abide.self-f8b56c707a79139807305a5f7efc2aaa0848f0c677abcc056496f507e0192b79.js?body=1" for ::1 at 2015-08-05 21:01:36 +0100
+
+
+Started GET "/assets/foundation/foundation.accordion.self-d55abdcb0a7a29512be2f31f63d418cc8cc4505a0a3c71946d25484b0a0b3f4e.js?body=1" for ::1 at 2015-08-05 21:01:36 +0100
+
+
+Started GET "/assets/foundation/foundation.joyride.self-0a5271728699423f583dd5b3b8a11bfe0dc9fb5044446bcf3218ef8ca906a82d.js?body=1" for ::1 at 2015-08-05 21:01:36 +0100
+
+
+Started GET "/assets/foundation/foundation.dropdown.self-c9ee29909e266373e5e814a73fc6ea062245ddd29466d35d232448f73350d78a.js?body=1" for ::1 at 2015-08-05 21:01:36 +0100
+
+
+Started GET "/assets/foundation/foundation.interchange.self-dad8415355087cb21a16fa44bac20d602344d52de5aca9e588e3588fce5dd5a7.js?body=1" for ::1 at 2015-08-05 21:01:36 +0100
+
+
+Started GET "/assets/foundation/foundation.equalizer.self-7aa743bf4660deb2fb2f601c112806a1703c430067531da3f41e4afffe19fee9.js?body=1" for ::1 at 2015-08-05 21:01:36 +0100
+
+
+Started GET "/assets/foundation/foundation.magellan.self-a50193f172f11e57b373c3001072ba2d6b34b857ab251e9ded30af5242855687.js?body=1" for ::1 at 2015-08-05 21:01:36 +0100
+
+
+Started GET "/assets/foundation/foundation.offcanvas.self-75bffd0c7f4f0d2992ab95f0cc6959282ebb5807da70123d40c01d76e230ec88.js?body=1" for ::1 at 2015-08-05 21:01:36 +0100
+
+
+Started GET "/assets/foundation/foundation.reveal.self-95f01feb3e25e47b58b78da0021ae2fffafdee70846682067c180e0e10f7b095.js?body=1" for ::1 at 2015-08-05 21:01:36 +0100
+
+
+Started GET "/assets/foundation/foundation.orbit.self-f8d30eb1717c874db26723f9e07901ec0a325d59263f1404ee83a616bb597ad2.js?body=1" for ::1 at 2015-08-05 21:01:36 +0100
+
+
+Started GET "/assets/foundation/foundation.tab.self-9bf6791513d1b20e213bb1aee3df0bc17128c7e18421258dc68a2a4ccabe1647.js?body=1" for ::1 at 2015-08-05 21:01:37 +0100
+
+
+Started GET "/assets/foundation/foundation.topbar.self-105416f061562f07c6a0a8057d68282fdc1eeb5dc306713fcae6c9a53001fc55.js?body=1" for ::1 at 2015-08-05 21:01:37 +0100
+
+
+Started GET "/assets/foundation/foundation.tooltip.self-834156796c253580629cfffc720bdc3d191b1e5a5a6ddbc1102ecd08c876516c.js?body=1" for ::1 at 2015-08-05 21:01:37 +0100
+
+
+Started GET "/assets/foundation.self-abe4ee7a105042f73b12b1f1a28788522d2f253445a475a94ab4d6e1f7b0ec52.js?body=1" for ::1 at 2015-08-05 21:01:37 +0100
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-08-05 21:01:37 +0100
+
+
+Started GET "/assets/foundation/foundation.slider.self-8911a7352cb577b6b7973b0734d57d2b624c79286558ffa36fcac0c29b2d0bee.js?body=1" for ::1 at 2015-08-05 21:01:37 +0100
+
+
+Started GET "/assets/barbers.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-08-05 21:01:37 +0100
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-08-05 21:01:37 +0100
+
+
+Started GET "/assets/saloons.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-08-05 21:01:37 +0100
+
+
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-08-05 21:01:37 +0100
+
+
+Started GET "/assets/style.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-08-05 21:01:37 +0100
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-08-05 21:01:37 +0100
+
+
+Started GET "/assets/application.self-ae886bac2282e732c520fdcf5e96a3f074e152124a0d788c1baf2f80f253106d.js?body=1" for ::1 at 2015-08-05 21:01:37 +0100
+
+
+Started GET "/home" for ::1 at 2015-08-05 21:06:13 +0100
+Processing by HomeController#new as HTML
+  Rendered home/new.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 734ms (Views: 733.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-ae886bac2282e732c520fdcf5e96a3f074e152124a0d788c1baf2f80f253106d.js?body=1" for ::1 at 2015-08-05 21:06:14 +0100
+
+
+Started GET "/assets/foundation_and_overrides.self-b61dfd322ef67243923023aac0591c74ea20fca90045603df1c534fdfdbecfcf.css?body=1" for ::1 at 2015-08-05 21:06:14 +0100
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-08-05 21:06:14 +0100
+
+
+Started GET "/assets/saloons.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-08-05 21:06:14 +0100
+
+
+Started GET "/assets/home.self-4e0994137ca8c9009440ed7fcfb43c861830493bd26a8d75c6ab2952febb437f.css?body=1" for ::1 at 2015-08-05 21:06:14 +0100
+
+
+Started GET "/assets/nav_bar.self-3eca88b91807d88eb9a6bd3a029470da75e3106fab12372f34f6d9061a6801c1.css?body=1" for ::1 at 2015-08-05 21:06:14 +0100
+
+
+Started GET "/assets/scaffolds.self-052d2e641572a5ba24cd3fbea3f76146c96d0c92e2d5f14810893d6a6d7e3136.css?body=1" for ::1 at 2015-08-05 21:06:14 +0100
+
+
+Started GET "/assets/users.self-9a964ccfd99c58275aded15c5ea08d2b394bc647b284142168d10e1da0f3a5bb.css?body=1" for ::1 at 2015-08-05 21:06:14 +0100
+
+
+Started GET "/assets/style.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-08-05 21:06:14 +0100
+
+
+Started GET "/assets/application.self-167193cd81d9330d9ddb5c4ec7b44214fea529aa8a94f3a86e6526e4f652fc02.css?body=1" for ::1 at 2015-08-05 21:06:14 +0100
+
+
+Started GET "/assets/vendor/modernizr.self-74da3245def7569da28115667be6a85a2ad97464abe707c9829c46d8975597bc.js?body=1" for ::1 at 2015-08-05 21:06:14 +0100
+
+
+Started GET "/assets/foundation/foundation.abide.self-f8b56c707a79139807305a5f7efc2aaa0848f0c677abcc056496f507e0192b79.js?body=1" for ::1 at 2015-08-05 21:06:14 +0100
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-08-05 21:06:14 +0100
+
+
+Started GET "/assets/foundation/foundation.self-ee5396739ce46beb039f26ea629172a74143752d74f703c6c3b219fc52aecf73.js?body=1" for ::1 at 2015-08-05 21:06:14 +0100
+
+
+Started GET "/assets/barbers.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-08-05 21:06:14 +0100
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-08-05 21:06:14 +0100
+
+
+Started GET "/assets/foundation/foundation.accordion.self-d55abdcb0a7a29512be2f31f63d418cc8cc4505a0a3c71946d25484b0a0b3f4e.js?body=1" for ::1 at 2015-08-05 21:06:14 +0100
+
+
+Started GET "/assets/foundation/foundation.alert.self-fbde7afb61e8ffd8ab9b717f0bed1e58cb9e0144a25cc773fea634d5554f62cd.js?body=1" for ::1 at 2015-08-05 21:06:15 +0100
+
+
+Started GET "/assets/foundation/foundation.equalizer.self-7aa743bf4660deb2fb2f601c112806a1703c430067531da3f41e4afffe19fee9.js?body=1" for ::1 at 2015-08-05 21:06:15 +0100
+
+
+Started GET "/assets/foundation/foundation.dropdown.self-c9ee29909e266373e5e814a73fc6ea062245ddd29466d35d232448f73350d78a.js?body=1" for ::1 at 2015-08-05 21:06:15 +0100
+
+
+Started GET "/assets/foundation/foundation.interchange.self-dad8415355087cb21a16fa44bac20d602344d52de5aca9e588e3588fce5dd5a7.js?body=1" for ::1 at 2015-08-05 21:06:15 +0100
+
+
+Started GET "/assets/foundation/foundation.clearing.self-54610737b435a97590fcb176848c3c7a44c4d55d369894260fa7c28c97a70a23.js?body=1" for ::1 at 2015-08-05 21:06:15 +0100
+
+
+Started GET "/assets/foundation/foundation.magellan.self-a50193f172f11e57b373c3001072ba2d6b34b857ab251e9ded30af5242855687.js?body=1" for ::1 at 2015-08-05 21:06:15 +0100
+
+
+Started GET "/assets/foundation/foundation.joyride.self-0a5271728699423f583dd5b3b8a11bfe0dc9fb5044446bcf3218ef8ca906a82d.js?body=1" for ::1 at 2015-08-05 21:06:15 +0100
+
+
+Started GET "/assets/foundation/foundation.orbit.self-f8d30eb1717c874db26723f9e07901ec0a325d59263f1404ee83a616bb597ad2.js?body=1" for ::1 at 2015-08-05 21:06:15 +0100
+
+
+Started GET "/assets/foundation/foundation.reveal.self-95f01feb3e25e47b58b78da0021ae2fffafdee70846682067c180e0e10f7b095.js?body=1" for ::1 at 2015-08-05 21:06:15 +0100
+
+
+Started GET "/assets/foundation/foundation.offcanvas.self-75bffd0c7f4f0d2992ab95f0cc6959282ebb5807da70123d40c01d76e230ec88.js?body=1" for ::1 at 2015-08-05 21:06:15 +0100
+
+
+Started GET "/assets/foundation/foundation.slider.self-8911a7352cb577b6b7973b0734d57d2b624c79286558ffa36fcac0c29b2d0bee.js?body=1" for ::1 at 2015-08-05 21:06:15 +0100
+
+
+Started GET "/assets/foundation/foundation.tab.self-9bf6791513d1b20e213bb1aee3df0bc17128c7e18421258dc68a2a4ccabe1647.js?body=1" for ::1 at 2015-08-05 21:06:15 +0100
+
+
+Started GET "/assets/foundation/foundation.tooltip.self-834156796c253580629cfffc720bdc3d191b1e5a5a6ddbc1102ecd08c876516c.js?body=1" for ::1 at 2015-08-05 21:06:15 +0100
+
+
+Started GET "/assets/foundation/foundation.topbar.self-105416f061562f07c6a0a8057d68282fdc1eeb5dc306713fcae6c9a53001fc55.js?body=1" for ::1 at 2015-08-05 21:06:15 +0100
+
+
+Started GET "/assets/foundation.self-abe4ee7a105042f73b12b1f1a28788522d2f253445a475a94ab4d6e1f7b0ec52.js?body=1" for ::1 at 2015-08-05 21:06:15 +0100
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-08-05 21:06:15 +0100
+
+
+Started GET "/assets/barbers.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-08-05 21:06:15 +0100
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-08-05 21:06:15 +0100
+
+
+Started GET "/assets/saloons.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-08-05 21:06:15 +0100
+
+
+Started GET "/assets/style.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-08-05 21:06:15 +0100
+
+
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-08-05 21:06:15 +0100
+
+
+Started GET "/style" for ::1 at 2015-08-05 21:09:03 +0100
+Processing by StyleController#new as HTML
+  Rendered style/new.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 542ms (Views: 541.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/style" for ::1 at 2015-08-05 21:09:06 +0100
+Processing by StyleController#new as HTML
+  Rendered style/new.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 554ms (Views: 553.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/style" for ::1 at 2015-08-05 21:09:08 +0100
+Processing by StyleController#new as HTML
+  Rendered style/new.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 798ms (Views: 796.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/style" for ::1 at 2015-08-05 21:09:10 +0100
+Processing by StyleController#new as HTML
+  Rendered style/new.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 722ms (Views: 721.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home" for ::1 at 2015-08-05 21:09:20 +0100
+Processing by HomeController#new as HTML
+  Rendered home/new.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 571ms (Views: 570.0ms | ActiveRecord: 0.0ms)
