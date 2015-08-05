@@ -4,9 +4,9 @@ class SaloonsController < ApplicationController
   # GET /saloons
   # GET /saloons.json
   def index
-    @search = Saloons.search(param[:q])
+    @search = Saloon.search(params[:q])
     @saloons = @search.result
-    @saloons = Saloon.all
+    #@saloons = Saloon.all
   end
 
   # GET /saloons/1

@@ -6,7 +6,4 @@ class User < ActiveRecord::Base
   validates :email, presence: true, uniqueness: true
   validates :password, length: { in: 5..10 } 
 
-  acts_as_liker
-  acts_as_likeable
-
 end
