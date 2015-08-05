@@ -33,7 +33,16 @@
             <li><a href="#">funk</a></li>
             <li class="active"><a href="#">punk</a></li>
           </ul>
-          <li class="active"><a href="#"> login </a></li>
+         <li class= "user_status">
+           <% if current_user %>
+           <p>Hello, <%= current_user.email %></p>
+           <p>You are a <%= current_user.role %></p>
+           <%= link_to "Edit Profile", edit_user_path(current_user) %>
+           <%= link_to "Logout", logout_path, method: :delete, data: {confirm: "Are you sure?"} %>
+           <% else %>
+           <%= link_to "Login", login_path %>
+           <% end %>
+         </li>
           <li class="active"><a href="#"> Register </a></li>
 
           
@@ -44,16 +53,7 @@
       </section>
       </nav>
 
-      <div class= "user_status">
-        <% if current_user %>
-        <p>Hello, <%= current_user.email %></p>
-        <p>You are a <%= current_user.role %></p>
-        <%= link_to "Edit Profile", edit_user_path(current_user) %>
-        <%= link_to "Logout", logout_path, method: :delete, data: {confirm: "Are you sure?"} %>
-        <% else %>
-        <%= link_to "Please Login", login_path %>
-        <% end %>
-      </div>
+      
 
       <% flash.each do |name, message| %>
       <div class="flash-message flash-message-<%= name %>">
