@@ -2,27 +2,6 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
-input{
-  border-radius: 3px;
-}
-
-.saloon_search{
-position: center;
-margin: auto;
-width: 40%;
-padding: 30px;
-background-color: #1E415E;
-border-radius: 0;
-
-}
-
-.search-button{
-  border-radius: 6px;
-}
-
-.search_box{
-border-radius: 6px;
-}
 
 
 
@@ -30,63 +9,6 @@ border-radius: 6px;
 
 
 
-
-
-
-
-
-
-
-
-
-.search {
-  width: 100%;
-  position: relative
-}
-
-.searchTerm {
-  float: left;
-  width: 100%;
-  border: 3px solid #00B4CC;
-  padding: 5px;
-  height: 20px;
-  border-radius: 5px;
-  outline: none;
-  color: #9DBFAF;
-}
-
-.searchTerm:focus{
-  color: #00B4CC;
-}
-
-.searchButton {
-  position: absolute;
-  right: -50px;
-  width: 40px;
-  height: 36px;
-  opacity: 0;
-  cursor: pointer;
-}
-
-.search:before {
-  position: absolute;
-  right: -50px;
-  width: 40px;
-  height: 36px;
-  line-height: 36px;
-  background: #00B4CC;
-  text-align: center;
-  color: #fff;
-  border-radius: 5px;
-  font-family: 'FontAwesome';
-  content: '\f002';
-}
-
-/*Resize the wrap to see the search bar change!*/
-.wrap{
-  width: 30%;
-  margin: 10% auto;
-}
 
 
 

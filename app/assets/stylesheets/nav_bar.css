@@ -10,13 +10,10 @@ h1 {
   margin: 40px;
   }
 
- p{
+ p, a, label {
   color: white;
 }
 
-.saloon_search{
-width: 40%;
-}
 
  h1 a {
  font-size: 25px;
