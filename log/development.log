@@ -57079,3 +57079,259 @@ Processing by SaloonsController#new as HTML
   Rendered saloons/_form.html.erb (5.2ms)
   Rendered saloons/new.html.erb within layouts/application (7.1ms)
 Completed 200 OK in 1326ms (Views: 1324.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/saloons" for ::1 at 2015-08-06 02:34:42 +0100
+Processing by SaloonsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"K07PiV3S4RETkVGlXBIS147EB4n6gQciQ9X/bio6w8OZogrJjrqizHGHg5eoecdTbipNhZTS8YBD3POiJW3DQg==", "saloon"=>{"name"=>"NES Barber Shop", "description"=>"318 St. John Street, London, EC1V 4NT.   ", "tel_number"=>"02037476465", "price"=>"18"}, "button"=>""}
+  [1m[35m (0.2ms)[0m  begin transaction
+  [1m[36mSQL (0.6ms)[0m  [1mINSERT INTO "saloons" ("name", "description", "tel_number", "price", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["name", "NES Barber Shop"], ["description", "318 St. John Street, London, EC1V 4NT.   "], ["tel_number", 2037476465], ["price", 18], ["created_at", "2015-08-06 01:34:42.757197"], ["updated_at", "2015-08-06 01:34:42.757197"]]
+  [1m[35m (1.4ms)[0m  commit transaction
+Redirected to http://localhost:3000/saloons/27
+Completed 302 Found in 21ms (ActiveRecord: 2.2ms)
+
+
+Started GET "/saloons/27" for ::1 at 2015-08-06 02:34:42 +0100
+Processing by SaloonsController#show as HTML
+  Parameters: {"id"=>"27"}
+  [1m[36mSaloon Load (0.2ms)[0m  [1mSELECT  "saloons".* FROM "saloons" WHERE "saloons"."id" = ? LIMIT 1[0m  [["id", 27]]
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."saloon_id" = ?  [["saloon_id", 27]]
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "votes" WHERE "votes"."votable_id" = ? AND "votes"."votable_type" = ? AND "votes"."vote_flag" = 't' AND "votes"."vote_scope" IS NULL[0m  [["votable_id", 27], ["votable_type", "Saloon"]]
+  Rendered saloons/show.html.erb within layouts/application (4.6ms)
+Completed 200 OK in 660ms (Views: 657.7ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/saloons" for ::1 at 2015-08-06 02:34:45 +0100
+Processing by SaloonsController#index as HTML
+  [1m[35mSaloon Load (0.6ms)[0m  SELECT "saloons".* FROM "saloons"
+  Rendered saloons/index.html.erb within layouts/application (23.6ms)
+Completed 200 OK in 912ms (Views: 907.2ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/saloons/new" for ::1 at 2015-08-06 02:34:50 +0100
+Processing by SaloonsController#new as HTML
+  Rendered saloons/_form.html.erb (4.0ms)
+  Rendered saloons/new.html.erb within layouts/application (17.4ms)
+Completed 200 OK in 417ms (Views: 414.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/saloons/new" for ::1 at 2015-08-06 02:35:36 +0100
+Processing by SaloonsController#new as HTML
+  Rendered saloons/_form.html.erb (8.0ms)
+  Rendered saloons/new.html.erb within layouts/application (9.6ms)
+Completed 200 OK in 415ms (Views: 411.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/saloons" for ::1 at 2015-08-06 02:36:18 +0100
+Processing by SaloonsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"EQ3sdB1IsoY+Kb1PUs0AaA3NIWgBBKynscZ5wMLwMZ2j4Sk0ziDxW1w/b32mptXs7SNrZG9XWgWxz3UMzacxHA==", "saloon"=>{"name"=>"Cleo's Barber Shop", "description"=>"5, Puma Court, Spitalfields, London, E1 6QG", "tel_number"=>"02072479276", "price"=>"22"}, "button"=>""}
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.6ms)[0m  INSERT INTO "saloons" ("name", "description", "tel_number", "price", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["name", "Cleo's Barber Shop"], ["description", "5, Puma Court, Spitalfields, London, E1 6QG"], ["tel_number", 2072479276], ["price", 22], ["created_at", "2015-08-06 01:36:18.767025"], ["updated_at", "2015-08-06 01:36:18.767025"]]
+  [1m[36m (7.0ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/saloons/28
+Completed 302 Found in 14ms (ActiveRecord: 7.8ms)
+
+
+Started GET "/saloons/28" for ::1 at 2015-08-06 02:36:18 +0100
+Processing by SaloonsController#show as HTML
+  Parameters: {"id"=>"28"}
+  [1m[35mSaloon Load (0.2ms)[0m  SELECT  "saloons".* FROM "saloons" WHERE "saloons"."id" = ? LIMIT 1  [["id", 28]]
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."saloon_id" = ?[0m  [["saloon_id", 28]]
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "votes" WHERE "votes"."votable_id" = ? AND "votes"."votable_type" = ? AND "votes"."vote_flag" = 't' AND "votes"."vote_scope" IS NULL  [["votable_id", 28], ["votable_type", "Saloon"]]
+  Rendered saloons/show.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 382ms (Views: 379.9ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/saloons" for ::1 at 2015-08-06 02:36:31 +0100
+Processing by SaloonsController#index as HTML
+  [1m[36mSaloon Load (0.6ms)[0m  [1mSELECT "saloons".* FROM "saloons"[0m
+  Rendered saloons/index.html.erb within layouts/application (26.1ms)
+Completed 200 OK in 363ms (Views: 360.7ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/saloons?utf8=%E2%9C%93&q%5Bname_cont%5D=pure+barbers&commit=search" for ::1 at 2015-08-06 02:36:46 +0100
+Processing by SaloonsController#index as HTML
+  Parameters: {"utf8"=>"✓", "q"=>{"name_cont"=>"pure barbers"}, "commit"=>"search"}
+  [1m[35mSaloon Load (0.4ms)[0m  SELECT "saloons".* FROM "saloons" WHERE ("saloons"."name" LIKE '%pure barbers%')
+  Rendered saloons/index.html.erb within layouts/application (6.8ms)
+Completed 200 OK in 428ms (Views: 413.9ms | ActiveRecord: 1.8ms)
+
+
+Started GET "/saloons?utf8=%E2%9C%93&q%5Bname_cont%5D=pure+&commit=search" for ::1 at 2015-08-06 02:36:56 +0100
+Processing by SaloonsController#index as HTML
+  Parameters: {"utf8"=>"✓", "q"=>{"name_cont"=>"pure "}, "commit"=>"search"}
+  [1m[36mSaloon Load (54.9ms)[0m  [1mSELECT "saloons".* FROM "saloons" WHERE ("saloons"."name" LIKE '%pure %')[0m
+  Rendered saloons/index.html.erb within layouts/application (60.7ms)
+Completed 200 OK in 421ms (Views: 358.9ms | ActiveRecord: 55.9ms)
+
+
+Started GET "/saloons?utf8=%E2%9C%93&q%5Bname_cont%5D=w2&commit=search" for ::1 at 2015-08-06 02:37:04 +0100
+Processing by SaloonsController#index as HTML
+  Parameters: {"utf8"=>"✓", "q"=>{"name_cont"=>"w2"}, "commit"=>"search"}
+  [1m[35mSaloon Load (0.2ms)[0m  SELECT "saloons".* FROM "saloons" WHERE ("saloons"."name" LIKE '%w2%')
+  Rendered saloons/index.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 338ms (Views: 322.9ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/saloons?utf8=%E2%9C%93&q%5Bname_cont%5D=w2&commit=search" for ::1 at 2015-08-06 02:37:06 +0100
+Processing by SaloonsController#index as HTML
+  Parameters: {"utf8"=>"✓", "q"=>{"name_cont"=>"w2"}, "commit"=>"search"}
+  [1m[36mSaloon Load (0.3ms)[0m  [1mSELECT "saloons".* FROM "saloons" WHERE ("saloons"."name" LIKE '%w2%')[0m
+  Rendered saloons/index.html.erb within layouts/application (20.9ms)
+Completed 200 OK in 386ms (Views: 373.5ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/saloons?utf8=%E2%9C%93&q%5Bname_cont%5D=se1&commit=search" for ::1 at 2015-08-06 02:37:11 +0100
+Processing by SaloonsController#index as HTML
+  Parameters: {"utf8"=>"✓", "q"=>{"name_cont"=>"se1"}, "commit"=>"search"}
+  [1m[35mSaloon Load (0.2ms)[0m  SELECT "saloons".* FROM "saloons" WHERE ("saloons"."name" LIKE '%se1%')
+  Rendered saloons/index.html.erb within layouts/application (4.7ms)
+Completed 200 OK in 406ms (Views: 385.1ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/saloons?utf8=%E2%9C%93&q%5Bname_cont%5D=se15&commit=search" for ::1 at 2015-08-06 02:37:17 +0100
+Processing by SaloonsController#index as HTML
+  Parameters: {"utf8"=>"✓", "q"=>{"name_cont"=>"se15"}, "commit"=>"search"}
+  [1m[36mSaloon Load (0.3ms)[0m  [1mSELECT "saloons".* FROM "saloons" WHERE ("saloons"."name" LIKE '%se15%')[0m
+  Rendered saloons/index.html.erb within layouts/application (5.7ms)
+Completed 200 OK in 396ms (Views: 380.2ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/saloons?utf8=%E2%9C%93&q%5Bname_cont%5D=se15&commit=search" for ::1 at 2015-08-06 02:37:20 +0100
+Processing by SaloonsController#index as HTML
+  Parameters: {"utf8"=>"✓", "q"=>{"name_cont"=>"se15"}, "commit"=>"search"}
+  [1m[35mSaloon Load (0.2ms)[0m  SELECT "saloons".* FROM "saloons" WHERE ("saloons"."name" LIKE '%se15%')
+  Rendered saloons/index.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 363ms (Views: 350.4ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/saloons?utf8=%E2%9C%93&q%5Bname_cont%5D=shoreditch&commit=search" for ::1 at 2015-08-06 02:37:30 +0100
+Processing by SaloonsController#index as HTML
+  Parameters: {"utf8"=>"✓", "q"=>{"name_cont"=>"shoreditch"}, "commit"=>"search"}
+  [1m[36mSaloon Load (0.3ms)[0m  [1mSELECT "saloons".* FROM "saloons" WHERE ("saloons"."name" LIKE '%shoreditch%')[0m
+  Rendered saloons/index.html.erb within layouts/application (7.9ms)
+Completed 200 OK in 420ms (Views: 412.4ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/saloons?utf8=%E2%9C%93&q%5Bname_cont%5D=&commit=search" for ::1 at 2015-08-06 02:37:38 +0100
+Processing by SaloonsController#index as HTML
+  Parameters: {"utf8"=>"✓", "q"=>{"name_cont"=>""}, "commit"=>"search"}
+  [1m[35mSaloon Load (0.5ms)[0m  SELECT "saloons".* FROM "saloons"
+  Rendered saloons/index.html.erb within layouts/application (20.2ms)
+Completed 200 OK in 390ms (Views: 379.7ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/saloons?utf8=%E2%9C%93&q%5Bname_cont%5D=staff&commit=search" for ::1 at 2015-08-06 02:37:47 +0100
+Processing by SaloonsController#index as HTML
+  Parameters: {"utf8"=>"✓", "q"=>{"name_cont"=>"staff"}, "commit"=>"search"}
+  [1m[36mSaloon Load (1.7ms)[0m  [1mSELECT "saloons".* FROM "saloons" WHERE ("saloons"."name" LIKE '%staff%')[0m
+  Rendered saloons/index.html.erb within layouts/application (7.5ms)
+Completed 200 OK in 448ms (Views: 441.9ms | ActiveRecord: 2.7ms)
+
+
+Started GET "/saloons?utf8=%E2%9C%93&q%5Bname_cont%5D=staff&commit=search" for ::1 at 2015-08-06 02:37:52 +0100
+Processing by SaloonsController#index as HTML
+  Parameters: {"utf8"=>"✓", "q"=>{"name_cont"=>"staff"}, "commit"=>"search"}
+  [1m[35mSaloon Load (0.3ms)[0m  SELECT "saloons".* FROM "saloons" WHERE ("saloons"."name" LIKE '%staff%')
+  Rendered saloons/index.html.erb within layouts/application (6.1ms)
+Completed 200 OK in 501ms (Views: 478.9ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/saloons?utf8=%E2%9C%93&q%5Bname_cont%5D=lwgacy&commit=search" for ::1 at 2015-08-06 02:38:23 +0100
+Processing by SaloonsController#index as HTML
+  Parameters: {"utf8"=>"✓", "q"=>{"name_cont"=>"lwgacy"}, "commit"=>"search"}
+  [1m[36mSaloon Load (0.4ms)[0m  [1mSELECT "saloons".* FROM "saloons" WHERE ("saloons"."name" LIKE '%lwgacy%')[0m
+  Rendered saloons/index.html.erb within layouts/application (15.1ms)
+Completed 200 OK in 484ms (Views: 469.3ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/saloons?utf8=%E2%9C%93&q%5Bname_cont%5D=legacy&commit=search" for ::1 at 2015-08-06 02:38:27 +0100
+Processing by SaloonsController#index as HTML
+  Parameters: {"utf8"=>"✓", "q"=>{"name_cont"=>"legacy"}, "commit"=>"search"}
+  [1m[35mSaloon Load (0.2ms)[0m  SELECT "saloons".* FROM "saloons" WHERE ("saloons"."name" LIKE '%legacy%')
+  Rendered saloons/index.html.erb within layouts/application (4.7ms)
+Completed 200 OK in 384ms (Views: 379.3ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/saloons?utf8=%E2%9C%93&q%5Bname_cont%5D=legacy&commit=search" for ::1 at 2015-08-06 02:39:29 +0100
+Processing by SaloonsController#index as HTML
+  Parameters: {"utf8"=>"✓", "q"=>{"name_cont"=>"legacy"}, "commit"=>"search"}
+  [1m[36mSaloon Load (0.3ms)[0m  [1mSELECT "saloons".* FROM "saloons" WHERE ("saloons"."name" LIKE '%legacy%')[0m
+  Rendered saloons/index.html.erb within layouts/application (51.0ms)
+Completed 200 OK in 607ms (Views: 589.5ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/saloons?utf8=%E2%9C%93&q%5Bname_cont%5D=&commit=search" for ::1 at 2015-08-06 02:40:04 +0100
+Processing by SaloonsController#index as HTML
+  Parameters: {"utf8"=>"✓", "q"=>{"name_cont"=>""}, "commit"=>"search"}
+  [1m[35mSaloon Load (0.5ms)[0m  SELECT "saloons".* FROM "saloons"
+  Rendered saloons/index.html.erb within layouts/application (41.5ms)
+Completed 200 OK in 449ms (Views: 447.3ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/saloons/new" for ::1 at 2015-08-06 02:40:12 +0100
+Processing by SaloonsController#new as HTML
+  Rendered saloons/_form.html.erb (6.7ms)
+  Rendered saloons/new.html.erb within layouts/application (8.3ms)
+Completed 200 OK in 632ms (Views: 631.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/saloons" for ::1 at 2015-08-06 02:41:45 +0100
+Processing by SaloonsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"USmvAtSgvuS20NmrFSZ9BgzwWLuo8XfHh/6Xq1p3OBnjxWpCB8j9OdTGC5nhTaiC7B4St8aigWWH95tnVSA4mA==", "saloon"=>{"name"=>"The Barber Shop", "description"=>"2 Mill St, Mayfair, London, W1S 2AT.", "tel_number"=>"02074912002", "price"=>"12"}, "button"=>""}
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.8ms)[0m  INSERT INTO "saloons" ("name", "description", "tel_number", "price", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["name", "The Barber Shop"], ["description", "2 Mill St, Mayfair, London, W1S 2AT."], ["tel_number", 2074912002], ["price", 12], ["created_at", "2015-08-06 01:41:45.245475"], ["updated_at", "2015-08-06 01:41:45.245475"]]
+  [1m[36m (1.1ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/saloons/29
+Completed 302 Found in 9ms (ActiveRecord: 2.1ms)
+
+
+Started GET "/saloons/29" for ::1 at 2015-08-06 02:41:45 +0100
+Processing by SaloonsController#show as HTML
+  Parameters: {"id"=>"29"}
+  [1m[35mSaloon Load (0.3ms)[0m  SELECT  "saloons".* FROM "saloons" WHERE "saloons"."id" = ? LIMIT 1  [["id", 29]]
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."saloon_id" = ?[0m  [["saloon_id", 29]]
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "votes" WHERE "votes"."votable_id" = ? AND "votes"."votable_type" = ? AND "votes"."vote_flag" = 't' AND "votes"."vote_scope" IS NULL  [["votable_id", 29], ["votable_type", "Saloon"]]
+  Rendered saloons/show.html.erb within layouts/application (5.1ms)
+Completed 200 OK in 550ms (Views: 547.6ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/saloons" for ::1 at 2015-08-06 02:41:50 +0100
+Processing by SaloonsController#index as HTML
+  [1m[36mSaloon Load (0.5ms)[0m  [1mSELECT "saloons".* FROM "saloons"[0m
+  Rendered saloons/index.html.erb within layouts/application (30.6ms)
+Completed 200 OK in 470ms (Views: 465.1ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/saloons/new" for ::1 at 2015-08-06 02:42:44 +0100
+Processing by SaloonsController#new as HTML
+  Rendered saloons/_form.html.erb (4.4ms)
+  Rendered saloons/new.html.erb within layouts/application (5.8ms)
+Completed 200 OK in 352ms (Views: 349.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/saloons" for ::1 at 2015-08-06 02:43:46 +0100
+Processing by SaloonsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"5s8XBK5LN+h7CPlELhdqGUED/rW6xF3O/ZjJ4NE7XO9UI9JEfSN0NRkeK3bafL+doe20udSXq2z9kcUs3mxcbg==", "saloon"=>{"name"=>"Bucks Barbers", "description"=>"83 Kingsland Rd, London, E2 8AG", "tel_number"=>"02077290234", "price"=>"15"}, "button"=>""}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.6ms)[0m  [1mINSERT INTO "saloons" ("name", "description", "tel_number", "price", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["name", "Bucks Barbers"], ["description", "83 Kingsland Rd, London, E2 8AG"], ["tel_number", 2077290234], ["price", 15], ["created_at", "2015-08-06 01:43:46.223908"], ["updated_at", "2015-08-06 01:43:46.223908"]]
+  [1m[35m (1.3ms)[0m  commit transaction
+Redirected to http://localhost:3000/saloons/30
+Completed 302 Found in 9ms (ActiveRecord: 2.0ms)
+
+
+Started GET "/saloons/30" for ::1 at 2015-08-06 02:43:46 +0100
+Processing by SaloonsController#show as HTML
+  Parameters: {"id"=>"30"}
+  [1m[36mSaloon Load (0.2ms)[0m  [1mSELECT  "saloons".* FROM "saloons" WHERE "saloons"."id" = ? LIMIT 1[0m  [["id", 30]]
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."saloon_id" = ?  [["saloon_id", 30]]
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "votes" WHERE "votes"."votable_id" = ? AND "votes"."votable_type" = ? AND "votes"."vote_flag" = 't' AND "votes"."vote_scope" IS NULL[0m  [["votable_id", 30], ["votable_type", "Saloon"]]
+  Rendered saloons/show.html.erb within layouts/application (5.2ms)
+Completed 200 OK in 392ms (Views: 390.3ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/saloons" for ::1 at 2015-08-06 02:43:49 +0100
+Processing by SaloonsController#index as HTML
+  [1m[35mSaloon Load (0.5ms)[0m  SELECT "saloons".* FROM "saloons"
+  Rendered saloons/index.html.erb within layouts/application (22.2ms)
+Completed 200 OK in 379ms (Views: 377.2ms | ActiveRecord: 0.5ms)
