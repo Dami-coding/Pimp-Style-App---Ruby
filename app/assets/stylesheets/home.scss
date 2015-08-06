@@ -182,15 +182,14 @@ a:hover:after {
  position: relative;
 }
 
-.button {
-  position: center;
+.homepage_buttons {
+  text-align: center;
   margin: auto;
-  width: 60%;
-  border:3px solid #1E415E;
+  width: 100%;
   padding: 10px;
   position: relative;
-  left: 270px;
-  top: 30px;
+  left: 70px;
+  top: -530px;
 }
 
 form {
@@ -210,10 +209,9 @@ input {
 span  {
 
   margin-top: 50px;
-  width: 60%;
+  width: 100%;
   padding: 10px;
 }
-
 
 
 

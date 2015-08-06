@@ -16,14 +16,5 @@
 //= require turbolinks
 //= require_tree .
 
-/* var wrapper = document.getElementById("reveal");
-
-   wrapper.classList.toggle("active")
-   
-   
-   window.setInterval(function () {
-     wrapper.classList.toggle("active")  
-   }, 3000);
-   
-
+  
 $(function(){ $(document).foundation(); });

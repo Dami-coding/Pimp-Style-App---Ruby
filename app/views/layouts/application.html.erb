@@ -30,7 +30,6 @@
         <% if current_user %>
         <li><%= link_to "Edit Profile", edit_user_path(current_user) %></li>
         <li><%= link_to "Logout", logout_path, method: :delete, data: {confirm: "Are you sure?"} %></li>
-      </ul>
       <% else %>
       <li><%= link_to "Login", login_path %></li>
       <li><%= link_to "Register", new_user_path %></li>
@@ -44,29 +43,12 @@
   <%= message %>
 </div>
 <% end %>
+
 <%= yield %>
 
-
-<footer class="site-footer">
-  <nav id="nav-main">
-    <ul class="opr-nav">
-      <li><a data-target="1">Home</a></li>
-      <li><a data-target="2">About us</a></li>
-      <li><a data-target="3">Barbers chosen by Pimp Hair Style</a></li> 
-      <li class="has-dropdown">
-        <a href="#">Trends</a>
-        <ul class="dropdown">
-          <li><a href="#">funk</a></li>
-          <li class="active"><a href="#">punk</a></li>
-        </ul>
-        <li><a data-target="4">Barber Shops</a></li>
-        <li><a data-target="5">Saloons</a></li>
-        <li><a data-target="6">Contact us</a></li>
-      </ul>
-    </nav>
-
-    <p>&copy copyright 2015</p>
-  </footer>
+<div class="footer">
+    <p>Copyright (c) 2008</p>
+</div>
 </body>
 
 
