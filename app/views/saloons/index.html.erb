@@ -1,11 +1,11 @@
 <p id="notice"><%= notice %></p>
 
 <%=  search_form_for @search do |f| %>
-<div class="field">
+<div class="search-box">
   <%= f.label "Search for Barshops" %>
   <%= f.text_field :name_cont %>
 </div>
-<div class="actions">
+<div class="search-button">
   <%= f.submit "search" %>
 </div>
 <% end %>
