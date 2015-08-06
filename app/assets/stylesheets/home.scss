@@ -168,3 +168,52 @@ a:hover:after {
   cursor: pointer;
 }
 
+
+.opr-container {
+
+  margin-left:-9px;
+  z-index:0;
+  position:relative;
+}
+.opr-page {
+ height: 855px;
+ margin-top: -900px;
+ z-index: 10;
+ position: relative;
+}
+
+.button {
+  position: center;
+  margin: auto;
+  width: 60%;
+  border:3px solid #1E415E;
+  padding: 10px;
+  position: relative;
+  left: 270px;
+  top: 30px;
+}
+
+form {
+  position: center;
+  margin: auto;
+  width: 60%;
+  border:3px solid #1E415E;
+  padding: 10px;
+}
+
+
+input {
+  margin: auto;
+  width: 300px;
+}
+
+span  {
+
+  margin-top: 50px;
+  width: 60%;
+  padding: 10px;
+}
+
+
+
+

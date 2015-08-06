@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20150805093735) do
+ActiveRecord::Schema.define(version: 20150806133021) do
 
   create_table "likes", force: :cascade do |t|
     t.string   "liker_type"
@@ -47,6 +47,7 @@ ActiveRecord::Schema.define(version: 20150805093735) do
     t.datetime "availability"
     t.string   "location"
     t.text     "description"
+    t.text     "image"
   end
 
   create_table "votes", force: :cascade do |t|

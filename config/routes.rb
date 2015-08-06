@@ -1,5 +1,6 @@
 Rails.application.routes.draw do
 
+  get 'style/new'
 
  root "home#new"
  resources :saloons
