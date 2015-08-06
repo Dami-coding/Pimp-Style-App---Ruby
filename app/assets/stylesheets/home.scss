@@ -51,7 +51,7 @@ input {
   width: 90%;
   margin: 5% auto;
   padding: 0;
-  border: 5px solid #2C3E50;
+  border: 5px solid #008CBA;
   overflow:hidden;
 }
 
@@ -78,16 +78,16 @@ input {
   animation: leftRight 20s infinite linear;
   z-index:9999;
 }
-.portfolio {
+.pic_Holder {
   position: relative;
   width: 100%;
-  height: 200px;
+  height: 500px;
   padding: 0;
   overflow: hidden;
-  margin: 0;
+  margin: 10;
 }
 
-.portfolio_items {
+.collection {
   position: absolute;
   left: 0;
   top: 0;
@@ -96,7 +96,7 @@ input {
   animation: slide 20s infinite linear;
 }
 
-.portfolio_item {
+.pic {
   position: relative;
   display: block;
   padding: 0;
@@ -105,13 +105,13 @@ input {
   width: 25%;
 }
 
-.portfolio_item img {
+.pic img {
   width: 100%;
   border: 0;
   outline: 0;
   display: block;
 }
-.portfolio_item figcaption {
+.pic figcaption {
   position: absolute;
   top: 10%;
   left: 0;
@@ -126,7 +126,7 @@ input {
   color:#fff;
   transition:all 1s ease;
 }
-/* fx */
+
 @keyframes leftRight{
   0%{width:0%;}
   30%{width:50%;}
@@ -145,7 +145,6 @@ input {
   98%{width:50%;}
   100%{width:0%;}
 } 
-
 @-webkit-keyframes slide {
   0% {left: 0%;opacity: 0;}
   3% {left: 0%;opacity: 1;}
@@ -177,7 +176,7 @@ input {
   99% {left: -200%;opacity: 0;}
   100% {left: 0%;opacity: 0;}
 }
-/* media queries */
+
 @media (min-width: 240px) {
   .portfolio_item figcaption {width:50%}
   .portfolio{height:100px;}}
@@ -190,6 +189,4 @@ input {
 @media (min-width: 760px) {
   .portfolio_item figcaption {width:20%}
   .portfolio{height:400px;}}  
-
-
 
