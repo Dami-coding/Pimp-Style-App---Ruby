@@ -29,7 +29,7 @@
     <% @saloons.each do |saloon| %>
       <tr>
         <td><%= saloon.name %></td>
-        <td><%= image_tag (saloon.image) %></td>
+        <td><%= link_to image_tag (saloon.image) %></td>
         <td><%= saloon.description %></td>
         <td><%= saloon.tel_number %></td>
         <td><%= saloon.price %></td>
@@ -44,3 +44,11 @@
 
 <br>
 <%= link_to 'New Saloon', new_saloon_path %>
+
+
+
+
+
+
+
+
