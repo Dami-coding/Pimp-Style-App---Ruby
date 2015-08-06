@@ -1,14 +1,31 @@
-
-
-  <%= image_tag "home_image1.jpg" %>
-
-
   <div>
     
     <a href="#" class="opr-next"></a>
     <div class="homepage_buttons">
-    <%= link_to "add a salon", saloons_path, class: "button" %>
+      <%= link_to "Find a salon", saloons_path, class: "button" %>
     </div>
   </div>
 
 
+  <div class="main">
+    <div class="portfolio">
+      <section class="portfolio_items">
+        <figure class="portfolio_item">
+          <%= image_tag "home_image1.jpg" %> 
+        </figure>
+
+        <figure class="portfolio_item">
+          <%= image_tag "home_image2.jpg" %> 
+        </figure>
+
+        <figure class="portfolio_item">
+          <%= image_tag "home_image3.jpg" %>        
+          <figcaption>
+            End of Gallery.
+          </figcaption> 
+        </figure>
+
+        
+      </section>
+    </div>
+  </div>

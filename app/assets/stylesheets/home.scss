@@ -6,7 +6,6 @@ body {
   color: #333;
 }
 
-
 a:after {
   content: '';
   position: relative;
@@ -20,7 +19,6 @@ a:hover:after {
   width: 100%;
 }
 
-
 form {
   position: center;
   margin: 0;
@@ -31,15 +29,167 @@ form {
   border-radius: 5px;
 }
 
-
 input {
   margin: auto;
   width: 300px;
 }
 
-
 .social_buttons {
   display: inline-block;
-
-
 }
+
+
+
+
+
+
+
+
+.main {
+  position: relative;
+  display: block;
+  width: 90%;
+  margin: 5% auto;
+  padding: 0;
+  border: 5px solid #2C3E50;
+  overflow:hidden;
+}
+
+.main:after {
+  content: "";
+  position: absolute;
+  top:0;
+  left:0;
+  width: 50%;
+  height: 0.5%;
+  background: #1ABC9C;
+  -webkit-animation: leftRight 20s infinite linear;
+  animation: leftRight 20s infinite linear;
+}
+.main:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right:0;
+  width: 50%;
+  height: 0.5%;
+  background: #E74C3C;
+  -webkit-animation: leftRight 20s infinite linear;
+  animation: leftRight 20s infinite linear;
+  z-index:9999;
+}
+.portfolio {
+  position: relative;
+  width: 100%;
+  height: 200px;
+  padding: 0;
+  overflow: hidden;
+  margin: 0;
+}
+
+.portfolio_items {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 400%;
+  -webkit-animation: slide 20s infinite ease;
+  animation: slide 20s infinite linear;
+}
+
+.portfolio_item {
+  position: relative;
+  display: block;
+  padding: 0;
+  margin: 0;
+  float: left;
+  width: 25%;
+}
+
+.portfolio_item img {
+  width: 100%;
+  border: 0;
+  outline: 0;
+  display: block;
+}
+.portfolio_item figcaption {
+  position: absolute;
+  top: 10%;
+  left: 0;
+  width: 25%;
+  height: 1.5em;
+  line-height:1.5em;
+  padding: 1%;
+  text-align: center;
+  border-radius: 0 5px 5px 0;
+  background:black;
+  background: rgba(0, 0, 0, 0.3);
+  color:#fff;
+  transition:all 1s ease;
+}
+/* fx */
+@keyframes leftRight{
+  0%{width:0%;}
+  30%{width:50%;}
+  32%{width:0%;}
+  63%{width:50%;}
+  64%{width:0%;}
+  97%{width:50%;}
+  98%{width:0%;}
+} 
+@-webkit-keyframes leftRight{
+  0%{width:0%;}
+  30%{width:50%;}
+  32%{width:0%;}
+  63%{width:50%;}
+  64%{width:0%;}
+  98%{width:50%;}
+  100%{width:0%;}
+} 
+
+@-webkit-keyframes slide {
+  0% {left: 0%;opacity: 0;}
+  3% {left: 0%;opacity: 1;}
+  30% {left: 0%;opacity: 1;}
+  33% {left: 0%;opacity: 0;}
+  34% {left: -100%;opacity: 0;}
+  37% {left: -100%;opacity: 1;}
+  63% {left: -100%;opacity: 1;}
+  66% {left: -100%;opacity: 0;}
+  67% {left: -200%;opacity: 0}
+  70% {left: -200%;opacity: 1;}
+  96% {left: -200%;opacity: 1;}
+  99% {left: -200%;opacity: 0;}
+  100% {left: 0%;opacity: 0;}
+}
+
+@keyframes slide {
+  0% {left: 0%;opacity: 0;}
+  3% {left: 0%;opacity: 1;}
+  30% {left: 0%;opacity: 1;}
+  33% {left: 0%;opacity: 0;}
+  34% {left: -100%;opacity: 0;}
+  37% {left: -100%;opacity: 1;}
+  63% {left: -100%;opacity: 1;}
+  66% {left: -100%;opacity: 0;}
+  67% {left: -200%;opacity: 0}
+  70% {left: -200%;opacity: 1;}
+  96% {left: -200%;opacity: 1;}
+  99% {left: -200%;opacity: 0;}
+  100% {left: 0%;opacity: 0;}
+}
+/* media queries */
+@media (min-width: 240px) {
+  .portfolio_item figcaption {width:50%}
+  .portfolio{height:100px;}}
+@media (min-width: 320px) {
+  .portfolio_item figcaption {width:35%}
+ .portfolio{height:200px;}}
+@media (min-width: 480px) {
+  .portfolio_item figcaption {width:25%}
+  .portfolio{height:250px;}}
+@media (min-width: 760px) {
+  .portfolio_item figcaption {width:20%}
+  .portfolio{height:400px;}}  
+
+
+
