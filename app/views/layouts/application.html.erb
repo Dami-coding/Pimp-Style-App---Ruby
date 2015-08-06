@@ -25,30 +25,18 @@
     <section class="top-bar-section">
       <!-- Right Nav Section -->
       <ul class="right">
-        <li class="active"><a href="/saloons"> Find a Saloon </a></li>
-        <li class="active"><a href="/barbers"> Barbers </a></li>
-
-        <li class="has-dropdown">
-          <a href="/style">Style</a>
-          <ul class="dropdown">
-            <li><a href="/style">funk</a></li>
-            <li class="active"><a href="/style">punk</a></li>
-          </ul>
-          <li class= "user_status">
-           <% if current_user %>
-           <p>Hello, <%= current_user.email %></p>
-           <p>You are a <%= current_user.role %></p>
-           <%= link_to "Edit Profile", edit_user_path(current_user) %>
-           <%= link_to "Logout", logout_path, method: :delete, data: {confirm: "Are you sure?"} %>
-           <% else %>
-           <%= link_to "Login", login_path %>
-           <% end %>
-         </li>
-         <li class="active"><a href="/users/new"> Register </a></li>
-       </li>
-     </li>
-   </ul>
- </section>
+        <li><a href="/saloons"> Find a Saloon </a></li>
+        <li><a href="/barbers"> Barbers </a></li>
+        <% if current_user %>
+        <li><%= link_to "Edit Profile", edit_user_path(current_user) %></li>
+        <li><%= link_to "Logout", logout_path, method: :delete, data: {confirm: "Are you sure?"} %></li>
+      </ul>
+      <% else %>
+      <li><%= link_to "Login", login_path %></li>
+      <li><%= link_to "Register", new_user_path %></li>
+      <% end %>
+    </ul>
+  </section>
 </nav>
 
 <% flash.each do |name, message| %>
@@ -57,30 +45,29 @@
 </div>
 <% end %>
 <%= yield %>
-</body>
-
 
 
 <footer class="site-footer">
-<nav id="nav-main">
+  <nav id="nav-main">
     <ul class="opr-nav">
-        <li><a data-target="1">Home</a></li>
-        <li><a data-target="2">About us</a></li>
-        <li><a data-target="3">Barbers chosen by Pimp Hair Style</a></li> 
-        <li class="has-dropdown">
-          <a href="#">Trends</a>
-          <ul class="dropdown">
-            <li><a href="#">funk</a></li>
-            <li class="active"><a href="#">punk</a></li>
-          </ul>
+      <li><a data-target="1">Home</a></li>
+      <li><a data-target="2">About us</a></li>
+      <li><a data-target="3">Barbers chosen by Pimp Hair Style</a></li> 
+      <li class="has-dropdown">
+        <a href="#">Trends</a>
+        <ul class="dropdown">
+          <li><a href="#">funk</a></li>
+          <li class="active"><a href="#">punk</a></li>
+        </ul>
         <li><a data-target="4">Barber Shops</a></li>
         <li><a data-target="5">Saloons</a></li>
         <li><a data-target="6">Contact us</a></li>
-    </ul>
-</nav>
+      </ul>
+    </nav>
 
-<p>&copy copyright 2015</p>
-</footer>
+    <p>&copy copyright 2015</p>
+  </footer>
+</body>
 
 
 </html>

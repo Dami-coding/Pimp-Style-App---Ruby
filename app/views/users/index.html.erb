@@ -16,11 +16,11 @@
 
   <tbody>
     <% @users.each do |user| %>
+      <% if user.role == "Barber" %>
       <tr>
-        <td><%= user.first_name %></td>
-        <td><%= user.last_name %></td>
-        <td><%= user.email %></td>
+        <td><%= link_to user.first_name, user %></td>
       </tr>
+      <% end %>
     <% end %>
   </tbody>
 </table>

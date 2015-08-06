@@ -1,17 +1,12 @@
 Rails.application.routes.draw do
 
-  get '/barbers', to: 'barbers#new'
 
-  get '/style',  to: 'style#new'
-
-  get '/home',  to: 'home#new'
-
- root "users#index"
+ root "home#new"
  resources :saloons
  resources :users
 
  get '/login', to: 'sessions#new'
- get '/logout', to: 'sessions#destroy'
+ delete '/logout', to: 'sessions#destroy'
  resources :sessions, only: [:new, :create, :destroy]
 
  resources :saloons do

@@ -12,7 +12,7 @@ class SaloonsController < ApplicationController
   # GET /saloons/1
   # GET /saloons/1.json
   def show
-   
+  
   end
 
   # GET /saloons/new

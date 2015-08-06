@@ -29,7 +29,7 @@
     <% @saloons.each do |saloon| %>
       <tr>
         <td><%= saloon.name %></td>
-        <td><%= saloon.image %></td>
+        <td><%= image_tag (saloon.image) %></td>
         <td><%= saloon.description %></td>
         <td><%= saloon.tel_number %></td>
         <td><%= saloon.price %></td>
