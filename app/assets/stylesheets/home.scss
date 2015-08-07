@@ -35,9 +35,10 @@ input {
 }
 
 .social_buttons {
-  display: inline-block;
+    display: inline-flex;
+    margin: auto;
+    padding: 20px;
 }
-
 
 
 .main {
